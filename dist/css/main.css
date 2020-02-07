@@ -157,7 +157,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6vw;
+  font-size: 8vw;
 }
 h1.sm-heading,
 h2.sm-heading,
@@ -368,7 +368,7 @@ main#home h1 {
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5vw;
+    font-size: 8vw;
   }
   .projects {
     grid-template-columns: 1fr;
