@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <!-- Contact form -->
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="dist/css/projects.css" />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <link rel="shortcut icon" href="dist/img/Profile.ico" type="image/x-icon" />
+    <title>Armel Soubeiga - Contact Me</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading">
+        Contact
+        <span class="text-secondary">Me</span>
+      </h1>
+      <h2 class="sm-heading">
+        If you have any question, please do not hesitate to contact me.
+      </h2>
+
+      <div class="boxes">
+        <div>
+          <span class="text-secondary">
+            <a href="http://armelsoubeiga.pythonanywhere.com/" target="_blank">
+              Blog Site</a>
+          </span>
+        </div>
+        <div>
+          <span class="text-secondary"></span>
+            <a href="https://linkedin.com/in/armel-soubeiga-646316151" target="_blank">
+              Linkedin</a>
+          </span>
+        </div>
+        <div>
+          <span class="text-secondary">
+            <a href="https://twitter.com/ArmelSoubeiga" target="_blank">
+              Github</a>
+          </span>
+        </div>
+        <div>
+          <span class="text-secondary">
+            <a href="dist/img/pierpaolo.apk" download target="_blank">
+              Twitter</a>
+          </span>
+        </div>
+        <div>
+          <span class="text-secondary">
+            <a href="https://medium.com/@ArmelSoubeiga" target="_blank">
+              Medium</a>
+          </span>
+        </div>
+      </div>
+      <h2 class="sm-heading">
+          I am currently available for a challenge in artificial intelligence.
+      </h2>
+      <div class="boxes">
+          <div>
+          <span class="text-secondary"> <a href="dist/img/armel_soubeiga_Resume.pdf" download target="_blank">Download CV</a>
+          </span>
+          </div>
+      </div>
+      
+      <style>
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #373737;
+          color: white;
+          padding: 12px 20px;
+          border: 3px #fff solid;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #F67306;
+        }
+        
+        .form {
+          border-radius: 5px;
+          background: rgba(73, 73, 73, 0.5); 
+          padding: 20px;
+        }
+        </style>
+
+      <div class="form">
+        <h2 class="sm-heading">If you wish to get in touch with me, just fill this form:</h2>
+        <form action="mailto:armel.soubeiga@yahoo.fr" id="contact-form" method="post" enctype="text/plain">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="First Name" placeholder="Your name..">
+  
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="Last Name" placeholder="Your last name..">
+  
+          <label for="em">Email Address*</label>
+          <input type="text" id="em" name="Email" placeholder="Your email address.." required>
+  
+          <label for="sbg">Message Subject</label>
+          <input type="text" id="sbg" name="Subject" placeholder="Message Subject..">
+  
+          <label for="msg">Your message*</label>
+          <textarea name="Message" id="message" style="height:200px"  required> </textarea>
+          <h3 class="sm-heading">*Required Fields</h3>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019 - Armel SOUBEIGA
+    </footer>
+
+    <script src="dist/js/main.js"></script>
+        <script type="text/javascript">
+      $(function(){
+        /* ========================================================================= */
+        /*  Contact Form
+        /* ========================================================================= */
+        
+        $('#contact-form').validate({
+          rules: {
+            fname: {
+              required: true,
+              minlength: 2
+            },
+            lname: {
+              required: true,
+              minlength: 2
+            },
+            em: {
+              required: true,
+              email: true
+            },
+            sbg: {
+              required: true,
+              minlength: true
+            },
+            message: {
+              required: true
+            }
+          },
+          messages: {
+            fname: {
+              required: "come on, you have a name don't you?",
+              minlength: "your name must consist of at least 2 characters"
+            },
+            lname: {
+              required: "come on, you have a name don't you?",
+              minlength: "your name must consist of at least 2 characters"
+            },
+            em: {
+              required: "no email, no message"
+            },
+            message: {
+              required: "um...yea, you have to write something to send this form.",
+              minlength: "thats all? really?"
+            }
+          },
+          submitHandler: function(form) {
+            $(form).ajaxSubmit({
+              type:"POST",
+              data: $(form).serialize(),
+              url:"process.php",
+              success: function() {
+                $('#contact-form :input').attr('disabled', 'disabled');
+                $('#contact-form').fadeTo( "slow", 0.15, function() {
+                  $(this).find(':input').attr('disabled', 'disabled');
+                  $(this).find('label').css('cursor','default');
+                  $('#success').fadeIn();
+                });
+              },
+              error: function() {
+                $('#contact-form').fadeTo( "slow", 0.15, function() {
+                  $('#error').fadeIn();
+                });
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
