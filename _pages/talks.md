@@ -21,7 +21,7 @@ I wrote a book on web scraping with R. It's a pretty practical book with hands-o
 <img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/images/techtransfert/ebook.jpg"  style="height:300px; width:350px;" />
 </div><br/>
 
-[Amazon-ebook](https://www.amazon.com/dp/B0B6YD45B1) \ [Amazon-paperback](https://www.amazon.com/dp/B0B6YWXVZ7)
+[Amazon-ebook](https://www.amazon.com/dp/B0B6YD45B1) \ [Amazon-paperback](https://www.amazon.com/dp/B0B6YWXVZ7) \ [A portion of the book](https://armelsoubeiga.github.io/web-scraping-r/)
 
 
 ## afnews
