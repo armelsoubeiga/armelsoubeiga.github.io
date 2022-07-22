@@ -18,7 +18,7 @@ I wrote a book on web scraping with R. It's a pretty practical book with hands-o
 
 <div align="center">
 
-<img src="images/techtransfert/ebook.jpg"  style="height:300px; width:350px;" />
+<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/images/techtransfert/ebook.jpg"  style="height:300px; width:350px;" />
 </div><br/>
 
 [Amazon-ebook](https://www.amazon.com/dp/B0B6YD45B1) \ [Amazon-paperback](https://www.amazon.com/dp/B0B6YWXVZ7)
@@ -52,7 +52,7 @@ devtools::install_github("armelsoubeiga/afnews")
 ## Traductor Lab / BF
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/neweb/main/images/traductor.jpg" style="height:200px; width:350px;" />
+<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/images/traductor.jpg" style="height:200px; width:350px;" />
 </div><br />
 
 [Website](https://traductorlab-bf.github.io/) \ [Github](https://github.com/traductorlab-bf)
