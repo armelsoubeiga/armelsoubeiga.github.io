@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Tiles
+   ========================================================================== */
+
+.tile {
+  @include outer-container;
+  margin-bottom: $gutter;
+  @include media($micro) {
+    @include fill-parent;
+  }
+  @include media(new-breakpoint(min-width em(480) 12)) {
+    @include span-columns(3);
+    @include omega(4n);
+  }
+  .entry-date {
+    @include fancy-font-size(18,no);
+    color: lighten($text-color,25);
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .post-title {
+    @include fancy-font-size(18,no);
+    line-height: 1;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .post-when {
+    @include fancy-font-size(24,no);
+    color: lighten($text-color,15);
+    line-height: 1;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .post-excerpt {
+    @include fancy-font-size(32);
+    margin-top: 5px;
+  }
+  .post-teaser {
+    position: relative;
+    display:block;
+    .proj-img{
+      padding: 5px;
+      position: absolute;  
+      top: 0;  
+      bottom: 0;  
+      left: 0;  
+      right: 0;  
+      margin: auto;  
+      display: block;
+      max-height:100%;
+      width:auto;
+    }
+    height: 150px;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba($base-color,0);
+      pointer-events: none;
+      @include transition(background 0.3s);
+    }
+    &:hover {
+      &:after {
+        background: rgba($base-color,0.2);
+      }
+    }
+  }
+}
+
+.tiles{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}

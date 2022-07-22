@@ -1,0 +1,22 @@
+# main links links
+main:
+  - title: "Blog"
+    url: /year-archive/
+    
+  - title: "Teaching"
+    url: /teaching/
+    
+  - title: "Projects"
+    url: /projects/
+    
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Certificates"
+    url: /certificates/
+    
+  - title: "Tech Transfer"
+    url: /talks/
+
+  - title: "CV"
+    url: /cv/
