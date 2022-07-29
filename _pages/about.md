@@ -24,7 +24,7 @@ After more than three years in clinical research as a data scientist, and more t
 
 - ✨ I like TensorFlow, Scikit-Learn, Keras, Rshiny, Django, Flask frameworks
 - 📰 I try to maintain this Data Science Blog [DataScience & AI Blog](https://armelsoubeiga.pythonanywhere.com/)
-- 📚 I'm currently writing a book on web mining (scraping)
+- 📚  I wrote [web scraping with R](https://www.amazon.fr/dp/B0B6XGTXKP)
 
 [![Python](https://img.shields.io/badge/-programming-black?style=flat-square&logo=python&link=https://github.com/armelsoubeiga)](https://github.com/armelsoubeiga)
 [![R](https://img.shields.io/badge/-programming-black?style=flat-square&logo=r&link=https://github.com/armelsoubeiga)](https://github.com/armelsoubeiga)
