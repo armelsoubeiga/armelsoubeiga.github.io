@@ -14,11 +14,13 @@ After more than three years in clinical research as a data scientist, and more t
 
 **Research interests:**
 
-* Unsupervised learning for longitudinal data and trajectories analysis
-* AI and DevOps application in Health 
-* Machine Learning and Natural Language Processing for software engineering
-* Interactive data visualisation for software engineering
-* Statistical computing and Exploratory data analysis
+- Unsupervised Learning for longitudinal data and trajectories analysis
+- AI and DevOps application in Health 
+- Big data analysis
+- Web scraping/scrawling and NLP
+- MLOps application in Health
+- Interactive data visualisation for software engineering
+- Statistical computing and Exploratory data analysis
 
 **Here, take a look at my stuff**  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20px">
 
