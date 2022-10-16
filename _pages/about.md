@@ -14,6 +14,7 @@ After more than three years in clinical research as a data scientist, and more t
 
 **Research interests:**
 
+- Unsupervised Learning 
 - Unsupervised Learning for longitudinal data and trajectories analysis
 - AI and DevOps application in Health 
 - Big data analysis
