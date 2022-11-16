@@ -262,16 +262,8 @@ Sur les 537577 observations de la base, nous totalisons 5891 clients uniques.
 data["Gender"].value_counts().plot.pie(title="Sexe du client", explode=(0.1, 0), labels=["Masculin", "Feminin"], autopct="%1.1f%%", shadow=True)
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1ed8229acc8>
-
-
-
-
     
-![png](output_15_1.png)
+![png](/images/posts/2022_11/output_15_1.png)
     
 
 
@@ -286,7 +278,7 @@ sns.despine()
 
 
     
-![png](output_17_0.png)
+![png](/images/posts/2022_11/output_17_0.png)
     
 
 
@@ -300,7 +292,7 @@ sns.despine()
 
 
     
-![png](output_19_0.png)
+![png](/images/posts/2022_11/output_19_0.png)
     
 
 
@@ -316,7 +308,7 @@ sns.despine()
 
 
     
-![png](output_20_0.png)
+![png](/images/posts/2022_11/output_20_0.png)
     
 
 
@@ -338,16 +330,7 @@ En fin, on peut voir aussi que tout sexe confondu, les clients de 18 à 45 ans r
 data["City_Category"].value_counts().plot.pie(title="City_Category", startangle=90, explode=(0.1, 0, 0), autopct="%1.1f%%", shadow=True)
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1ed8269fbc8>
-
-
-
-
-    
-![png](output_23_1.png)
+![png](/images/posts/2022_11/output_23_1.png)
     
 
 
@@ -359,15 +342,7 @@ data.groupby("City_Category")["Purchase"].sum().plot.pie(title="City_Category", 
 ```
 
 
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1ed826ebf08>
-
-
-
-
-    
-![png](output_25_1.png)
+![png](/images/posts/2022_11/output_25_1.png)
     
 
 
@@ -384,7 +359,7 @@ sns.despine()
 
 
     
-![png](output_26_0.png)
+![png](/images/posts/2022_11/output_26_0.png)
     
 
 
@@ -403,7 +378,7 @@ sns.despine()
 
 
     
-![png](output_29_0.png)
+![png](/images/posts/2022_11/output_29_0.png)
     
 
 
@@ -415,7 +390,7 @@ sns.despine()
 
 
     
-![png](output_30_0.png)
+![png](/images/posts/2022_11/output_30_0.png)
     
 
 
@@ -434,16 +409,8 @@ La deuxième figure ci-dessus montre quelque chose de très différent. La plupa
 data["Stay_In_Current_City_Years"].value_counts().plot.pie(title="Years of staying in the city", explode=(0.1, 0, 0, 0, 0), autopct="%1.1f%%", shadow=True)
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1ed8290a808>
-
-
-
-
     
-![png](output_33_1.png)
+![png](/images/posts/2022_11/output_33_1.png)
     
 
 
@@ -455,7 +422,7 @@ sns.despine()
 
 
     
-![png](output_34_0.png)
+![png](/images/posts/2022_11/output_34_0.png)
     
 
 
@@ -477,7 +444,7 @@ sns.despine()
 
 
     
-![png](output_37_0.png)
+![png](/images/posts/2022_11/output_37_0.png)
     
 
 
@@ -489,7 +456,7 @@ sns.despine()
 
 
     
-![png](output_38_0.png)
+![png](/images/posts/2022_11/output_38_0.png)
     
 
 
@@ -501,7 +468,7 @@ sns.despine()
 
 
     
-![png](output_39_0.png)
+![png](/images/posts/2022_11/output_39_0.png)
     
 
 
@@ -513,7 +480,7 @@ sns.despine()
 
 
     
-![png](output_40_0.png)
+![png](/images/posts/2022_11/output_40_0.png)
     
 
 
@@ -558,15 +525,8 @@ sns.heatmap(data.drop("User_ID", axis=1).corr(), annot=True, cmap="YlGnBu").set_
 ```
 
 
-
-
-    Text(0.5, 1, 'Correlation entre les variables')
-
-
-
-
     
-![png](output_44_1.png)
+![png](/images/posts/2022_11/output_44_1.png)
     
 
 
@@ -649,6 +609,4 @@ print("Model effectiveness: %f" % (scores.mean()))
     
 
 
-```python
 
-```
