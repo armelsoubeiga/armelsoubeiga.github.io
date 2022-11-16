@@ -1,15 +1,12 @@
-# Projet 2 : Analyse et prévision des ventes du Black Friday (Pyhton)
-
-
-### KEITA Alhousseni - Data Scientist
-
-### https://keitaalhousseni.github.io/
-
-#### 22/08/2020
-
-
-##### ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+---
+title: 'Analyse et prévision des ventes du Black Friday'
+date: 2022-11-16
+permalink: /posts/2022/11/analyse-prevision-des-ventes
+tags:
+  - EDA
+  - Grid Search
+  - Random Forest
+---
 
 
 ## Objectifs du projet
