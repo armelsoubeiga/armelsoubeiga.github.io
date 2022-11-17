@@ -1,10 +1,11 @@
 # main links links
 main:
-  - title: Blog
+  - title: "Blog"
     sublinks:
-      - title: Internal Blog
+      - title: "Internal Blog"
         url: /year-archive/
-      - title: External Blog
+
+      - title: "External Blog"
         url: https://armelsoubeiga.pythonanywhere.com/
     
   - title: "Teaching"
