@@ -157,7 +157,6 @@ $global-transition          : all 0.2s ease-in-out;
    Other 2
    ======================================================================================================== */
 $intro-transition           : intro 0.3s both !default;
-$x-large                    : 1280px !default;
 $max-width                  : $x-large !default;
 $text-color                 : $dark-gray !default;
 $muted-text-color           : mix(#fff, $text-color, 20%) !default;
