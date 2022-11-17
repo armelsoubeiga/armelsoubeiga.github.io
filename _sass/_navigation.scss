@@ -13,6 +13,8 @@
   padding-left: 1em;
   padding-right: 1em;
   font-family: $sans-serif;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 
@@ -595,4 +597,3 @@
     padding-left: 3.25rem
   }
 }
-
