@@ -7,18 +7,7 @@
    ========================================================================== */
 
 .breadcrumbs {
-  @include container;
   @include clearfix;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 2em;
-  padding-right: 2em;
-  font-family: $sans-serif;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.30s;
-          animation-delay: 0.30s;
-  /*
   margin: 0 auto;
   max-width: 100%;
   padding-left: 1em;
@@ -28,13 +17,6 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
-*/
-
-  @include breakpoint($x-large) {
-    // max-width: $x-large;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -44,7 +26,7 @@
     padding: 0;
     list-style: none;
     font-size: $type-size-6;
-/*
+
     @include breakpoint($large) {
       float: right;
       width: calc(100% - #{$right-sidebar-width-narrow});
@@ -52,15 +34,6 @@
 
     @include breakpoint($x-large) {
       width: calc(100% - #{$right-sidebar-width});
-    }
-*/
-
-    @include breakpoint($large) {
-      @include span(10 of 12 last);
-    }
-
-    @include breakpoint($x-large) {
-      @include prefix(0.5 of 12);
     }
   }
 
@@ -78,12 +51,11 @@
      ========================================================================== */
 
 .pagination {
-  @include full(); 
   @include clearfix();
-  //float: left;
+  float: left;
   margin-top: 1em;
   padding-top: 1em;
-  //width: 100%;
+  width: 100%;
 
   ul {
     margin: 0;
@@ -98,7 +70,7 @@
     margin-left: -1px;
 
     a {
-      //display: block;
+      display: block;
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
       font-family: $sans-serif;
@@ -107,22 +79,16 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      // color: $muted-text-color;
-      // border: 1px solid mix(#000, $border-color, 25%);
-      color: mix(#fff, $gray, 25%);
-      border: 1px solid $light-gray;
+      color: $muted-text-color;
+      border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
       &:hover {
         color: $link-color-hover;
       }
 
-      /*
       &.current,
-      &.current.disabled { 
-      */
-
-      &.current {
+      &.current.disabled {
         color: #fff;
         background: $primary-color;
       }
@@ -162,22 +128,13 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#fff, $gray, 50%);
-    border: 1px solid $light-gray;
-
-    // color: $muted-text-color;
-    // border: 1px solid mix(#000, $border-color, 25%);
+    color: $muted-text-color;
+    border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
     &:hover {
-      color: $link-color-hover;
-    }
-
- /*
-    &:hover {
       @include yiq-contrasted($muted-text-color);
     }
-*/
 
     &:first-child {
       border-top-right-radius: 0;
@@ -191,8 +148,7 @@
     }
 
     &.disabled {
-      // color: rgba($muted-text-color, 0.5);
-      color: mix(#fff, $gray, 75%);
+      color: rgba($muted-text-color, 0.5);
       pointer-events: none;
       cursor: not-allowed;
     }
@@ -213,12 +169,6 @@
      ========================================================================== */
 
 .greedy-nav {
-
-  position: relative;
-  min-width: 250px;
-  background: $background-color;
-
-  /*
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,18 +178,14 @@
   align-items: center;
   min-height: $nav-height;
   background: $background-color;
-*/
 
   a {
     display: block;
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-
-    /*
     -webkit-transition: none;
     transition: none;
-*/
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -601,12 +547,9 @@
   }
 
   // Scrollspy marks toc items as .active when they are in focus
-/*
   .active a {
     @include yiq-contrasted($active-color);
   }
- */
-   
 }
 
 .toc__menu {
