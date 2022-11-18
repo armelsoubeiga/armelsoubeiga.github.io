@@ -1,5 +1,5 @@
 ---
-title: "Tech Transfert"
+title: "Open Contribution"
 permalink: /talks/
 author_profile: true
 ---
