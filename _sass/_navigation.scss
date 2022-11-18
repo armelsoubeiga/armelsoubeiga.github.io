@@ -173,12 +173,17 @@
 
 .greedy-nav {
   position: relative;
+   
+   /*
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  */
+   
+  min-width: 250px;
   min-height: $nav-height;
   background: $background-color;
 
