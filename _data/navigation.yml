@@ -8,14 +8,19 @@ main:
       - title: "External Blog"
         url: https://armelsoubeiga.pythonanywhere.com/
     
-  - title: "Teaching"
-    url: /teaching/
-    
-  - title: "Projects"
+   - title: "Projects"
     url: /projects/
     
   - title: "Publications"
     url: /publications/
+    
+  - title: "Teaching"
+    sublinks:
+      - title: "Course supports"
+        url: /teaching/
+        
+      - title: "Course archives"
+        url: /teaching/
 
   - title: "Certificates"
     url: /certificates/
