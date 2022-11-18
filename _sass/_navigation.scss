@@ -225,6 +225,8 @@
   }
 
   .visible-links {
+     
+/*
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -241,7 +243,28 @@
       -ms-flex: none;
       flex: none;
     }
+*/
+    display: table;
+    li {
+      display: table-cell;
+      vertical-align: middle;
 
+      &:first-child {
+        font-weight: bold;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+     
+     
     a {
       position: relative;
 
