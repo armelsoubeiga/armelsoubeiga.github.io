@@ -393,6 +393,7 @@
     }
   }
 
+   /*
   button {
     position: absolute;
     height: 100%;
@@ -404,7 +405,17 @@
     color: #fff;
     cursor: pointer;
   }
-
+*/
+   
+   &__toggle {
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: $nav-toggle-height;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
   .visible-links {
     display: table;
 
