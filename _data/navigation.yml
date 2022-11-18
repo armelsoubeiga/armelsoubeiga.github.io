@@ -21,7 +21,12 @@ main:
     url: /certificates/
     
   - title: "Tech Transfer"
-    url: /talks/
+    sublinks:
+      - title: "Open Contribution"
+        url: /talks/
+        
+      - title: "Tutor Contribution"
+        url: /talks-tutor/
 
   - title: "CV"
     url: /cv/
