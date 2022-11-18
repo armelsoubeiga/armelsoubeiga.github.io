@@ -7,7 +7,7 @@ main:
       - title: "External Blog"
         url: https://armelsoubeiga.pythonanywhere.com/
     
-   - title: "Projects"
+  - title: "Projects"
     url: /projects/
     
   - title: "Publications"
