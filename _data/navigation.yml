@@ -4,7 +4,6 @@ main:
     sublinks:
       - title: "Internal Blog"
         url: /year-archive/
-
       - title: "External Blog"
         url: https://armelsoubeiga.pythonanywhere.com/
     
@@ -18,9 +17,8 @@ main:
     sublinks:
       - title: "Course supports"
         url: /teaching/
-        
       - title: "Course archives"
-        url: /Cours/
+        url: https://armelsoubeiga.github.io//Cours/
 
   - title: "Certificates"
     url: /certificates/
@@ -29,7 +27,6 @@ main:
     sublinks:
       - title: "Open Contribution"
         url: /talks/
-        
       - title: "Tutor Contribution"
         url: /talks-tutor/
 
