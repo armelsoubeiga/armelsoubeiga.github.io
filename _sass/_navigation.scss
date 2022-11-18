@@ -132,9 +132,11 @@
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
+     /*
     &:hover {
       @include yiq-contrasted($muted-text-color);
     }
+     */
 
     &:first-child {
       border-top-right-radius: 0;
@@ -546,10 +548,13 @@
     border-top-right-radius: $border-radius;
   }
 
+   
   // Scrollspy marks toc items as .active when they are in focus
+   /*
   .active a {
     @include yiq-contrasted($active-color);
   }
+   */
 }
 
 .toc__menu {
