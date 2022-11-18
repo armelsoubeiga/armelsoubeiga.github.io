@@ -20,7 +20,7 @@ main:
         url: /teaching/
         
       - title: "Course archives"
-        url: /teaching/
+        url: https://armelsoubeiga.github.io/Cours/
 
   - title: "Certificates"
     url: /certificates/
