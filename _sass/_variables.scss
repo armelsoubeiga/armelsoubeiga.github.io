@@ -116,6 +116,7 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+
 /*
    Grid
    ========================================================================== */
@@ -151,3 +152,19 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+
+/*
+   Other 2
+   ======================================================================================================== */
+$intro-transition           : intro 0.3s both !default;
+$max-width                  : $x-large !default;
+$text-color                 : $dark-gray !default;
+$muted-text-color           : mix(#fff, $text-color, 20%) !default;
+$nav-height                 : 2em !default;
+$nav-toggle-height          : 2rem !default;
+// $navicon-width              : 1.5rem !default;
+// $navicon-height             : 0.25rem !default;
+// $global-transition          : all 0.2s ease-in-out !default;
+$intro-transition           : intro 0.3s both !default;
+$navicon-link-color-hover   : mix(#fff, $primary-color, 75%) !default;
