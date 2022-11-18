@@ -25,21 +25,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-     
-     
-    /*
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-family: $sans-serif-narrow;
-    */
+    //padding: 1em;
 
     @include breakpoint($x-large) {
       // max-width: $max-width;
@@ -56,11 +42,11 @@
   }
 }
 
+
 /*
 .site-logo img {
   max-height: 2rem;
 }
-
 */
 
 .site-title {
@@ -79,9 +65,6 @@
 
 
 .masthead__menu {
-
-   
-
   float: left;
   margin-left: 0;
   margin-right: 0;
