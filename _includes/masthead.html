@@ -1,4 +1,4 @@
-{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% include base_path %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -24,9 +24,7 @@
                         </ul>
                     </li>
                 {% else %}
-                    <li class="masthead__menu-item">
-                        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                    </li>
+                  <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
