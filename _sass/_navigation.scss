@@ -407,10 +407,16 @@
   }
 */
    
-   &__toggle {
+  &__toggle {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding: 0 0.5rem;
+
     -ms-flex-item-align: center;
     align-self: center;
-    height: $nav-toggle-height;
+    //height: $nav-toggle-height;
+     
     border: 0;
     outline: none;
     background-color: transparent;
