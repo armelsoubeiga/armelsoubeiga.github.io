@@ -7,15 +7,11 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-          
-          
-
+          {%- for link in site.data.navigation.main -%}
+                {% assign class = nil %}
+                {% if page.url contains link.url %}
+                    {% assign class = 'active' %}
+                {% endif %}
           
             {% if link.sublinks %}
                     <li class="dropdown {{ class }}">
