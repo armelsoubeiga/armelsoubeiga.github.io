@@ -8,7 +8,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   
   
-  <ul>
+  <ul class="nav__items">
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
