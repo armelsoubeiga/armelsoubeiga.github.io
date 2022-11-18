@@ -102,14 +102,14 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
+$small                      : 400px !default;
+$medium                     : 500px !default;
+$medium-wide                : 550px !default;
+$large                      : 1200px !default;
+$x-large                    : 1800px !default;
+
+/*
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
