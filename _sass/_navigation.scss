@@ -419,7 +419,8 @@
      
     border: 0;
     outline: none;
-    background-color: transparent;
+    background-color: $primary-color;
+    color: #fff;
     cursor: pointer;
   }
   .visible-links {
