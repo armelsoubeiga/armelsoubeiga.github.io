@@ -51,7 +51,7 @@ html {
 .title {
   color: grey;
 }
-
+/*
 .button {
   border: none;
   outline: 0;
@@ -63,7 +63,7 @@ html {
   cursor: pointer;
   width: 100%;
 }
-
+*/
 .button:hover {
   background-color: #555;
 }
@@ -73,13 +73,6 @@ time .date {
     font-size: 1rem;
     color: #737373;
     pointer-events: none;
-}
-  
-.a {
-  outline: 0;
-  display: inline-block;
-  text-align: center;
-  cursor: pointer;
 }
   
 .fa {
@@ -118,8 +111,8 @@ time .date {
           </time>
           <p class="title">{{ post.title }}</p>
           <p>{{ post.description }}.</p>
-            <p><a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
-            <a href="{{ post.author_page }}" class="fa fa-dribbble"></a></p>
+            <button href="{{ post.author_link }}" class="fa fa-linkedin"></button>
+            <button href="{{ post.author_page }}" class="fa fa-dribbble"></button>
         </div>
       </div>
     </div>
