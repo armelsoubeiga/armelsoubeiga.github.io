@@ -10,6 +10,7 @@ author_profile: true
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html {
   box-sizing: border-box;
@@ -73,23 +74,25 @@ time .date {
     color: #737373;
     pointer-events: none;
 }
-
-.tags {
-      font-size: rem(14px);
-      color: #141414;
-      display: inline-block;
-      border: 1px solid #141414;
-      border-radius: rem(20px);
-      padding: 0 rem(10px);
-      margin-right: rem(2px);
-      margin-bottom: rem(8px);
-      text-decoration: none;
-
-
-      &:hover {
-        color: #ffffff;
-        background-color: #141414;
-      }
+ 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
 }
 </style>
 </head>
@@ -104,7 +107,7 @@ time .date {
   {% for post in site.talks reversed %}
     <div class="column">
       <div class="card">
-        <img src="/images/0.png" width="100%" data-url="{{ post.image }}" style="width:100%">
+        <img src="{{ post.image }}" width="100%" data-url="{{ post.image }}" style="width:100%">
         <div class="container">
           <h2>{{ post.author }}</h2>
           <p class="title">{{ post.title }}</p>
@@ -112,14 +115,8 @@ time .date {
           <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
               {% include date.html date=post.date %}
           </time>
-          <p><button class="button">Contact</button></p>
-          <div class="tags">
-             {% for tag in post.tags %}
-                {% if tag != "" %}
-                    <span href="">#{{ tag }}</span>
-                {% endif %}
-             {% endfor %}
-          </div>
+          <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
+          <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
         </div>
       </div>
     </div>
