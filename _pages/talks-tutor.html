@@ -66,6 +66,31 @@ html {
 .button:hover {
   background-color: #555;
 }
+  
+time .date {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #737373;
+    pointer-events: none;
+}
+
+.tags {
+      font-size: rem(14px);
+      color: #141414;
+      display: inline-block;
+      border: 1px solid #141414;
+      border-radius: rem(20px);
+      padding: 0 rem(10px);
+      margin-right: rem(2px);
+      margin-bottom: rem(8px);
+      text-decoration: none;
+
+
+      &:hover {
+        color: #ffffff;
+        background-color: #141414;
+      }
+}
 </style>
 </head>
 <body>
@@ -75,46 +100,31 @@ html {
 <br>
 
 <div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
   
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+  {% for post in site.talks reversed %}
+    <div class="column">
+      <div class="card">
+        <img src="/images/0.png" width="100%" data-url="{{ post.image }}" style="width:100%">
+        <div class="container">
+          <h2>{{ post.author }}</h2>
+          <p class="title">{{ post.title }}</p>
+          <p>{{ post.description }}.</p> 
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+              {% include date.html date=post.date %}
+          </time>
+          <p><button class="button">Contact</button></p>
+          <div class="tags">
+             {% for tag in post.tags %}
+                {% if tag != "" %}
+                    <span href="">#{{ tag }}</span>
+                {% endif %}
+             {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+{% endfor %}
 </div>
-
 </body>
 </html>
 
