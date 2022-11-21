@@ -67,8 +67,8 @@ html {
 }
   
 time .date {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 100;
+    font-size: 0.3rem;
     color: #737373;
     pointer-events: none;
 }
@@ -85,7 +85,7 @@ time .date {
         <div class="container">
           <h2>{{ post.author }}</h2>
           <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
-              {% include date.html date=post.date %}
+              {% include date.html date=post.date_star %} to {% include date.html date=post.date_end %}
           </time>
           <p class="title">{{ post.title }}</p>
           <p>{{ post.description }}.</p>
