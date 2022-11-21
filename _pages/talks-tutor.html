@@ -51,7 +51,6 @@ html {
 .title {
   color: grey;
 }
-/*
 .button {
   border: none;
   outline: 0;
@@ -63,7 +62,6 @@ html {
   cursor: pointer;
   width: 100%;
 }
-*/
 .button:hover {
   background-color: #555;
 }
@@ -73,26 +71,6 @@ time .date {
     font-size: 1rem;
     color: #737373;
     pointer-events: none;
-}
-  
-.fa {
-  padding: 10px;
-  font-size: 18px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 100%;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-dribbble {
-  background: #ea4c89;
-  color: white;
 }
 </style>
 </head>
@@ -111,8 +89,8 @@ time .date {
           </time>
           <p class="title">{{ post.title }}</p>
           <p>{{ post.description }}.</p>
-            <button href="{{ post.author_link }}" class="fa fa-linkedin"></button>
-            <button href="{{ post.author_page }}" class="fa fa-dribbble"></button>
+            <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
+            <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
         </div>
       </div>
     </div>
