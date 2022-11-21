@@ -71,7 +71,7 @@ html {
           <h2>{{ post.author }}</h2>
           <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
               {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
-          </sapn>
+          </span>
           <p class="title">{{ post.title }}</p>
           <p style="font-size: 15px;">{{ post.description }}.</p>
             <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
