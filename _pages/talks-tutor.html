@@ -96,10 +96,7 @@ time .date {
 }
 </style>
 </head>
-<body>
-
-<h2>Responsive "Meet The Team" Section</h2>
-<p>Resize the browser window to see the effect.</p>
+<p>I have supervised and co-supervised several students in internships and tutored projects</p>
 <br>
 
 <div class="row">
@@ -110,11 +107,11 @@ time .date {
         <img src="{{ post.image }}" width="100%" data-url="{{ post.image }}" style="width:100%">
         <div class="container">
           <h2>{{ post.author }}</h2>
-          <p class="title">{{ post.title }}</p>
-          <p>{{ post.description }}.</p> 
           <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
               {% include date.html date=post.date %}
           </time>
+          <p class="title">{{ post.title }}</p>
+          <p>{{ post.description }}.</p> 
           <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
           <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
         </div>
