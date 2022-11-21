@@ -76,12 +76,12 @@ time .date {
 }
  
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 10px;
+  font-size: 18px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .fa:hover {
     opacity: 0.7;
@@ -100,7 +100,6 @@ time .date {
 <br>
 
 <div class="row">
-  
   {% for post in site.talks reversed %}
     <div class="column">
       <div class="card">
@@ -111,9 +110,11 @@ time .date {
               {% include date.html date=post.date %}
           </time>
           <p class="title">{{ post.title }}</p>
-          <p>{{ post.description }}.</p> 
+          <p>{{ post.description }}.</p>
+          <div class="row">
           <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
           <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
+          </div>
         </div>
       </div>
     </div>
