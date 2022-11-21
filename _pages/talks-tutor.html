@@ -8,18 +8,17 @@ author_profile: true
 
 
 
-<main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
+<main class="home no-padding" role="main">
     <section id="grid" class="row flex-grid">
         {% for post in site.talks reversed %}
             <article class="box-item">
                 <span class="category">
-                    <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
+                    <a href="{{ post.author_page }}">
                         <span>{{ post.category }}</span>
                     </a>
                 </span>
                 <div class="box-body">
-                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
-                        {% include loader.html %}
+                    <a class="cover" href="{{ post.author_page  | prepend: site.baseurl }}">
                         {% if post.optimized_image %}
                             <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">
                             <noscript>
@@ -36,8 +35,6 @@ author_profile: true
                                 <img src="/assets/img/off.jpg" width="100%">
                             </noscript>
                         {% endif %}
-                        {% include new-post-tag.html date=post.date %}
-                        {% include read-icon.html %}
                     </a>
                     <div class="box-info">
                         <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
@@ -54,7 +51,7 @@ author_profile: true
                         <div class="tags">
                             {% for tag in post.tags %}
                                 {% if tag != "" %}
-                                    <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">#{{ tag }}</a>
+                                    <a href="">#{{ tag }}</a>
                                 {% endif %}
                             {% endfor %}
                         </div>
@@ -63,31 +60,7 @@ author_profile: true
             </article>
         {% endfor %}
     </section>
-    <!-- Pagination -->
-    {% if site.paginate %}
-        {% include pagination-home.html %}
-    {% endif %}
 </main>
-
-{% assign social_urls = '' %}
-{% if site.github_username %}
-    {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
-{% endif %}
-{% if site.facebook_username %}
-    {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}
-{% endif %}
-{% if site.twitter_username %}
-    {% assign social_urls = social_urls | append: '"https://twitter.com/' | append: site.twitter_username | append: '",' %}
-{% endif %}
-{% if site.medium_username %}
-    {% assign social_urls = social_urls | append: '"https://medium.com/@' | append: site.medium_username | append: '",' %}
-{% endif %}
-{% if site.instagram_username %}
-    {% assign social_urls = social_urls | append: '"https://www.instagram.com/' | append: site.instagram_username | append: '",' %}
-{% endif %}
-{% if site.linkedin_username %}
-    {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
-{% endif %}
 
 <script type="application/ld+json">
 {
