@@ -1,13 +1,13 @@
 ---
-date_star: 2018-10-09 12:26:40
-date_end : 2020-10-09 12:26:40
 layout: post
-title: Why books should be your priority?
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-author: mranderson
-author_page : https://armelsoubeiga.github.io/
-author_link : https://armelsoubeiga.github.io/
+date_star: 2022-07-01 
+date_end : 2022-12-31
+author: Nico Frank Wilfried DENA
+title: Data Analyst Inter
+description: Analyser et visualiser les données des attaques terroristes au G3 Sahel (Burkina Faso-Mali-Niger) ainsi que les personnes déplacées internes de ces trois pays. Mise en place d'une application : Djihadiste Tracker
+image: images/inters/dena.jpg
+author_page : https://denanico1.github.io/
+author_link : https://denanico1.github.io/
 ---
 
 
