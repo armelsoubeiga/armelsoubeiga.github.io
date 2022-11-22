@@ -15,17 +15,6 @@ author_profile: true
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   
 <style>
-  body{
-  background: linear-gradient(90deg, #BA68C8 0%, #AB47BC 100%)
-  }
-  .container{
-  background-color: white;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
-    margin-bottom:50px;
-  }
-
   .title{
     font-size: 25px;
     font-weight: 100;
@@ -78,12 +67,9 @@ author_profile: true
   }
 </style>
 </head>
-  
-<div class='container mx-auto mt-5 col-md-10 mt-100'>
     <div class="header">
         <div class="title">I have supervised and co-supervised several students in internships and tutored projectsr</div>
     </div>
-  
     <div class="row" style="justify-content: center">
       {% for post in site.talks reversed %}
         <div class="card col-md-3 mt-100">
@@ -106,7 +92,6 @@ author_profile: true
         </div>
     </div>
   {% endfor %}
-</div>
 </body>
 </html>
 
