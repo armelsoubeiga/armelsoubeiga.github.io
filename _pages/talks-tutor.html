@@ -15,10 +15,9 @@ author_profile: true
 *, *:before, *:after {
   box-sizing: inherit;
 }
-.container {
-  float: left;
-}
+  
 .column {
+  float: left;
   width: 50%;
   margin-bottom: 16px;
   padding: 0 8px;
@@ -69,19 +68,24 @@ author_profile: true
   {% for post in site.talks reversed %}
     <div class="column">
       <div class="card">
-          <div class="profile"> 
-              <img src="{{ post.image }}"> 
+        
+          <div class="bg-white rounded shadow-sm py-5 px-4">
+            <div class="profile"> 
+                <img src="{{ post.image }}"> 
+            </div>
+            <h2>{{ post.author }}</h2>
           </div>
-          <h2>{{ post.author }}</h2>
+        
           <div class="container">
-          <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
-              {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
-          </span>
-          <p class="title">{{ post.title }}</p>
-          <p style="font-size: 15px;">{{ post.description }}.</p>
+            <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
+            </span>
+            <p class="title">{{ post.title }}</p>
+            <p style="font-size: 15px;">{{ post.description }}.</p>
             <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
             <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
         </div>
+        
       </div>
     </div>
 {% endfor %}
