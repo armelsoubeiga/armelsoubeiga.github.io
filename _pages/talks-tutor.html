@@ -30,8 +30,9 @@ author_profile: true
   }
 }
  
- .profile img{width: 68px;
-    height: 68px;
+ .profile img{
+    width: 78px;
+    height: 78px;
     border-radius: 50%;
   }
   
@@ -67,11 +68,11 @@ author_profile: true
   {% for post in site.talks reversed %}
     <div class="column">
       <div class="card">
-          <div class="profile"> 
+          <div class="profile" style="justify-content: center"> 
               <img src="{{ post.image }}"> 
           </div>        
           <div class="container">
-          <h2>{{ post.author }}</h2>
+          <h2 style="justify-content: center">{{ post.author }}</h2>
           <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
               {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
           </span>
