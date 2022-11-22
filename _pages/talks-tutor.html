@@ -18,7 +18,7 @@ author_profile: true
   
 .column {
   float: left;
-  width: 33.33%;
+  width: 50%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -65,8 +65,27 @@ author_profile: true
   h2 {
     margin: 3mm  0 0;
   }
-  }
- 
+ }
+
+  .social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+  
 </style>
 </head>
 <p>I have supervised and co-supervised several students in internships and tutored projects</p>
@@ -92,6 +111,11 @@ author_profile: true
             <p style="font-size: 15px;">{{ post.description }}.</p>
             <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
             <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
+            
+            <ul class="social mb-0 list-inline">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-dribbble"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+             </ul>
         </div>
         
       </div>
