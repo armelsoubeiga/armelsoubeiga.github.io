@@ -61,10 +61,7 @@ author_profile: true
 }
   
 .displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
+    text-align: center;
   }
   
 </style>
@@ -80,8 +77,9 @@ author_profile: true
           <div class="displayed">
             <div class="profile"> 
                 <img src="{{ post.image }}"> 
+                <h2>{{ post.author }}</h2>
             </div>
-            <h2>{{ post.author }}</h2>
+            
           </div>
         
           <div class="container">
