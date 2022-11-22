@@ -8,119 +8,37 @@ author_profile: true
 
 
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/talks.scss" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-  
-.column {
-  float: left;
-  width: 50%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/talks.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
- 
- .profile img{
-    width: 78px;
-    height: 78px;
-    border-radius: 50%;
-  }
-  
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+  <p>I have supervised and co-supervised several students in internships and tutored projects</p>
+  <br>
 
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-  
-.date {
-    font-size: 12px;
-    color: #737373;
-    pointer-events: none;
-}
-  
-.displayed {
-    text-align: center;
-  h2 {
-    margin: 3mm  0 0;
-  }
- }
-
-  .social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-}
-
-.social-link:hover, .social-link:focus {
-    background: #ddd;
-    text-decoration: none;
-    color: #555;
-}
-  
-</style>
-</head>
-<p>I have supervised and co-supervised several students in internships and tutored projects</p>
-<br>
-
-<div class="row">
-  {% for post in site.talks reversed %}
-    <div class="column">
-      <div class="card">
-        
-          <div class="displayed">
-            <div class="profile"> 
-                <img src="{{ post.image }}"> 
+  <div class="row">
+    {% for post in site.talks reversed %}
+      <div class="column">
+        <div class="card">
+            <div class="displayed">
+              <div class="profile"> 
+                  <img src="{{ post.image }}"> 
+              </div>
+              <h2>{{ post.author }}</h2>
             </div>
-            <h2>{{ post.author }}</h2>
+            <div class="container">
+              <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                  {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
+              </span>
+              <p class="title">{{ post.title }}</p>
+              <p style="font-size: 15px;">{{ post.description }}.</p>
+              <a href="{{ post.author_link }}" class="fa fa-linkedin social-link"></a>
+              <a href="{{ post.author_page }}" class="fa fa-dribbble social-link"></a>
           </div>
-        
-          <div class="container">
-            <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
-            </span>
-            <p class="title">{{ post.title }}</p>
-            <p style="font-size: 15px;">{{ post.description }}.</p>
-            <a href="{{ post.author_link }}" class="fa fa-linkedin"></a>
-            <a href="{{ post.author_page }}" class="fa fa-dribbble"></a>
-            
-            <a href="#" class="social-link"><i class="fa fa-dribbble"></i></a>
-            <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
         </div>
-        
       </div>
-    </div>
-{% endfor %}
-</div>
-</body>
+    {% endfor %}
+  </div>
+  </body>
 </html>
-
