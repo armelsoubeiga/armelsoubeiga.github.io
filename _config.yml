@@ -14,7 +14,6 @@ description              : &description "PhD student in Machine Learning @ LIMOS
 url                      : https://armelsoubeiga.github.io #  
 baseurl                  : ""
 repository               : "armelsoubeiga/armelsoubeiga.github.io" 
-resource                 : https://github.com/armelsoubeiga/armelsoubeiga.github.io
 teaser                   : "aso.png" 
 breadcrumbs              : false 
 words_per_minute         : 160
