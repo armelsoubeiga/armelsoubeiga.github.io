@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Armel SOUBEIGA"
 description              : &description "PhD student in Machine Learning @ LIMOS"
 url                      : https://armelsoubeiga.github.io #  
-baseurl                  : "" 
+baseurl                  : 
 repository               : "" 
 teaser                   : "aso.png" 
 breadcrumbs              : false 
