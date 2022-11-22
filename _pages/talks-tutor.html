@@ -68,11 +68,12 @@ author_profile: true
   {% for post in site.talks reversed %}
     <div class="column">
       <div class="card">
-          <div class="profile" style="justify-content: center"> 
+                        <div class="card-body p-0">
+          <div class="profile"> 
               <img src="{{ post.image }}"> 
-          </div>        
+          </div>
+          <h2>{{ post.author }}</h2>
           <div class="container">
-          <h2 style="justify-content: center">{{ post.author }}</h2>
           <span datetime="{{ post.date | date_to_xmlschema }}" class="date">
               {% include date.html date=post.date_star %} <b>to</b> {% include date.html date=post.date_end %}
           </span>
@@ -83,6 +84,7 @@ author_profile: true
         </div>
       </div>
     </div>
+      </div>
 {% endfor %}
 </div>
 </body>
