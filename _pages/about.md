@@ -36,9 +36,11 @@ After more than three years in clinical research as a data scientist, and more t
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
+<br/>
 **Last news**
-
 ------
+- 📚  School : [Autumn School in Artificial Intelligence - {AI}^2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2023
+
 
 {% include base_path %}
 [![](images/porfolio/mygal.PNG)]({{ base_path }}{{ pages.url }}/portfolio)
