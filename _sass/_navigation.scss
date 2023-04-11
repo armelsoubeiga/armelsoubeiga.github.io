@@ -536,14 +536,10 @@
 .nav__list {
   margin-bottom: 1.5em;
    
-   
-/*
   input[type="checkbox"],
   label {
     display: none;
   }
-*/
-   
    
   @include breakpoint(max-width $large - 1px) {
     label {
