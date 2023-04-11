@@ -4,9 +4,9 @@ collection: publications
 permalink: /publications/2023-01-16-Clustering-ecm-chronic-pain
 excerpt: 
 date: 2023-01-16
-venue: 'Revue des Nouvelles Technologies de l Information'
+venue: 'Revue des Nouvelles Technologies de Information'
 paperurl: 'https://editions-rnti.fr/?inprocid=1002881'
-citation: '<b>Armel Soubeiga</b> and Jessem Ettaghouti and Violaine Antoine and Alice Corteval and Nicolas Kerckhove and Sylvain Moreno, &quot;Classification automatique de series chronologiques de patients souffrant de douleurs chroniques,&quot; <i>2023, Revue des Nouvelles Technologies de l'Information, Extraction et Gestion des Connaissances, RNTI-E-39, Page:651-652</i>'
+citation: '<b>Armel Soubeiga</b> and Jessem Ettaghouti and Violaine Antoine and Alice Corteval and Nicolas Kerckhove and Sylvain Moreno &quot; Classification automatique de series chronologiques de patients souffrant de douleurs chroniques &quot; <i>2023, Revue des Nouvelles Technologies de Information, Extraction et Gestion des Connaissances, RNTI-E-39, Page:651-652</i>'
 ---
 ## Abstract
 
@@ -16,5 +16,5 @@ La douleur chronique touche des millions de patients en France, soit environ 30%
 <a href='https://editions-rnti.fr/?inprocid=1002881'>Download paper here</a>
 
 
-> <b>Armel Soubeiga</b> and Jessem Ettaghouti and Violaine Antoine and Alice Corteval and Nicolas Kerckhove and Sylvain Moreno, &quot;Classification automatique de séries chronologiques de patients souffrant de douleurs chroniques,&quot; <i>2023, Revue des Nouvelles Technologies de l'Information, Extraction et Gestion des Connaissances, RNTI-E-39, Page:651-652</i>
+> <b>Armel Soubeiga</b> and Jessem Ettaghouti and Violaine Antoine and Alice Corteval and Nicolas Kerckhove and Sylvain Moreno, &quot; Classification automatique de séries chronologiques de patients souffrant de douleurs chroniques,&quot; <i>2023, Revue des Nouvelles Technologies de l'Information, Extraction et Gestion des Connaissances, RNTI-E-39, Page:651-652</i>
 
