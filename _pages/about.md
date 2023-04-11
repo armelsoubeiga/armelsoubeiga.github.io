@@ -36,12 +36,9 @@ After more than three years in clinical research as a data scientist, and more t
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
-------
+**Last news**
 
+------
 
 {% include base_path %}
 [![](images/porfolio/mygal.PNG)]({{ base_path }}{{ pages.url }}/portfolio)
-
-**Last news**
-
-
