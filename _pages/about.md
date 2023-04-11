@@ -41,7 +41,7 @@ After more than three years in clinical research as a data scientist, and more t
 **Last news**
 ------
 
-- 📚  School : [Autumn School in Artificial Intelligence - {AI}^2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2023
+- 📚  School : [Autumn School in Artificial Intelligence - AI2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2023
 
 
 {% include base_path %}
