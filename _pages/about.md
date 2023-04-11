@@ -41,10 +41,12 @@ After more than three years in clinical research as a data scientist, and more t
 **Last news**
 ------
 
-- 🎓 School : [Autumn School in Artificial Intelligence - AI2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2022
-- 📚 Paper : [Classification automatique de series chronologiques de patients souffrant de douleurs chroniques](https://armelsoubeiga.github.io/publications/2023-01-16-Clustering-ecm-chronic-pain), Revue des Nouvelles Technologies de Information, 2023
 - 👨🏾‍🏫 Seminars : [ Extraction et Gestion des Connaissances (EGC)](https://egc2023.sciencesconf.org/), 2023
+- 📚 Paper : [Classification automatique de series chronologiques de patients souffrant de douleurs chroniques](https://armelsoubeiga.github.io/publications/2023-01-16-Clustering-ecm-chronic-pain), Revue des Nouvelles Technologies de Information, 2023
+- 🎓 School : [Autumn School in Artificial Intelligence - AI2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2022
 
+
+<br/>
 
 {% include base_path %}
 [![](images/porfolio/mygal.PNG)]({{ base_path }}{{ pages.url }}/portfolio)
