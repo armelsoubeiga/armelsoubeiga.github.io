@@ -10,8 +10,8 @@
   width: 100%;
   clear: both;
   /* sticky footer fix start */
-  position: relative;
-  // position: absolute;
+  // position: relative;
+  position: absolute;
   bottom: 0em;
   height: auto; 
   /* sticky footer fix end */
@@ -31,10 +31,9 @@
     margin-top: 0em;
     max-width: 100%;
      
- /*
     @include breakpoint($x-large) {
       max-width: $x-large;
-    } */
+    } 
   }
    
   a {
