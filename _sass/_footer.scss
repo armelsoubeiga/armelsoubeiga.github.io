@@ -25,6 +25,7 @@
           animation-delay: 0.45s;
   background-color: $lighter-gray;
   border-top: 1px solid $light-gray;
+  */
    
   footer {
     @include clearfix;
@@ -37,7 +38,6 @@
       max-width: $x-large;
     }
   }
-*/
    
   a {
     color: inherit;
