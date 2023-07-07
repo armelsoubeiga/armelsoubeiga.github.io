@@ -435,6 +435,7 @@
 
         a {
           margin-left: 0;
+         display: block;
         }
       }
 
@@ -451,6 +452,7 @@
     }
     .dropdown-content {
       display: none;
+      display: block;
       position: absolute;
       background-color: darken($background-color, 3%);
       min-width: 160px;
@@ -459,7 +461,6 @@
     }
     .dropdown-content a {
       padding: 4px 8px;
-      display: block;
     }
     .dropdown:hover .dropdown-content {
       display: block;
