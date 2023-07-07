@@ -240,7 +240,8 @@
     .dropdown-content a:not(:last-child){
       border-bottom: none; 
     }
-     
+   //.dropdown-content a:hover {background-color: #f1f1f1}
+     .dropdown-content a:hover {color: $primary-color}
   }
 
   .hidden-links {
