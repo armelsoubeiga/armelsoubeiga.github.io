@@ -427,7 +427,8 @@
     display: table;
 
     li {
-      display: table-cell;
+      //display: table-cell;
+       display: block;
       vertical-align: middle;
 
       &:first-child {
@@ -450,8 +451,7 @@
       width: auto;
     }
     .dropdown-content {
-      //display: none;
-      display: block;
+      display: none;
       position: absolute;
       background-color: darken($background-color, 3%);
       min-width: 160px;
