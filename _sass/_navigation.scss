@@ -389,7 +389,8 @@
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      //color: $masthead-link-color-hover;
+      color: #c91616;
     }
   }
 
@@ -484,7 +485,6 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
-       display: block;
 
       &:hover {
         color: $masthead-link-color-hover;
