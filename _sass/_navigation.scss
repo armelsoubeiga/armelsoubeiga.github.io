@@ -132,12 +132,6 @@
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
-     /*
-    &:hover {
-      @include yiq-contrasted($muted-text-color);
-    }
-     */
-
     &:first-child {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
@@ -182,7 +176,7 @@
     text-decoration: none;
 
     &:hover {
-      color: $primary-color;
+      color: #52adc8;
     }
   }
    
@@ -240,8 +234,7 @@
     .dropdown-content a:not(:last-child){
       border-bottom: none; 
     }
-   //.dropdown-content a:hover {background-color: #f1f1f1}
-     .dropdown-content a:hover {color: $primary-color}
+     .dropdown-content a:hover {color: #52adc8}
   }
 
   .hidden-links {
