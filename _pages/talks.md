@@ -14,11 +14,10 @@ author_profile: true
 [![python](https://img.shields.io/badge/python-%5E3.8-blue)]()
 [![os](https://img.shields.io/badge/OS-Ubuntu%2C%20Mac%2C%20Windows-purple)]()
 
-<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/armelsoubeiga/evclust/master/docs/assets/logo.png" style="height:200px; width:200; />
-</div><br/>
+</div><br />
   
 [Get Started](https://evclust.readthedocs.io) | [pip install](https://pypi.org/project/evclust/)
 
