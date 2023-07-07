@@ -13,6 +13,7 @@ author_profile: true
 [![release](https://img.shields.io/github/v/release/armelsoubeiga/evclust.svg)](https://github.com/armelsoubeiga/evclust/releases)
 [![python](https://img.shields.io/badge/python-%5E3.8-blue)]()
 [![os](https://img.shields.io/badge/OS-Ubuntu%2C%20Mac%2C%20Windows-purple)]()
+[![code-size](https://img.shields.io/github/languages/code-size/armelsoubeiga/evclust.svg)](https://github.com/armelsoubeiga/afnews)
 
 
 <div align="center">
