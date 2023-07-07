@@ -17,7 +17,7 @@ author_profile: true
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/evclust/master/docs/assets/logo.png" style="height:200px; width:350px; />
+<img src="https://raw.githubusercontent.com/armelsoubeiga/evclust/master/docs/assets/logo.png" style="height:200px; width:200; />
 </div><br/>
 [Get Started](https://evclust.readthedocs.io) | [pip install](https://pypi.org/project/evclust/)
 
