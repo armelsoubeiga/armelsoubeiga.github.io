@@ -6,6 +6,41 @@ author_profile: true
 
 {% include base_path %}
 
+## evclust: Evidential c-Means Clustering
+
+[![Documentation Status](https://readthedocs.org/projects/evclust/badge/?version=latest)](https://evclust.readthedocs.io/en/latest/)
+![tests](https://github.com/py-pkgs/py-pkgs-cookiecutter/workflows/test/badge.svg)
+[![release](https://img.shields.io/github/v/release/armelsoubeiga/evclust.svg)](https://github.com/armelsoubeiga/evclust/releases)
+[![python](https://img.shields.io/badge/python-%5E3.8-blue)]()
+[![os](https://img.shields.io/badge/OS-Ubuntu%2C%20Mac%2C%20Windows-purple)]()
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/armelsoubeiga/evclust/master/docs/assets/logo.png" height="180px" />
+
+[Get Started](https://evclust.readthedocs.io) | [pip install](https://pypi.org/project/evclust/)
+
+</div>
+
+<br/>
+
+Various clustering algorithms that produce a credal partition, i.e., a set of Dempster-Shafer mass functions representing the membership of objects to clusters. The mass functions quantify the cluster-membership uncertainty of the objects. The algorithms are: Evidential c-Means, Relational Evidential c-Means, Constrained Evidential c-Means, Multiples Relational Evidential c-Means. 
+
+</div>
+
+
+## wax-mnist
+
+Wax-MNIST is an image dataset created for machine learning. It is similar to the well-known MNIST dataset, which contains images of handwritten digits. However, instead of digits, Wax-MNIST images represent colored patterns found on African fabrics, such as wax, kente, or bogolan. Wax-MNIST was created to encourage cultural diversity in AI projects and raise awareness of the richness of African patterns.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/armelsoubeiga/wax-mnist/main/bg.png" style="height:200px; width:350px;" />
+</div><br />
+
+[Website](https://armelsoubeiga.github.io/wax-mnist/) \ [Github](https://github.com/armelsoubeiga/wax-mnist/tree/main)
+
 ## web scraping with R
 
 I wrote a book on web scraping with R. It's a pretty practical book with hands-on projects. It covers:
