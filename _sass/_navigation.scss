@@ -178,6 +178,13 @@
     &:hover {
       color: #52adc8;
     }
+      .active {
+       margin-left: -0.5em;
+       padding-left: 0.5em;
+       padding-right: 0.5em;
+       font-weight: bold;
+       color: #52adc8;
+     }
   }
    
   &__toggle {
@@ -235,14 +242,6 @@
       border-bottom: none; 
     }
      .dropdown-content a:hover {color: #52adc8}
-
-     .active {
-    margin-left: -0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-weight: bold;
-    color: #52adc8;
-  }
   }
 
   .hidden-links {
