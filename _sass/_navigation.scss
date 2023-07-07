@@ -427,8 +427,7 @@
     display: table;
 
     li {
-      //display: table-cell;
-       display: block;
+      display: table-cell;
       vertical-align: middle;
 
       &:first-child {
@@ -485,6 +484,7 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+       display: block;
 
       &:hover {
         color: $masthead-link-color-hover;
