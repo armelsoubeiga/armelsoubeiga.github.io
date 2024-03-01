@@ -42,7 +42,8 @@ My research activities focus on Machine Learning problems and its application in
 
 **Last news**
 ------
-
+- 👨🏾‍🏫 Workshop : [ Extraction et Gestion des Connaissances (EGC)](https://iutdijon.u-bourgogne.fr/egc2024/), 2024-01
+- 👨🏾‍🏫 Abstracts : [ 16th International Conference of the ERCIM WG on Computational and Methodological Statistics, CFE-CMStatistics 2023](https://www.cmstatistics.org/CMStatistics2023/docs/BoA.pdf?20231128014621), 2023-12
 - 👨🏾‍🏫 Seminars : [ Extraction et Gestion des Connaissances (EGC)](https://egc2023.sciencesconf.org/), 2023
 - 📚 Paper : [Classification automatique de series chronologiques de patients souffrant de douleurs chroniques](https://armelsoubeiga.github.io/publications/2023-01-16-Clustering-ecm-chronic-pain), Revue des Nouvelles Technologies de Information, 2023
 - 🎓 School : [Autumn School in Artificial Intelligence - AI2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2022
