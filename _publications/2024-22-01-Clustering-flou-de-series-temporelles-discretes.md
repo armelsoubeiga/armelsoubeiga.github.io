@@ -6,7 +6,7 @@ excerpt:
 date: 2024-01-22
 venue: '16th International Conference of the ERCIM WG on Computational and Methodological Statistics'
 paperurl: 'https://sites.google.com/view/aisante2024'
-citation: '<b>Armel Soubeiga</b>, Violaine Antoine, and Sylvain Moreno. &quot; Clustering flou de séries temporelles discrètes pour la modélisation des trajectoires de soins de la douleur chronique &quot; <i>24ème conférence francophone sur l'Extraction et la Gestion des Connaissances EGC 2024, Jan 2024, Dijon, France</i>'
+citation: '<b>Armel Soubeiga</b>, Violaine Antoine, and Sylvain Moreno. &quot; Clustering flou de series temporelles discretes pour la modelisation des trajectoires de soins de la douleur chronique &quot; <i>24eme conference francophone sur l Extraction et la Gestion des Connaissances EGC 2024, Jan 2024, Dijon, France</i>'
 ---
 ## Abstract
 
