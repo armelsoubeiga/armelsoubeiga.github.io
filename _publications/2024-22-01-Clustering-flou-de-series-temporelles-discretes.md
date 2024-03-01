@@ -1,5 +1,5 @@
 ---
-title: "Clustering flou de séries temporelles discrètes pour la modélisation des trajectoires de soins de la douleur chronique"
+title: "Clustering flou de series temporelles discretes pour la modélisation des trajectoires de soins de la douleur chronique"
 collection: publications
 permalink: /publications/2024-22-01-Clustering-flou-de-series-temporelles-discretes
 excerpt: 
