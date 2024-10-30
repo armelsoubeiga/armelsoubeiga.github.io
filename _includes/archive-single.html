@@ -62,5 +62,9 @@
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
+    {% unless post.collection == 'archive' %}
+      {% include toc %} <!-- Inclusion conditionnelle si ce n'est pas une archive -->
+    {% endunless %}
+    
   </article>
 </div>
