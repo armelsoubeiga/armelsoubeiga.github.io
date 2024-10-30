@@ -190,3 +190,21 @@ main {
 }
 
 @import 'mobile';
+
+
+
+// Styliser les boutons
+.link-tags .btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #8B4513; /* Couleur marron pour les bordures */
+  color: #8B4513; /* Couleur marron pour le texte */
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.link-tags .btn:hover {
+  background-color: #8B4513;
+  color: #fff;
+}
