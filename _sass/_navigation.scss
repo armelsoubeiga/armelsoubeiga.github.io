@@ -55,7 +55,9 @@
   float: left;
   margin-top: 1em;
   padding-top: 1em;
+  padding-bottom: 2em; /* Ajout de padding en bas */
   width: 100%;
+  z-index: 1; /* Augmentation du z-index pour superposition */
 
   ul {
     margin: 0;
