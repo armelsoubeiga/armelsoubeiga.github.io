@@ -31,6 +31,11 @@
     .page__share {
       @include full();
     }
+     
+    .page__share {
+       padding-bottom: 2em; /* Ajout de padding en bas */
+       z-index: 1; /* Augmentation du z-index pour superposition */
+    }
   }
 }
 
