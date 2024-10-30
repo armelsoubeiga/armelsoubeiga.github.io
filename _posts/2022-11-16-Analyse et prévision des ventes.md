@@ -6,7 +6,10 @@ tags:
   - EDA
   - Grid Search
   - Random Forest
+toc: true 
 ---
+
+{% include toc icon="list" %}
 
 L'ojectif de ce projet est de faire une EDA et une prévision d'achat pour les données de ventes du Black Friday avec le language Python.
 
