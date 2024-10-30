@@ -1,5 +1,5 @@
 ---
-title: "Clustering and Interpretation of Time-series Trajectories of chronic pain using Evidential c-means"
+title: "Clustering and Interpretation of Time-series Trajectories of chronic pain using Evidential c-means (Conference)"
 collection: publications
 permalink: /publications/2023-12-15-Clustering-and-Interpretation-of-Time-series-rajectories
 excerpt: 
