@@ -28,7 +28,6 @@ My research activities focus on Machine Learning problems and its application in
 **Here, take a look at my stuff**  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20px">
 
 - ✨ I like TensorFlow, Scikit-Learn, Keras, Rshiny, Django, Flask frameworks
-- 📰 I try to maintain this Data Science Blog [DataScience & AI Blog](https://armelsoubeiga.pythonanywhere.com/)
 - 📚  I wrote [web scraping with R](https://www.amazon.fr/dp/B0B6XGTXKP)
 
 [![Python](https://img.shields.io/badge/-programming-black?style=flat-square&logo=python&link=https://github.com/armelsoubeiga)](https://github.com/armelsoubeiga)
@@ -50,8 +49,6 @@ My research activities focus on Machine Learning problems and its application in
 - 📚 Paper : [Classification automatique de series chronologiques de patients souffrant de douleurs chroniques](https://armelsoubeiga.github.io/publications/2023-01-16-Clustering-ecm-chronic-pain), Revue des Nouvelles Technologies de Information, 2023
 - 🎓 School : [Autumn School in Artificial Intelligence - AI2](http://ia2.gdria.fr/autumn-school-in-artificial-intelligence/), 2022
 
-
-<br/>
 
 {% include base_path %}
 [![](images/porfolio/mygal.PNG)]({{ base_path }}{{ pages.url }}/portfolio)
