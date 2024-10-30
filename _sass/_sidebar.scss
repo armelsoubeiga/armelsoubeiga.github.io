@@ -49,22 +49,34 @@
   }
 }
 
-.sidebar__right {
+// .sidebar__right {
+//   margin-bottom: 1em;
+
+//   @include breakpoint($large) {
+//     position: relative;
+//     float: right;
+//     width: $right-sidebar-width-narrow;
+//     margin-left: span(0.5 of 12);
+//     z-index: 10;
+//   }
+
+//   @include breakpoint($x-large) {
+//     width: $right-sidebar-width;
+//   }
+// }
+
+.sidebar__right { 
   margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
-    z-index: 10;
-  }
-
+  position: fixed;  /* Fixe la position à droite */
+  right: 0;  /* Colle la barre à droite de la page */
+  top: 10%;  /* Ajustez selon le haut de page désiré */
+  width: 250px;  /* Augmente la largeur pour plus de lisibilité */
+  z-index: 10;  /* Priorité d'affichage */
+  
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    width: 300px; /* Largeur plus grande pour écrans très larges */
   }
 }
-
 /*
    Author profile and links
    ========================================================================== */
