@@ -425,34 +425,3 @@ scores = cross_val_score(model, predictor, target, scoring="explained_variance",
 print(scores)
 print("Model effectiveness: %f" % (scores.mean()))
 ```
-
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:   11.0s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:    0.1s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:   14.7s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:    0.1s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:   13.2s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:    0.0s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:   11.4s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:    0.0s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    
-
-    [0.95318626 0.9589651  0.95917582 0.95423902 0.96211921]
-    Model effectiveness: 0.957537
-    
-
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:   11.9s finished
-    [Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
-    [Parallel(n_jobs=1)]: Done 500 out of 500 | elapsed:    0.1s finished
-    
-
-
-
