@@ -1,0 +1,22 @@
+{% include base_path %}
+
+<div class="link-tags">
+  {% if page.pdf %}
+    <a href="{{ page.pdf }}" class="btn btn-outline">PDF</a>
+  {% endif %}
+  {% if page.cite %}
+    <a href="{{ page.cite }}" class="btn btn-outline">Cite</a>
+  {% endif %}
+  {% if page.code %}
+    <a href="{{ page.code }}" class="btn btn-outline">Code</a>
+  {% endif %}
+  {% if page.dataset %}
+    <a href="{{ page.dataset }}" class="btn btn-outline">Dataset</a>
+  {% endif %}
+  {% if page.source_document %}
+    <a href="{{ page.source_document }}" class="btn btn-outline">Source Document</a>
+  {% endif %}
+  {% if page.doi %}
+    <a href="{{ page.doi }}" class="btn btn-outline">DOI</a>
+  {% endif %}
+</div>
