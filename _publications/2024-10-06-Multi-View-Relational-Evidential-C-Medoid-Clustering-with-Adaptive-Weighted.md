@@ -7,11 +7,11 @@ date: 2024-10-06
 venue: '2024 IEEE 11th International Conference on Data Science and Advanced Analytics (DSAA)'
 paperurl: 'http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
 citation: '<b>Armel Soubeiga</b>, Violaine Antoine and Sylvain Moreno. &quot; Multi-View Relational Evidential C-Medoid Clustering with Adaptive Weighted &quot; <i>2024 IEEE 11th International Conference on Data Science and Advanced Analytics (DSAA)</i>'
-pdf: 'href='http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
+pdf: 'http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
 code: 'https://github.com/armelsoubeiga/MECMdd'
 dataset: 'https://github.com/armelsoubeiga/MECMdd/tree/main/Data'
-source_document: 'href='http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
-doi: 'href='http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
+source_document: 'http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
+doi: 'http://dx.doi.org/10.1109/DSAA61799.2024.10722777'
 ---
 
 ## Abstract
