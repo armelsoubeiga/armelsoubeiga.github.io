@@ -77,6 +77,14 @@
     width: 300px; /* Largeur plus grande pour écrans très larges */
   }
 }
+
+@media (max-width: 768px) { /* Ajuste 768px selon le point de rupture désiré */
+  .sidebar__right {
+    display: none;
+  }
+}
+
+
 /*
    Author profile and links
    ========================================================================== */
