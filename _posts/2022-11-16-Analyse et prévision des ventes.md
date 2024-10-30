@@ -45,8 +45,6 @@ warnings.filterwarnings("ignore")
 Nous lisons les données grâce à la fonction *read_csv* de la library *pandans as pd*. La fonction _info_ permet d'avoir toutes les information sur la base de données importée.
 
 
-
-
 ```python
 data = pd.read_csv("https://raw.githubusercontent.com/armelsoubeiga/sales_prediction_Machine_Learning/master/Projet_2/BlackFriday.csv")
 print(data.info())
@@ -74,131 +72,12 @@ print(data.info())
     None
     
 
-Nous allons visualiser les cinq (5) première lignes de la base de données. 
-
-Nous pouvons également visuliser les 5 dernières lignes en faisant **data.tail(5)**
+Nous allons visualiser les cinq (5) première lignes de la base de données. Nous pouvons également visuliser les 5 dernières lignes en faisant **data.tail(5)**
 
 
 ```python
 data.head(5)
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>User_ID</th>
-      <th>Product_ID</th>
-      <th>Gender</th>
-      <th>Age</th>
-      <th>Occupation</th>
-      <th>City_Category</th>
-      <th>Stay_In_Current_City_Years</th>
-      <th>Marital_Status</th>
-      <th>Product_Category_1</th>
-      <th>Product_Category_2</th>
-      <th>Product_Category_3</th>
-      <th>Purchase</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1000001</td>
-      <td>P00069042</td>
-      <td>F</td>
-      <td>0-17</td>
-      <td>10</td>
-      <td>A</td>
-      <td>2</td>
-      <td>0</td>
-      <td>3</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>8370</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1000001</td>
-      <td>P00248942</td>
-      <td>F</td>
-      <td>0-17</td>
-      <td>10</td>
-      <td>A</td>
-      <td>2</td>
-      <td>0</td>
-      <td>1</td>
-      <td>6.0</td>
-      <td>14.0</td>
-      <td>15200</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1000001</td>
-      <td>P00087842</td>
-      <td>F</td>
-      <td>0-17</td>
-      <td>10</td>
-      <td>A</td>
-      <td>2</td>
-      <td>0</td>
-      <td>12</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>1422</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1000001</td>
-      <td>P00085442</td>
-      <td>F</td>
-      <td>0-17</td>
-      <td>10</td>
-      <td>A</td>
-      <td>2</td>
-      <td>0</td>
-      <td>12</td>
-      <td>14.0</td>
-      <td>NaN</td>
-      <td>1057</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1000002</td>
-      <td>P00285442</td>
-      <td>M</td>
-      <td>55+</td>
-      <td>16</td>
-      <td>C</td>
-      <td>4+</td>
-      <td>0</td>
-      <td>8</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>7969</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 Ci-dessus nous allons visuliser les valeurs manquantes, dans la bases de données. Nous voyons qu'il y'a des variables dont la réponse est **True**. Cela signifie que ces variables contiennent des valeurs manquantes.
 
@@ -248,8 +127,6 @@ print("\nNombre de clients le Black Friday: ", data.shape[0])
 Sur les 537577 observations de la base, nous totalisons 5891 clients uniques.
 
 # Analyse Exploratoire
-
-.
 
 ###  1. Gender et age
 
@@ -486,26 +363,10 @@ sns.despine()
 Les produits de la catégorie 2 sont nos articles les plus populaires, et cela est vrai pour toutes sortes de clients venant d'horizons différents, ainsi que pour tous les sexes et les types de city.
 
 
-.
-
-
-.
-
-.
-
-
-.
 # Analyse prédictive des ventes
-.
-
-
-
-
-.
 
 ### 1. Corrélogramme
 
-.
 Nous transformons dans un premier temps les variables catégorielles en numerique.
 
 
@@ -534,13 +395,7 @@ From the heatmap above we can observe there are strong correlations between diff
 À partir de la matrice de corrélation ci-dessus, nous pouvons observer qu'il existe de fortes corrélations entre les produits et les achats (Purchase). Il existe également une corrélation entre l'âge et l'état matrimonial, ce qui est conforme au bon sens. 
 
 
-.
-
 ### 3. Modèl de prediction par Random Forest
-
-
-.
-
 
 ```python
 predictor = data.drop("Purchase", axis=1)
@@ -558,12 +413,7 @@ print("Best score: {:.2f}".format((-1*grid_rf.best_score_)**0.5))
     Best score: 192178.99
     
 
-.
-
 ### 4. Construction du modèl avec les bons paramètres
-
-.
-
 
 ```python
 # make model with best parameters
