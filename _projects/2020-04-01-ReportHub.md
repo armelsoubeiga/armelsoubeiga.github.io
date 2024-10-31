@@ -11,7 +11,7 @@ image:
 AfricAnalytics ReportHub. We collect thousands of annual reports from different companies around the world.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/neweb/main/images/reporthub.jpg" style="height:200px; width:300px;" />
+<img src="/images/projets/reporthub.jpg" style="height:200px; width:300px;" />
 </div><br />
 
 [Website](https://analyzer.shinyapps.io/ReportHub) \  [ReportHub Dashboard](https://analyzer.shinyapps.io/ReportHub/)
