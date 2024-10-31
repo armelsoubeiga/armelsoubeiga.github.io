@@ -10,9 +10,11 @@ author_profile: false
 toc: true
 ---
 
+<p>Dans cet article qui fait suite de la partie III, nous allons (re)voir quelques outils classiques <strong>d&#39;analyse exploratoire</strong> disponibles dans le package Pandas, que l&#39;on met en g&eacute;n&eacute;ral en oeuvre pour avoir une meilleure connaissance du jeu de donn&eacute;es &agrave; &eacute;tudier avant de passer &agrave; l&#39;&eacute;tape de mod&eacute;lisation &agrave; proprement parler.</p>
+
 {% include toc %}
 
-<p>Dans cet article qui fait suite de la partie III, nous allons (re)voir quelques outils classiques <strong>d&#39;analyse exploratoire</strong> disponibles dans le package Pandas, que l&#39;on met en g&eacute;n&eacute;ral en oeuvre pour avoir une meilleure connaissance du jeu de donn&eacute;es &agrave; &eacute;tudier avant de passer &agrave; l&#39;&eacute;tape de mod&eacute;lisation &agrave; proprement parler.</p>
+
 
 <p>Nous apprendrons &eacute;galement &agrave; manipuler certains outils de <strong>pr&eacute;-traitement des donn&eacute;es</strong> disponibles dans <a href="https://scikit-learn.org/stable/modules/preprocessing.html"><span style="color:#3498db">le module PreProcessing</span></a> de scikit-learn, permettant d&#39;appliquer diverses transformations aux descripteurs : standardisation, imputation de donn&eacute;es manquantes, ...</p>
 

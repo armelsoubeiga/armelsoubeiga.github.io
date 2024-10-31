@@ -10,11 +10,13 @@ author_profile: false
 toc: true
 ---
 
-{% include toc %}
-
 <h2>Introduction</h2>
 
-<p>R est un langage de programmation ax&eacute; sur l&#39;analyse statistique et graphique.&nbsp;Il est donc couramment utilis&eacute; dans l&#39;inf&eacute;rence statistique, l&#39;analyse des donn&eacute;es et l&#39;apprentissage automatique.&nbsp;R est actuellement l&#39;un des langages de programmation les plus demand&eacute;s sur le march&eacute; du travail en science des donn&eacute;es (figure 1).</p>
+<p>R est un langage de programmation ax&eacute; sur l&#39;analyse statistique et graphique.&nbsp;Il est donc couramment utilis&eacute; dans l&#39;inf&eacute;rence statistique, l&#39;analyse des donn&eacute;es et l&#39;apprentissage automatique.&nbsp;R est actuellement l&#39;un des langages de programmation les plus demand&eacute;s sur le march&eacute; du travail en science des donn&eacute;es (figure 1).</p>
+
+{% include toc %}
+
+
 
 <p>&nbsp;</p>
 

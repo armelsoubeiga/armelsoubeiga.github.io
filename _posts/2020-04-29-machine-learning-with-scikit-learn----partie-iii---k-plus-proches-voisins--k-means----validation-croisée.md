@@ -10,11 +10,13 @@ author_profile: false
 toc: true
 ---
 
-{% include toc %}
-
 <p>Dans cette partie III nous allons apprendre &agrave; manipuler :&nbsp;<br />
 1. la classe <strong>KNeighborsClassifier</strong> qui permet de r&eacute;aliser de la classification par la m&eacute;thode des k plus proches voisins ou <strong>k-means</strong><br />
-2. les fonctions <strong>cross_val_score</strong> et <strong>cross_val_predict</strong> qui permettent de r&eacute;aliser des exp&eacute;riences de validation crois&eacute;e.&nbsp;</p>
+2. les fonctions <strong>cross_val_score</strong> et <strong>cross_val_predict</strong> qui permettent de r&eacute;aliser des exp&eacute;riences de validation crois&eacute;e.&nbsp;</p>
+
+{% include toc %}
+
+
 
 <p>&nbsp;</p>
 

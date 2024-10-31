@@ -10,11 +10,13 @@ author_profile: false
 toc: true
 ---
 
-{% include toc %}
-
 <h2><span style="font-family:Calibri,sans-serif">Introduction</span></h2>
 
-<p>Dans la premi&egrave;re partie de cet article, nous nous int&eacute;resserons &agrave; la partie data collection. Nous verrons comment nous avons r&eacute;cup&eacute;r&eacute; ces donn&eacute;es (par scraping),&nbsp; et &agrave; quelles&nbsp;donn&eacute;es s&#39;int&eacute;resser&nbsp;dans un syst&egrave;me de recommandation. Dans la seconde partie nous nous int&eacute;resserons au fonctionnement th&eacute;orique et pratique d&#39;un&nbsp;syst&egrave;me&nbsp;de recommandation&nbsp;bas&eacute;e sur l&rsquo;algorithme de similarit&eacute;. Et enfin, l&rsquo;int&eacute;gration et le d&eacute;ploiement de tous ces processus dans notre application movie-space.</p>
+<p>Dans la premi&egrave;re partie de cet article, nous nous int&eacute;resserons &agrave; la partie data collection. Nous verrons comment nous avons r&eacute;cup&eacute;r&eacute; ces donn&eacute;es (par scraping),&nbsp; et &agrave; quelles&nbsp;donn&eacute;es s&#39;int&eacute;resser&nbsp;dans un syst&egrave;me de recommandation. Dans la seconde partie nous nous int&eacute;resserons au fonctionnement th&eacute;orique et pratique d&#39;un&nbsp;syst&egrave;me&nbsp;de recommandation&nbsp;bas&eacute;e sur l&rsquo;algorithme de similarit&eacute;. Et enfin, l&rsquo;int&eacute;gration et le d&eacute;ploiement de tous ces processus dans notre application movie-space.</p>
+
+{% include toc %}
+
+
 
 <p>Vous pouvez consulter l&rsquo;application en ligne en suivant ce lien&nbsp;: <a href="http://movie-space.ga/"><span style="color:#3498db">http://movie-space.ga/</span></a> ou <span style="color:#3498db"><a href="https://movie-space.herokuapp.com/">https://movie-space.herokuapp.com/</a>. </span>Le projet est &eacute;galement consultable sur mon repertoire Github &agrave; travers ce lien :<span style="color:#3498db">&nbsp;</span><a href="https://github.com/armelsoubeiga/Movie-Space"><span style="color:#3498db">https://github.com/armelsoubeiga/Movie-Space</span></a></p>
 

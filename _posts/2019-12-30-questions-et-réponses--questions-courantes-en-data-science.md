@@ -10,11 +10,13 @@ author_profile: false
 toc: true
 ---
 
-{% include toc %}
-
 <h2>Introduction</h2>
 
-<p>L&#39;une des principales raisons pour lesquelles&nbsp;il y a tant d&#39;int&eacute;r&ecirc;t pour la science des donn&eacute;es est ses diverses applications.&nbsp;Les donn&eacute;es ont toujours &eacute;t&eacute; un &eacute;l&eacute;ment tr&egrave;s important de l&#39;histoire humaine et prendre des d&eacute;cisions intelligentes sur la base des exp&eacute;riences pass&eacute;es et des informations fournies peut jouer un r&ocirc;le crucial pour les individus ou les organisations.&nbsp;</p>
+<p>L&#39;une des principales raisons pour lesquelles&nbsp;il y a tant d&#39;int&eacute;r&ecirc;t pour la science des donn&eacute;es est ses diverses applications.&nbsp;Les donn&eacute;es ont toujours &eacute;t&eacute; un &eacute;l&eacute;ment tr&egrave;s important de l&#39;histoire humaine et prendre des d&eacute;cisions intelligentes sur la base des exp&eacute;riences pass&eacute;es et des informations fournies peut jouer un r&ocirc;le crucial pour les individus ou les organisations.&nbsp;</p>
+
+{% include toc %}
+
+
 
 <p>&nbsp;</p>
 

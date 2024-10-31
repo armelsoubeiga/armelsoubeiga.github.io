@@ -10,9 +10,11 @@ author_profile: false
 toc: true
 ---
 
+<p>Dans cet article nous allons r&eacute;aliser quelques op&eacute;rations de base en Python et Scikit-Learn. L&#39;objectif sera simplement de r&eacute;aliser une ACP d&#39;un jeu de donn&eacute;es et de le repr&eacute;senter selon ses premi&egrave;res composantes principales.</p>
+
 {% include toc %}
 
-<p>Dans cet article nous allons r&eacute;aliser quelques op&eacute;rations de base en Python et Scikit-Learn. L&#39;objectif sera simplement de r&eacute;aliser une ACP d&#39;un jeu de donn&eacute;es et de le repr&eacute;senter selon ses premi&egrave;res composantes principales.</p>
+
 
 <p>Nous apprendrons pour cela &agrave; manipuler les classes les classes&nbsp;<strong>PCA</strong>&nbsp;du module&nbsp;<em>decomposition</em>&nbsp;de Scikit-Learn, et nous utiliserons le jeu de donn&eacute;es&nbsp;<strong>digits</strong>, qui contient des images de chiffres manuscrits. On peut le&nbsp;<a href="http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits"><span style="color:#3498db">charger &agrave; partir de scikit-learn</span></a>&nbsp;et dont on trouve un descriptif sur le&nbsp;<a href="http://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits"><span style="color:#3498db">site de l&#39;UCI</span></a>.</p>
 
