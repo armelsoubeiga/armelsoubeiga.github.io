@@ -8,7 +8,7 @@ tags:
   - python
 author_profile: false
 toc: true
-excerpt: 'Vous cherchez à créer une interface utilisateur graphique GUI en Python à l'aide de tkinter. Si tel est le cas, dans cet article, je vais vous montrer comment créer une interface graphique tkinter.'
+excerpt: "Vous cherchez à créer une interface utilisateur graphique GUI en Python à l'aide de tkinter. Si tel est le cas, dans cet article, je vais vous montrer comment créer une interface graphique tkinter."
 ---
 
 {% include toc %}
