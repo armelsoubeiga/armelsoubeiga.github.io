@@ -12,7 +12,7 @@ image:
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/burkinaopendata.jpg" style="height:150px; width:200px;" />
+<img src="/images/projets/burkinaopendata.jpg" style="height:150px; width:200px;" />
 </div><br />
 
 [Website](https://armelsoubeiga2.shinyapps.io/opendata/) \ [Get Started](https://github.com/armelsoubeiga/OpenDataHub) \ [Docs]()
