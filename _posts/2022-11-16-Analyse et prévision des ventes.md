@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Analyse et prévision des ventes du Black Friday'
 date: 2022-11-16
 permalink: /posts/2022/11/analyse-prevision-des-ventes
