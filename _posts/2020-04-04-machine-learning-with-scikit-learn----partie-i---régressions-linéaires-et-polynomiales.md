@@ -8,7 +8,7 @@ tags:
   - with
 author_profile: false
 toc: true
-excerpt: 'Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera d'apprendre des modèles de régression linéaires et polynomiales, de les représenter et de calculer leurs performances en terme d'erreur quadratique moyenne.'
+excerpt: "Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera d'apprendre des modèles de régression linéaires et polynomiales, de les représenter et de calculer leurs performances en terme d'erreur quadratique moyenne."
 ---
 
 {% include toc %}
