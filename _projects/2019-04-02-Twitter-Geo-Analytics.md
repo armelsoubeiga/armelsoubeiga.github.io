@@ -12,7 +12,7 @@ image:
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/apptweeter.png" style="height:150px; width:300px;" />
+<img src="/images/projets/apptweeter.png" style="height:150px; width:300px;" />
 </div><br />
 
 [Website](https://armelsoubeiga.shinyapps.io/TwitterGeoAnalytics/) \ [Get Started](https://armelsoubeiga.shinyapps.io/TwitterGeoAnalytics/) \ [Github](https://github.com/armelsoubeiga/TwitterGeoAnalytics) \ [Docs]()
