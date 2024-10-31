@@ -3,12 +3,10 @@ title: 'Premiers pas avec la programmation R'
 date: 2020-01-01
 permalink: /posts/2020/01/premiers-pas-avec-la-programmation-r
 tags:
-  - premiers
-  - pas
-  - programmation
+  - Programmation R
 author_profile: false
 toc: true
-excerpt: 'R est un langage de programmation axé sur l'analyse statistique et graphique. Il est donc couramment utilisé dans l'inférence statistique, l'analyse des données et l'apprentissage automatique.'
+excerpt: "R est un langage de programmation axé sur l'analyse statistique et graphique. Il est donc couramment utilisé dans l'inférence statistique, l'analyse des données et l'apprentissage automatique."
 ---
 
 {% include toc %}
