@@ -8,7 +8,8 @@ tags:
   - with
 author_profile: false
 toc: true
-excerpt: 'Dans cet article qui fait suite de la partie III, nous allons (re)voir quelques outils classiques d'analyse exploratoire disponibles dans le package Pandas, que l'on met en général en oeuvre pour avoir une meilleure connaissance du jeu de données à étudier avant de passer à l'étape de modélisation à proprement parler.'
+excerpt: "Dans cet article qui fait suite de la partie III, nous allons (re)voir quelques outils classiques d'analyse exploratoire disponibles dans le package Pandas, que l'on met en général en oeuvre pour avoir une       
+          meilleure connaissance du jeu de données à étudier avant de passer à l'étape de modélisation à proprement parler."
 ---
 
 {% include toc %}
