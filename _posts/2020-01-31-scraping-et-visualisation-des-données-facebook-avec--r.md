@@ -8,7 +8,7 @@ tags:
   - des
 author_profile: false
 toc: true
-excerpt: 'L'article présente l'utilisation du package Rfacebook pour gratter des données de Facebook, avec un exemple basé sur un groupe privé où des liens musicaux étaient partagés. Les visualisations sont réalisées avec ggplot2, et l'article souligne l'applicabilité de ces méthodes pour analyser des groupes Facebook ou maximiser les interactions sur des publications personnelles.'
+excerpt: "L'article présente l'utilisation du package Rfacebook pour gratter des données de Facebook, avec un exemple basé sur un groupe privé où des liens musicaux étaient partagés. Les visualisations sont réalisées avec ggplot2, et l'article souligne l'applicabilité de ces méthodes pour analyser des groupes Facebook ou maximiser les interactions sur des publications personnelles."
 ---
 
 {% include toc %}
