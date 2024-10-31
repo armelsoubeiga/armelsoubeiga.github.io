@@ -10,13 +10,11 @@ author_profile: false
 toc: true
 ---
 
-<h3><strong>Introduction</strong></h3>
-
-<p>Dans la pluspart des domaines de l&#39;informatique, que ce soint celui du Big Data, l&#39;apprentissage automatique ou encore l&#39;intelligence artificielle (IA), il existe diverses pr&eacute;f&eacute;rences ou recommandation quant aux outils (technologies et langages de programmation) &agrave; utiliser pour rendre le travail plus ou moins facile. Dans le domaine de la science des donn&eacute;es, on retrouve les langages de programmation python et R qui sont utilis&eacute;s pour l&#39;analyse de donn&eacute;es. Alors entre ces deux langages, lequel est le meilleur pour l&#39;analyse de donn&eacute;es ?</p>
-
 {% include toc %}
 
+<h3><strong>Introduction</strong></h3>
 
+<p>Dans la pluspart des domaines de l&#39;informatique, que ce soint celui du Big Data, l&#39;apprentissage automatique ou encore l&#39;intelligence artificielle (IA), il existe diverses pr&eacute;f&eacute;rences ou recommandation quant aux outils (technologies et langages de programmation) &agrave; utiliser pour rendre le travail plus ou moins facile. Dans le domaine de la science des donn&eacute;es, on retrouve les langages de programmation python et R qui sont utilis&eacute;s pour l&#39;analyse de donn&eacute;es. Alors entre ces deux langages, lequel est le meilleur pour l&#39;analyse de donn&eacute;es ?</p>
 
 <p>Dans cet article, nous allons vous guide dans le choix du logiciel de programmation pour votre entreprise, en vous expliquant les forces et les faiblesses entre python et R.</p>
 

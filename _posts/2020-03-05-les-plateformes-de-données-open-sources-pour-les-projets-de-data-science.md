@@ -10,11 +10,9 @@ author_profile: false
 toc: true
 ---
 
-<p>Lorsque vous&nbsp; d&eacute;marrez&nbsp;un projet en Data Science, la premi&egrave;re des pr&eacute;occupations est la recherche des donn&eacute;es qui pourront r&eacute;pondre &agrave; votre probl&egrave;matique. Si vous avez d&eacute;j&agrave;&nbsp;travaill&eacute;&nbsp;sur un projet de data science, vous avez probablement pass&eacute; beaucoup de temps &agrave; naviguer sur Internet &agrave; la recherche&nbsp; de donn&eacute;es int&eacute;ressantes qui r&eacute;pondraient &agrave; la probl&eacute;matique de votre projet.</p>
-
 {% include toc %}
 
-
+<p>Lorsque vous&nbsp; d&eacute;marrez&nbsp;un projet en Data Science, la premi&egrave;re des pr&eacute;occupations est la recherche des donn&eacute;es qui pourront r&eacute;pondre &agrave; votre probl&egrave;matique. Si vous avez d&eacute;j&agrave;&nbsp;travaill&eacute;&nbsp;sur un projet de data science, vous avez probablement pass&eacute; beaucoup de temps &agrave; naviguer sur Internet &agrave; la recherche&nbsp; de donn&eacute;es int&eacute;ressantes qui r&eacute;pondraient &agrave; la probl&eacute;matique de votre projet.</p>
 
 <p>Cela peut vous conduire &agrave; passer au crible des dizaines d&rsquo;ensemble de donn&eacute;es pour trouver celui qui est parfait et qui r&eacute;pondra eux objectifs de votre projet. Dans cet article, nous allons parcourir quelques plateformes de donn&eacute;es open source.</p>
 

@@ -10,11 +10,9 @@ author_profile: false
 toc: true
 ---
 
-<p>XGBoost signifie eXtreme Gradient Boosting. Comme son nom l&rsquo;indique, c&rsquo;est un algorithme de Gradient Boosting. Il est cod&eacute; en C++ et disponible dans &agrave; peu pr&egrave;s tous les langages de programmations utiles en Machine Learning, tels que Python, R ou encore Julia.</p>
-
 {% include toc %}
 
-
+<p>XGBoost signifie eXtreme Gradient Boosting. Comme son nom l&rsquo;indique, c&rsquo;est un algorithme de Gradient Boosting. Il est cod&eacute; en C++ et disponible dans &agrave; peu pr&egrave;s tous les langages de programmations utiles en Machine Learning, tels que Python, R ou encore Julia.</p>
 
 <p>&nbsp;</p>
 

@@ -10,11 +10,9 @@ author_profile: false
 toc: true
 ---
 
-<p>Cet article fait un tour d&#39;horizon des outils et services qui permettent d&#39;extraire des donn&eacute;es et des m&eacute;gadonn&eacute;es des principaux r&eacute;seaux sociaux (Twitter, Facebook)&nbsp; , des sites web et des blogs.</p>
-
 {% include toc %}
 
-
+<p>Cet article fait un tour d&#39;horizon des outils et services qui permettent d&#39;extraire des donn&eacute;es et des m&eacute;gadonn&eacute;es des principaux r&eacute;seaux sociaux (Twitter, Facebook)&nbsp; , des sites web et des blogs.</p>
 
 <p>&nbsp;</p>
 

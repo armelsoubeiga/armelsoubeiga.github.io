@@ -10,11 +10,9 @@ author_profile: false
 toc: true
 ---
 
-<p>Vous cherchez &agrave; cr&eacute;er une interface utilisateur graphique (GUI) en Python &agrave; l&#39;aide de tkinter?</p>
-
 {% include toc %}
 
-
+<p>Vous cherchez &agrave; cr&eacute;er une interface utilisateur graphique (GUI) en Python &agrave; l&#39;aide de tkinter?</p>
 
 <p>Si tel est le cas, dans cet article, je vais vous montrer comment cr&eacute;er une interface graphique tkinter. Pour commencer, je vais partager le code complet que vous pouvez coller dans Python afin de cr&eacute;er l&#39;interface graphique tkinter ci-dessous. J&#39;expliquerai ensuite les principales parties du code.</p>
 
