@@ -7,7 +7,6 @@ tags:
   - Grid Search
   - Random Forest
 author_profile: false
-citation: 'Dans cette analyse, nous allons faire deux choses. Tout d'abord, explorerer les données et trouver des corrélations entre différents éléments, afin de pouvoir obtenir des informations sur les futures stratégies marketing. En plus de cela, utiliser également la méthode de régression pour prédire les achats futurs.'
 ---
 
 {% include toc %}
