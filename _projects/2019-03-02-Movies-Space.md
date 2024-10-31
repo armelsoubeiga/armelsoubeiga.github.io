@@ -12,7 +12,7 @@ image:
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/appSR.PNG" style="height:150px; width:300px;" />
+<img src="/images/projets/appSR.PNG" style="height:150px; width:300px;" />
 </div><br />
 
 [Website](https://movie-space.herokuapp.com/) \ [Get Started](http://armelsoubeiga.pythonanywhere.com/post/9/) \ [Dithub](https://github.com/armelsoubeiga/Movie-Space) \ [Docs]() 
