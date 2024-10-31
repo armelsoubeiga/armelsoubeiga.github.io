@@ -11,6 +11,7 @@ toc: true
 excerpt: "Vous cherchez à créer une interface utilisateur graphique (GUI) en Python à l'aide de Tkinter. Si tel est le cas, dans cet article, je vais vous montrer comment créer une interface graphique avec Tkinter."
 ---
 
+
 {% include toc %}
 
 <p>Vous cherchez &agrave; cr&eacute;er une interface utilisateur graphique (GUI) en Python &agrave; l&#39;aide de tkinter?</p>
