@@ -12,7 +12,7 @@ image:
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/fasonet.jpg" style="height:150px; width:200px;" />
+<img src="/images/projets/fasonet.jpg" style="height:150px; width:200px;" />
 </div><br />
 
 [Website](https://armelsoubeiga.github.io/webanalyticsbf/) \ [Get Started](https://github.com/armelsoubeiga/webanalyticsbf) \ [Docs]()
