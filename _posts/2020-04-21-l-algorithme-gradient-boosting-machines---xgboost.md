@@ -18,7 +18,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<h2 style="text-align:center"><img alt="" src="images/media/uploads/2020/04/21/xgboost1.JPG" style="height:250px; width:330px" /></h2>
+<h2 style="text-align:center"><img alt="" src="/images/media/uploads/2020/04/21/xgboost1.JPG" style="height:250px; width:330px" /></h2>
 
 <h2><br />
 &nbsp;<br />
@@ -28,14 +28,14 @@ toc: true
 
 <p>Dans le cadre d&rsquo;une r&eacute;gression, le principe va &ecirc;tre d&rsquo;estimer nos outputs par le mod&egrave;le 1, puis d&rsquo;utiliser les r&eacute;sidus de ce mod&egrave;le comme variable cible du mod&egrave;le 2 et ainsi de suite :&nbsp;</p>
 
-<p><img alt="" src="images/media/uploads/2020/04/21/capture.JPG" style="height:70px; width:502px" />&nbsp;<br />
+<p><img alt="" src="/images/media/uploads/2020/04/21/capture.JPG" style="height:70px; width:502px" />&nbsp;<br />
 Pour pouvoir pr&eacute;dire un output en fonction d&rsquo;un input dont on ne connait pas la variable cible, il faut pr&eacute;dire le r&eacute;sidu de chaque mod&egrave;le et ensuite en faire la somme :</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/04/21/capture1.JPG" style="height:106px; width:302px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/04/21/capture1.JPG" style="height:106px; width:302px" /></p>
 
 <p>Dans le cadre d&rsquo;une classification, chaque individu dispose d&rsquo;un poids qui sera le m&ecirc;me au d&eacute;part, et qui, si un mod&egrave;le se trompe, sera augment&eacute; avant d&rsquo;estimer le mod&egrave;le suivant (qui prendra donc en compte ces poids) :</p>
 
-<p><img alt="" src="images/media/uploads/2020/04/21/capture2_3ZE0i4z.JPG" style="height:54px; width:580px" /></p>
+<p><img alt="" src="/images/media/uploads/2020/04/21/capture2_3ZE0i4z.JPG" style="height:54px; width:580px" /></p>
 
 <p><br />
 La particularit&eacute; du Gradient Boosting est que dans la classification, l&rsquo;actualisation des poids se calculera de la m&ecirc;me fa&ccedil;on que la descente de gradient stochastique, et dans la r&eacute;gression, la fonction de co&ucirc;t globale aura aussi la m&ecirc;me structure que la descente de gradient stochastique.</p>

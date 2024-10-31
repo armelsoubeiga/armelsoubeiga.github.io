@@ -26,7 +26,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/04/21/capture3.JPG" style="height:300px; width:375px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/04/21/capture3.JPG" style="height:300px; width:375px" /></p>
 
 <p style="text-align:center">Figure 1: Applications SVM</p>
 
@@ -36,7 +36,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/04/21/capture4.JPG" style="height:292px; width:641px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/04/21/capture4.JPG" style="height:292px; width:641px" /></p>
 
 <p style="text-align:center">Figure 2: Hyperplan SVM</p>
 
@@ -74,7 +74,7 @@ Soft Margin SVM peut &ecirc;tre impl&eacute;ment&eacute; dans Scikit-Learn en aj
 Si les donn&eacute;es avec lesquelles nous travaillons ne sont pas s&eacute;parables lin&eacute;airement (conduisant ainsi &agrave; de mauvais r&eacute;sultats de classification SVM lin&eacute;aire), il est possible d&#39;appliquer une technique connue sous le nom de Kernel Trick. Cette m&eacute;thode est capable de cartographier nos donn&eacute;es s&eacute;parables non lin&eacute;aires dans un espace de dimension sup&eacute;rieure, ce qui rend nos donn&eacute;es s&eacute;parables lin&eacute;airement. L&#39;utilisation de ce nouvel espace dimensionnel SVM peut alors &ecirc;tre facilement impl&eacute;ment&eacute;e (figure 3).&nbsp;<br />
 &nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/04/21/capture5.JPG" style="height:353px; width:649px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/04/21/capture5.JPG" style="height:353px; width:649px" /></p>
 
 <p style="text-align:center">Figure 3: noyau</p>
 

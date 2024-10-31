@@ -227,7 +227,7 @@ canvas1.create_window(400, 260, window=button3)</span></span></strong></em></spa
 
 <p style="text-align:start">&nbsp;</p>
 
-<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="images/media/uploads/2020/09/03/1_EWDwEky.png" style="height:343px; width:811px" /></span></span></span></span></p>
+<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="/images/media/uploads/2020/09/03/1_EWDwEky.png" style="height:343px; width:811px" /></span></span></span></span></p>
 
 <p style="text-align:start">&nbsp;</p>
 
@@ -235,7 +235,7 @@ canvas1.create_window(400, 260, window=button3)</span></span></strong></em></spa
 
 <p style="text-align:start">&nbsp;</p>
 
-<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="images/media/uploads/2020/09/03/2.png" style="height:343px; width:812px" /></span></span></span></span></p>
+<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="/images/media/uploads/2020/09/03/2.png" style="height:343px; width:812px" /></span></span></span></span></p>
 
 <p style="text-align:start">&nbsp;</p>
 
@@ -243,7 +243,7 @@ canvas1.create_window(400, 260, window=button3)</span></span></strong></em></spa
 
 <p style="text-align:start">&nbsp;</p>
 
-<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="images/media/uploads/2020/09/03/3.png" style="height:343px; width:812px" /></span></span></span></span></p>
+<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="/images/media/uploads/2020/09/03/3.png" style="height:343px; width:812px" /></span></span></span></span></p>
 
 <p style="text-align:start">&nbsp;</p>
 
@@ -260,7 +260,7 @@ canvas1.create_window(400, 260, window=button3)</span></span></strong></em></spa
 
 <p>&nbsp;</p>
 
-<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="images/media/uploads/2020/09/03/4.png" style="height:643px; width:813px" /></span></span></span></span></p>
+<p style="text-align:start"><span style="font-size:18px"><span style="color:#0a0a0a"><span style="font-family:Arial,Helvetica,Verdana,sans-serif"><span style="background-color:#ffffff"><img alt="" src="/images/media/uploads/2020/09/03/4.png" style="height:643px; width:813px" /></span></span></span></span></p>
 
 <h2 style="text-align:start">&nbsp;</h2>
 

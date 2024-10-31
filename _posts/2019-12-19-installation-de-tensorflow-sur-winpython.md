@@ -38,7 +38,7 @@ toc: true
 
 <p>.</p>
 
-<p><span style="font-size:18px"><img alt="" src="images/media/uploads/2019/12/19/capture_jxItEdr.PNG" style="height:88px; width:700px" /></span></p>
+<p><span style="font-size:18px"><img alt="" src="/images/media/uploads/2019/12/19/capture_jxItEdr.PNG" style="height:88px; width:700px" /></span></p>
 
 <p><span style="font-size:16px"><em><strong>ATTENTION&nbsp;</strong></em>: les mises &agrave; jour de Tensorflow sont d&eacute;call&eacute;es par rapport aux sorties des versions de Python. A l&rsquo;heure o&ugrave; j&rsquo;&eacute;cris ce tutoriel, Tensorflow n&rsquo;est pas encore compatible avec Python 3.7 pour windows avec conda mais, je dis bien mais, il est disponible pour winpython&nbsp;. Pensez &agrave; v&eacute;rifier quelle est la derni&egrave;re version g&eacute;r&eacute;e&nbsp;<img alt="angel" src="https://armelsoubeiga.pythonanywhere.com/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" style="height:23px; width:23px" title="angel" />.</span></p>
 
@@ -46,7 +46,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p><span style="font-size:18px"><img alt="" src="images/media/uploads/2019/12/19/capture_SuT9I5Z.PNG" style="height:107px; width:700px" /></span></p>
+<p><span style="font-size:18px"><img alt="" src="/images/media/uploads/2019/12/19/capture_SuT9I5Z.PNG" style="height:107px; width:700px" /></span></p>
 
 <p>&nbsp;</p>
 
@@ -66,7 +66,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p><span style="font-size:18px"><img alt="" src="images/media/uploads/2019/12/19/capture_wv3n3U4.PNG" style="height:164px; width:700px" /></span></p>
+<p><span style="font-size:18px"><img alt="" src="/images/media/uploads/2019/12/19/capture_wv3n3U4.PNG" style="height:164px; width:700px" /></span></p>
 
 <p><span style="font-size:16px">Et enfin , vous installez en tapant la commande pip install <code>&lt;nom fichier.wh &gt;</code> et vous attendez quelques minutes jusqu&#39;&agrave; la fin de l&#39;installation.&nbsp;&nbsp;</span>&nbsp;&nbsp;</p>
 

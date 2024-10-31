@@ -133,7 +133,7 @@ Pour &eacute;viter que mes amis et moi-m&ecirc;me ne soyons g&ecirc;n&eacute;s p
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="images/media/uploads/2020/02/02/capture_9MKcDvx.PNG" style="height:246px; width:700px" /></p>
+<p><img alt="" src="/images/media/uploads/2020/02/02/capture_9MKcDvx.PNG" style="height:246px; width:700px" /></p>
 
 <p>&nbsp;</p>
 
@@ -151,7 +151,7 @@ Pour &eacute;viter que mes amis et moi-m&ecirc;me ne soyons g&ecirc;n&eacute;s p
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="images/media/uploads/2020/02/02/capture1.PNG" style="height:253px; width:700px" /></p>
+<p><img alt="" src="/images/media/uploads/2020/02/02/capture1.PNG" style="height:253px; width:700px" /></p>
 
 <p>&nbsp;</p>
 
@@ -170,7 +170,7 @@ Pour &eacute;viter que mes amis et moi-m&ecirc;me ne soyons g&ecirc;n&eacute;s p
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="images/media/uploads/2020/02/02/capture2.png" style="height:292px; width:700px" /></p>
+<p><img alt="" src="/images/media/uploads/2020/02/02/capture2.png" style="height:292px; width:700px" /></p>
 
 <p>&nbsp;</p>
 

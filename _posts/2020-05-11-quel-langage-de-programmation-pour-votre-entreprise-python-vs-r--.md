@@ -22,7 +22,7 @@ toc: true
 
 <p>Tout d&#39;abord, il faut bien comprendre qu&#39;aucun langage de programmation n&#39;est meilleur qu&#39;un autre.</p>
 
-<p style="text-align:center">&nbsp;&nbsp;<img alt="" src="images/media/uploads/2020/05/11/capture.JPG" style="height:288px; width:400px" /></p>
+<p style="text-align:center">&nbsp;&nbsp;<img alt="" src="/images/media/uploads/2020/05/11/capture.JPG" style="height:288px; width:400px" /></p>
 
 <p>&nbsp;</p>
 

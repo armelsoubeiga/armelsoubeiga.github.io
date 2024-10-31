@@ -18,7 +18,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/06/04/illu-a.png" style="height:300px; width:288px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/06/04/illu-a.png" style="height:300px; width:288px" /></p>
 
 <p>&nbsp;</p>
 

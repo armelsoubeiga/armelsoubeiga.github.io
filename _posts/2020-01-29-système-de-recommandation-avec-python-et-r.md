@@ -38,7 +38,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/01/29/1.png" style="height:318px; width:500px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/01/29/1.png" style="height:318px; width:500px" /></p>
 
 <p style="text-align:center"><em>Structure visuelle du site web</em></p>
 
@@ -263,7 +263,7 @@ all_movie_data &lt;- data.frame()</code></div>
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="images/media/uploads/2020/01/29/capture.PNG" style="height:458px; width:900px" /></p>
+<p><img alt="" src="/images/media/uploads/2020/01/29/capture.PNG" style="height:458px; width:900px" /></p>
 
 <p style="text-align:center"><em>Un extrait de l&#39;UI de l&#39;application</em></p>
 
@@ -292,7 +292,7 @@ def recommendation():<br />
 
 <h3><span style="color:#3498db"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Serveur de d&eacute;ploiement</span></span></span></span></span></h3>
 
-<p style="text-align:center"><img alt="" src="images/media/uploads/2020/01/29/telechargement.png" style="height:146px; width:346px" /></p>
+<p style="text-align:center"><img alt="" src="/images/media/uploads/2020/01/29/telechargement.png" style="height:146px; width:346px" /></p>
 
 <p style="text-align:center"><em>logo heroku</em></p>
 

@@ -24,7 +24,7 @@ toc: true
 
 <p>&nbsp;</p>
 
-<p style="margin-left:80px"><img alt="" src="images/media/uploads/2019/12/30/figure1.png" style="height:453px; width:500px" /></p>
+<p style="margin-left:80px"><img alt="" src="/images/media/uploads/2019/12/30/figure1.png" style="height:453px; width:500px" /></p>
 
 <p style="margin-left:80px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figure 1: Science des donn&eacute;es en r&eacute;sum&eacute;.&nbsp;[1]</p>
 
