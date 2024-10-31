@@ -8,7 +8,7 @@ tags:
   - with
 author_profile: false
 toc: true
-excerpt: 'Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera simplement de réaliser une ACP d'un jeu de données et de le représenter selon ses premières composantes principales.'
+excerpt: "Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera simplement de réaliser une ACP d'un jeu de données et de le représenter selon ses premières composantes principales."
 ---
 
 {% include toc %}
