@@ -8,15 +8,14 @@ tags:
   - des
 author_profile: false
 toc: true
+excerpt: 'Dans mon pr eacute c eacute dant article j 39 ai montr eacute nbsp combien les r eacute seaux sociaux constituaient nbsp une mine d 39 or de donn eacute es Dans ce article nous allons gratter les donn eacute'
 ---
-
-<h2>Introduction</h2>
-
-<p>Dans mon pr&eacute;c&eacute;dant article, j&#39;ai montr&eacute;&nbsp;combien les r&eacute;seaux sociaux constituaient&nbsp; une mine d&#39;or de donn&eacute;es. Dans ce article, nous allons gratter les donn&eacute;es de Facebook avec le package <em>Rfacebook</em>. Ensuite, nous utiliserons <em>ggplot2</em> pour nos visualisations. Je vais utiliser les donn&eacute;es d&#39;un groupe priv&eacute; que je partageais&nbsp;avec des amis pour publier des liens vers de la musique qui, selon nous, m&eacute;ritaient&nbsp;d&#39;&ecirc;tre &eacute;cout&eacute;es, mais cela peut &ecirc;tre appliqu&eacute; &agrave; n&#39;importe quelle page Facebook. Particuli&egrave;rement utile si vous&nbsp;voulez essayer de donner un sens aux donn&eacute;es d&#39;un groupe Facebook, ou si vous &ecirc;tes juste un narcissique enrag&eacute; et que vous voulez savoir &agrave; quelle heure de la journ&eacute;e pour publier votre photo de profil pour avoir le plus de likes.</p>
 
 {% include toc %}
 
+<h2>Introduction</h2>
 
+<p>Dans mon pr&eacute;c&eacute;dant article, j&#39;ai montr&eacute;&nbsp;combien les r&eacute;seaux sociaux constituaient&nbsp; une mine d&#39;or de donn&eacute;es. Dans ce article, nous allons gratter les donn&eacute;es de Facebook avec le package <em>Rfacebook</em>. Ensuite, nous utiliserons <em>ggplot2</em> pour nos visualisations. Je vais utiliser les donn&eacute;es d&#39;un groupe priv&eacute; que je partageais&nbsp;avec des amis pour publier des liens vers de la musique qui, selon nous, m&eacute;ritaient&nbsp;d&#39;&ecirc;tre &eacute;cout&eacute;es, mais cela peut &ecirc;tre appliqu&eacute; &agrave; n&#39;importe quelle page Facebook. Particuli&egrave;rement utile si vous&nbsp;voulez essayer de donner un sens aux donn&eacute;es d&#39;un groupe Facebook, ou si vous &ecirc;tes juste un narcissique enrag&eacute; et que vous voulez savoir &agrave; quelle heure de la journ&eacute;e pour publier votre photo de profil pour avoir le plus de likes.</p>
 
 <p>&nbsp;</p>
 

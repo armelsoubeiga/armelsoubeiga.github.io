@@ -8,15 +8,14 @@ tags:
   - machines
 author_profile: false
 toc: true
+excerpt: 'Une machine agrave vecteur de support SVM est un algorithme d 39 apprentissage automatique supervis eacute qui peut ecirc tre utilis eacute agrave des fins de classification et de r eacute gression em Noel Bambrick em p p Une machine'
 ---
-
-<h2>SVM: s&eacute;lection de fonctionnalit&eacute;s et noyaux</h2>
-
-<p>Une machine &agrave; vecteur de support (SVM) est un algorithme d&#39;apprentissage automatique supervis&eacute; qui peut &ecirc;tre utilis&eacute; &agrave; des fins de classification et de r&eacute;gression. (<em>Noel Bambrick.</em>)</p>
 
 {% include toc %}
 
+<h2>SVM: s&eacute;lection de fonctionnalit&eacute;s et noyaux</h2>
 
+<p>Une machine &agrave; vecteur de support (SVM) est un algorithme d&#39;apprentissage automatique supervis&eacute; qui peut &ecirc;tre utilis&eacute; &agrave; des fins de classification et de r&eacute;gression. (<em>Noel Bambrick.</em>)</p>
 
 <p>&nbsp;</p>
 

@@ -8,17 +8,16 @@ tags:
   - winpython
 author_profile: false
 toc: true
+excerpt: 'span style font size 16px Tensorflow le framework d rsquo intelligence artificielle de Google se d eacute cline en deux versions la premi egrave re utilise votre nbsp processeur nbsp pour faire les calculs c rsquo est la version de'
 ---
+
+{% include toc %}
 
 <h2>Introduction</h2>
 
 <h2><span style="font-size:16px">Si vous &ecirc;tes entrain&nbsp;de lire ce poste, cela voudrait dire que vous aussi, vous avez pass&eacute; une semaine (ou voir plus que &ccedil;a) &agrave; essayer d&#39;installer tensorflow sur votre windows 10 sans une carte graphique GPU, ni un pocesseur NVIDA et sans ANACONDA.</span></h2>
 
-<p><span style="font-size:16px">Tensorflow, le framework d&rsquo;intelligence artificielle de Google, se d&eacute;cline en deux versions : la premi&egrave;re utilise votre&nbsp;processeur&nbsp;pour faire les calculs (c&rsquo;est la version de base), tandis que la seconde s&rsquo;appuie sur votre&nbsp;carte graphique&nbsp;(c&rsquo;est la version GPU).</span></p>
-
-{% include toc %}
-
-
+<p><span style="font-size:16px">Tensorflow, le framework d&rsquo;intelligence artificielle de Google, se d&eacute;cline en deux versions : la premi&egrave;re utilise votre&nbsp;processeur&nbsp;pour faire les calculs (c&rsquo;est la version de base), tandis que la seconde s&rsquo;appuie sur votre&nbsp;carte graphique&nbsp;(c&rsquo;est la version GPU).</span></p>
 
 <p><span style="font-size:16px">Dans ce poste je vais vous montrer&nbsp;comment installer&nbsp;<a href="https://www.tensorflow.org/">Tensorflow</a>&nbsp; cpu sur windows.&nbsp;</span></p>
 

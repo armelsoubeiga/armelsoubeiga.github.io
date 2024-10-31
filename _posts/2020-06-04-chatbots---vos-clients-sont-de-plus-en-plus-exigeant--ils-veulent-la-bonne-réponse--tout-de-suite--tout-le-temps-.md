@@ -8,13 +8,12 @@ tags:
   - sont
 author_profile: false
 toc: true
+excerpt: 'Les clients sont de plus en plus exigeant or leurs attentes se heurtent souvent agrave la r eacute alit eacute de l rsquo entreprise des plages d rsquo ouverture limit eacute es des temps d rsquo attente longs des r'
 ---
-
-<p>Les clients sont de plus en plus exigeant, or, leurs attentes se heurtent souvent &agrave; la r&eacute;alit&eacute; de l&rsquo;entreprise : des plages d&rsquo;ouverture limit&eacute;es, des temps d&rsquo;attente longs, des r&eacute;ponses het&eacute;rog&egrave;nes. Leur exp&eacute;rience de contact avec la marque peut &ecirc;tre source de d&eacute;ception, voire dans le pire des cas de r&eacute;siliation. Le chatbot est l&rsquo;outil adapt&eacute; pour r&eacute;concilier ces nouvelles attentes avec les objectifs de rentabilit&eacute; de l&rsquo;entreprise.</p>
 
 {% include toc %}
 
-
+<p>Les clients sont de plus en plus exigeant, or, leurs attentes se heurtent souvent &agrave; la r&eacute;alit&eacute; de l&rsquo;entreprise : des plages d&rsquo;ouverture limit&eacute;es, des temps d&rsquo;attente longs, des r&eacute;ponses het&eacute;rog&egrave;nes. Leur exp&eacute;rience de contact avec la marque peut &ecirc;tre source de d&eacute;ception, voire dans le pire des cas de r&eacute;siliation. Le chatbot est l&rsquo;outil adapt&eacute; pour r&eacute;concilier ces nouvelles attentes avec les objectifs de rentabilit&eacute; de l&rsquo;entreprise.</p>
 
 <p>&nbsp;</p>
 
