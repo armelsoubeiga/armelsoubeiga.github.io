@@ -8,7 +8,7 @@ tags:
   - with
 author_profile: false
 toc: true
-excerpt: 'Dans cette partie III nous allons apprendre &agrave; manipuler :&nbsp;  la classe <strong>KNeighborsClassifier</strong>', les fonctions <strong>cross_val_score</strong> et <strong>cross_val_predict</strong>
+excerpt: "Dans cette partie III nous allons apprendre à manipuler :  la classe KNeighborsClassifier, les fonction cross_val_score et cross_val_predict"
 ---
 
 {% include toc %}
