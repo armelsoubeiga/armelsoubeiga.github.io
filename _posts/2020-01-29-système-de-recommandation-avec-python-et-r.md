@@ -3,12 +3,12 @@ title: 'Système de recommandation avec Python et R'
 date: 2020-01-29
 permalink: /posts/2020/01/système-de-recommandation-avec-python-et-r
 tags:
-  - système
-  - recommandation
+  - NLP
+  - système recommandation
   - python
 author_profile: false
 toc: true
-excerpt: 'L'article traite de la collecte de données par scraping pour un système de recommandation, en identifiant les données clés. Il examine ensuite le fonctionnement d'un algorithme de similarité, avant de décrire l'intégration et le déploiement des processus dans l'application movie-space.'
+excerpt: "L'article traite de la collecte de données par scraping pour un système de recommandation, en identifiant les données clés. Il examine ensuite le fonctionnement d'un algorithme de similarité, avant de décrire l'intégration et le déploiement des processus dans l'application movie-space."
 ---
 
 {% include toc %}
