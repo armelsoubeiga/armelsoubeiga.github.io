@@ -9,7 +9,7 @@ image:
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/fasobiere.jpg" style="height:150px; width:150px;" />
+<img src="/images/projets/fasobiere.jpg" style="height:150px; width:150px;" />
 </div><br />
 
 
