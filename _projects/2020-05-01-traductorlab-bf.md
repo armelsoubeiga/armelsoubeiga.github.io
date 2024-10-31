@@ -9,7 +9,7 @@ image:
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/neweb/main/images/traductor.jpg" style="height:200px; width:350px;" />
+<img src="/images/traductor.jpg" style="height:200px; width:350px;" />
 </div><br />
 
 [Website](https://traductorlab-bf.github.io/) \ [Github](https://github.com/traductorlab-bf)
