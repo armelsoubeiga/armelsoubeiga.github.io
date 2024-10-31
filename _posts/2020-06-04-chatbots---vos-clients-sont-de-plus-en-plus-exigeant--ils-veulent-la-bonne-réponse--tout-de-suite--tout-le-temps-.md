@@ -8,7 +8,9 @@ tags:
   - sont
 author_profile: false
 toc: true
-excerpt: 'Les clients deviennent de plus en plus exigeants, et leurs attentes peuvent souvent être déçues par les réalités opérationnelles des entreprises, comme des temps d'attente longs et des horaires d'ouverture restreints. Cette situation peut nuire à l'expérience de marque et provoquer des résiliations. L'article propose le chatbot comme une solution adaptée pour aligner ces nouvelles attentes avec les objectifs de rentabilité des entreprises.'
+excerpt: 'Les clients deviennent de plus en plus exigeants, et leurs attentes peuvent souvent être déçues par les réalités opérationnelles des entreprises, comme des temps d'attente longs et des horaires d'ouverture 
+          restreints. Cette situation peut nuire à l'expérience de marque et provoquer des résiliations. L'article propose le chatbot comme une solution adaptée pour aligner ces nouvelles attentes avec les objectifs de 
+          rentabilité des entreprises.'
 ---
 
 {% include toc %}
