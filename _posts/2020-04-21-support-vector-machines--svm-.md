@@ -8,7 +8,7 @@ tags:
   - machines
 author_profile: false
 toc: true
-excerpt: 'Support Vector Machines (SVM) est un algorithme d'apprentissage machine qui peut être utilisé pour de nombreuses tâches différentes (figure 1). Dans cet article, je vais expliquer la base mathématique pour démontrer comment cet algorithme fonctionne à des fins de classification binaire.'
+excerpt: "Support Vector Machines (SVM) est un algorithme d'apprentissage machine qui peut être utilisé pour de nombreuses tâches différentes (figure 1). Dans cet article, je vais expliquer la base mathématique pour démontrer comment cet algorithme fonctionne à des fins de classification binaire."
 ---
 
 {% include toc %}
