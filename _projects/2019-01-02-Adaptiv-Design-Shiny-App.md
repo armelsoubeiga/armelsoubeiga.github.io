@@ -12,7 +12,7 @@ image:
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/armelsoubeiga/armelsoubeiga.github.io/master/dist/img/projects/ar.jpg" style="height:150px; width:300px;" />
+<img src="/images/projets/ar.jpg" style="height:150px; width:300px;" />
 </div><br />
 
 [Website](https://armelsoubeiga.shinyapps.io/AdapticvDesign/) \ [Get Started](https://github.com/armelsoubeiga/AdaptivDesign) \ [Docs]()
