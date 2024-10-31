@@ -8,7 +8,7 @@ tags:
   - open
 author_profile: false
 toc: true
-excerpt: 'Lors du lancement d'un projet en Data Science, la recherche de données pertinentes est cruciale. L'article met en avant que les data scientists investissent souvent beaucoup de temps à naviguer sur Internet pour dénicher des ensembles de données qui répondent à leurs problématiques spécifiques.'
+excerpt: "Lors du lancement d'un projet en Data Science, la recherche de données pertinentes est cruciale. L'article met en avant que les data scientists investissent souvent beaucoup de temps à naviguer sur Internet pour dénicher des ensembles de données qui répondent à leurs problématiques spécifiques."
 ---
 
 {% include toc %}
