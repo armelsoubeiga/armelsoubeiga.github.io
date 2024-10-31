@@ -6,7 +6,6 @@ tags:
   - EDA
   - Grid Search
   - Random Forest
-toc: true 
 ---
 
 {% include toc %}
