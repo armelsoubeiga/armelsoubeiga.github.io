@@ -10,7 +10,9 @@ author_profile: false
 toc: true
 ---
 
-L'ojectif de ce projet est de faire une EDA et une prévision d'achat pour les données de ventes du Black Friday avec le language Python. Dans cette analyse, nous allons faire deux choses. Tout d'abord, explorerer les données et trouver des corrélations entre différents éléments, afin de pouvoir obtenir des informations sur les futures stratégies marketing. En plus de cela, utiliser également la méthode de régression pour prédire les achats futurs. L'ensemble de données utilisé dans cette analyse contient des informations sur les transactions dans un magasin le Black Friday, y compris les caractéristiques démographiques des clients et les détails des transactions. L'ensemble de données provient d'un concours hébergé par Analytics Vidhya.
+L'ojectif de ce projet est de faire une EDA et une prévision d'achat pour les données de ventes du Black Friday avec le language Python. 
+
+Dans cette analyse, nous allons faire deux choses. Tout d'abord, explorerer les données et trouver des corrélations entre différents éléments, afin de pouvoir obtenir des informations sur les futures stratégies marketing. En plus de cela, utiliser également la méthode de régression pour prédire les achats futurs. L'ensemble de données utilisé dans cette analyse contient des informations sur les transactions dans un magasin le Black Friday, y compris les caractéristiques démographiques des clients et les détails des transactions. L'ensemble de données provient d'un concours hébergé par Analytics Vidhya.
 
 ## Importation des library
 
