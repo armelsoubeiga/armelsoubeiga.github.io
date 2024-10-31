@@ -8,7 +8,7 @@ tags:
   - classes
 author_profile: false
 toc: true
-excerpt: 'Dans les problèmes de classification en machine learning, les classes déséquilibrées posent des défis, car la plupart des algorithmes se basent sur l'exactitude, ce qui peut conduire à des modèles biaisés. Cet article examine l'importance d'aborder ce problème dans divers cas d'utilisation, tels que le dépistage de maladies et le filtrage de spams. Il propose plusieurs méthodes pour classifier des jeux de données déséquilibrés, en mettant l'accent sur les approches algorithmique et d'échantillonnage.'
+excerpt: "Dans les problèmes de classification en machine learning, les classes déséquilibrées posent des défis, car la plupart des algorithmes se basent sur l'exactitude, ce qui peut conduire à des modèles biaisés. Cet article examine l'importance d'aborder ce problème dans divers cas d'utilisation, tels que le dépistage de maladies et le filtrage de spams. Il propose plusieurs méthodes pour classifier des jeux de données déséquilibrés, en mettant l'accent sur les approches algorithmique et d'échantillonnage."
 ---
 
 {% include toc %}
