@@ -3,9 +3,8 @@ title: "Interface graphique en Python à l'aide de Tkinter"
 date: 2020-08-25
 permalink: /posts/2020/08/interface-graphique-en-python-a-l-aide-de-tkinter
 tags:
-  - interface
-  - graphique
-  - python
+  - interface graphique
+  - Tkinter
 author_profile: false
 toc: true
 excerpt: "Vous cherchez à créer une interface utilisateur graphique (GUI) en Python à l'aide de Tkinter. Si tel est le cas, dans cet article, je vais vous montrer comment créer une interface graphique avec Tkinter."
