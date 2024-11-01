@@ -18,7 +18,7 @@ My research activities focus on Machine Learning problems and its application in
 
 - Unsupervised Learning for Fuzzy and Uncertain data
 - Unsupervised Learning for longitudinal and time series data for trajectories analysis
-- Machine Learning and applications in Health
+- Explainable Machine Learning and applications in Health
 - Big data analysis
 - Web scraping/scrawling and NLP
 - MLOps application in Health
