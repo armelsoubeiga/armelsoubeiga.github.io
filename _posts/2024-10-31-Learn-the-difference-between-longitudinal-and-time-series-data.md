@@ -34,7 +34,8 @@ This systematic review was carried out on the Google, Google Scholar and Researc
 # Time series data definition
 
 Time series data can be defined as a study unit observed at regular intervals over a very long period of time. It focuses on observations of a single individual at different times. Viewed as a dataset, think
-of it as one column with rows corresponding to different time points. - Single individual and at multiple points times
+of it as one column with rows corresponding to different time points. 
+- Single individual and at multiple points times
 
 # Cross-Sectional data definition
 
