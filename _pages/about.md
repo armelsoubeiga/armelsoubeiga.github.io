@@ -41,7 +41,7 @@ My research activities focus on Machine Learning problems and its application in
 
 **Last news**
 ------
-- 🗣️ [Conference LFA 2024](https://lfa2024.sciencesconf.org/) : **Best doctoral paper award** -- [Clustering multi-relationnel flou des trajectoires de la douleur chronique](https://armelsoubeiga.github.io/publications/2024-11-07-lfa2024), LFA 2024 : rencontres francophones sur la Logique Floue et ses Applications
+- 🗣️ Conference : **Best doctoral paper award** -- [Clustering multi-relationnel flou des trajectoires de la douleur chronique](https://armelsoubeiga.github.io/publications/2024-11-07-lfa2024), LFA 2024 : rencontres francophones sur la Logique Floue et ses Applications
 - 📚 Paper : [Multi-View Relational Evidential C-Medoid Clustering with Adaptive Weighted](https://armelsoubeiga.github.io/publications/2024-10-06-Multi-View-Relational-Evidential-C-Medoid-Clustering-with-Adaptive-Weighted), 2024 IEEE 11th International Conference on Data Science and Advanced Analytics (DSAA)
 - 📚 Paper : [Clustering and Interpretation of Time-series Trajectories of chronic pain using Evidential c-means](https://armelsoubeiga.github.io/publications/2024-09-20-Clustering-and-Interpretation-of-Time-series-rajectories-journalversion), Expert Systems With Applications, Vol 260, pp 125369, 2025
 - 👨🏾‍🏫 Workshop : [ Extraction et Gestion des Connaissances (EGC)](https://iutdijon.u-bourgogne.fr/egc2024/), 2024-01
