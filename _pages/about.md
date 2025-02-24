@@ -14,8 +14,6 @@ After more than three years in the industry as a data scientist and over a year 
 
 My research explores Machine Learning with a strong focus on unsupervised learning. I am particularly interested in developing new clustering approaches, including evidential clustering, relational clustering, and multi-view or collaborative relational clustering. My work addresses challenges in analyzing complex real-world data, as longitudinal data, time series and uncertain data, aiming to develop robust and interpretable models.  
 
-I actively contribute to [open source software](https://armelsoubeiga.github.io/talks/), and I authored a book on [Web Scraping with R](https://www.amazon.fr/dp/B0B6XGTXKP).
-
 **Research interests:**
 
 - Machine Learning for time series, and Uncertain data for trajectories analysis
@@ -29,7 +27,7 @@ I actively contribute to [open source software](https://armelsoubeiga.github.io/
 
 - 👨‍💻 I am proficient in Python, R, and SQL
 - ✨ I like TensorFlow, PyTorch, Scikit-Learn, Keras, Rshiny, Django, Flask frameworks
-- 📚 I wrote [web scraping with R](https://www.amazon.fr/dp/B0B6XGTXKP)
+- 📚 I wrote [web scraping with R](https://www.amazon.fr/dp/B0B6XGTXKP), and I actively contribute to [open source software](https://armelsoubeiga.github.io/talks/).
 
 [![Python](https://img.shields.io/badge/-programming-black?style=flat-square&logo=python&link=https://github.com/armelsoubeiga)](https://github.com/armelsoubeiga)
 [![R](https://img.shields.io/badge/-programming-black?style=flat-square&logo=r&link=https://github.com/armelsoubeiga)](https://github.com/armelsoubeiga)
