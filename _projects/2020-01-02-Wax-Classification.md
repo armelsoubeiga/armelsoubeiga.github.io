@@ -15,7 +15,7 @@ image:
 <img src="/images/projets/waxclassification.png" style="height:150px; width:300px;" />
 </div><br />
 
-[Website]() \ [Get Started](https://github.com/armelsoubeiga/WaxClassification) \ [Docs]()
+[Website](https://armelsoubeiga.github.io/wax-mnist/) \ [Get Started](https://github.com/armelsoubeiga/WaxClassification) \ [Docs]()
 
 ------
 
