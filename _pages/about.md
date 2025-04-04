@@ -42,7 +42,7 @@ My research explores Machine Learning with a strong focus on unsupervised learni
 ------
 - 📚 Paper : [Comparative analysis of multidimensional sequential trajectories clustering methods](), Preprint submitted to Pattern Recognition.
 - 📚 Paper : [Evidential clustering with view-weight learning for proximity data](), Preprint submitted to Neurocomputing -- under review.
-- 🗣️ Conference : [Soft-ECM: An extension of Evidential C-Means for complex data](), submitted to FUZZ-IEEE, 2025.
+- 🗣️ Conference : [Soft-ECM: An extension of Evidential C-Means for complex data](), accepted to FUZZ-IEEE, 2025.
 - 🗣️ Conference : **Best doctoral paper award** -- [Clustering multi-relationnel flou des trajectoires de la douleur chronique](https://armelsoubeiga.github.io/publications/2024-11-07-lfa2024), LFA 2024 : rencontres francophones sur la Logique Floue et ses Applications
 - 📚 Paper : [Multi-View Relational Evidential C-Medoid Clustering with Adaptive Weighted](https://armelsoubeiga.github.io/publications/2024-10-06-Multi-View-Relational-Evidential-C-Medoid-Clustering-with-Adaptive-Weighted), 2024 IEEE 11th International Conference on Data Science and Advanced Analytics (DSAA)
 - 📚 Paper : [Clustering and Interpretation of Time-series Trajectories of chronic pain using Evidential c-means](https://armelsoubeiga.github.io/publications/2024-09-20-Clustering-and-Interpretation-of-Time-series-rajectories-journalversion), Expert Systems With Applications, Vol 260, pp 125369, 2025
