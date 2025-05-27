@@ -1,105 +1,152 @@
 ---
-title: "Hello Transformers : Guide pratique HuggingFace"
+title: "Les Transformers & HuggingFace"
 date: 2025-05-27
 categories: [NLP, HuggingFace, IA]
 author: armelsoubeiga
 description: Tour d’horizon des fonctionnalités HuggingFace et exemples de pipelines.
 ---
 
-## Introduction
 HuggingFace rend l’IA accessible à tous grâce à sa librairie Transformers et à son écosystème riche. Découvrons ensemble ses concepts clés et ses usages pratiques.
 
 ## 1. Introduction à Hugging Face Transformers
 La librairie `transformers` permet d’utiliser des modèles pré-entraînés pour le NLP, la vision, l’audio, etc. Elle simplifie l’intégration de l’IA dans vos projets Python.
 
-## 2. Introduction aux Pipelines HuggingFace
-Un pipeline est une interface clé-en-main pour appliquer un modèle à une tâche précise (génération de texte, classification, etc.).
-
 ```python
 from transformers import pipeline
 # Génération de texte
-generator = pipeline("text-generation", model="gpt2")
-print(generator("HuggingFace simplifie l'IA car", max_length=30)[0]['generated_text'])
+text_gen = pipeline("text-generation", model="gpt2")
+print(text_gen("HuggingFace simplifie l'IA car", max_length=30)[0]['generated_text'])
 ```
 
-![Un chat qui tape sur un clavier](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+## 2. Comprendre les Transformers avec Hugging Face
+Découvrez les bases des Transformers et comment Hugging Face facilite leur utilisation. Les pipelines offrent une interface simple pour appliquer des modèles à des tâches variées. Les checkpoints, modèles et jeux de données sont accessibles en quelques clics. Les Spaces permettent de partager des démos interactives, tandis que les Auto-Classes simplifient la gestion des modèles et tokenizers.
 
-## 3. Checkpoints, Modèles et Jeux de Données
-Des milliers de modèles et datasets sont accessibles sur [huggingface.co/models](https://huggingface.co/models) et [huggingface.co/datasets](https://huggingface.co/datasets).
-
-## 4. Hugging Face Spaces
-Les Spaces permettent de déployer et partager facilement des démos IA interactives (ex : Streamlit, Gradio).
-
-## 5. Auto-Classes
-Les auto-classes (`AutoModel`, `AutoTokenizer`, etc.) détectent automatiquement le bon modèle/tokenizer à partir d’un nom ou chemin.
-
-## 6. Le Transfer Learning avec Transformers
-Adaptez un modèle pré-entraîné à vos propres données pour des performances optimales, même avec peu de données.
-
-## 7. Applications des Transformers
-- **NLP** : classification, résumé, traduction, Q/R, génération de texte
-- **Vision** : classification, segmentation d’images
-- **Audio** : transcription, text-to-speech, génération musicale
-
-## 8. Exemples de Pipelines
-### a) Classification de sentiment et émotions
 ```python
+from transformers import AutoModel, AutoTokenizer
+model = AutoModel.from_pretrained("bert-base-uncased")
+tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+inputs = tokenizer("Hello HuggingFace!", return_tensors="pt")
+outputs = model(**inputs)
+```
+
+## 3. Concepts fondamentaux des Transformers et LLMs
+Plongez dans l’architecture des Transformers : attention, embeddings, couches empilées. Comprenez comment ces modèles sont utilisés pour la classification, la génération de texte, la traduction, etc. Le transfer learning permet d’adapter un modèle pré-entraîné à vos propres données pour des résultats optimaux.
+
+```python
+from transformers import pipeline
+# Classification de texte
 classifier = pipeline("sentiment-analysis")
 print(classifier("J'adore HuggingFace !"))
 ```
 
-### b) Reconnaissance d’entités nommées (NER)
+## 4. Zoom sur l’architecture BERT
+BERT est un modèle clé pour la compréhension du contexte. Il utilise le Masked Language Modeling (MLM) pour apprendre à prédire des mots masqués et le Next Sentence Prediction (NSP) pour comprendre la relation entre phrases. Le fine-tuning permet d’adapter BERT à des tâches spécifiques et d’évaluer ses performances.
+
 ```python
-ner = pipeline("ner", grouped_entities=True)
-print(ner("HuggingFace est basé à New York."))
+from transformers import BertTokenizer, BertForMaskedLM
+import torch
+
+text = "HuggingFace rend l'IA [MASK] à tous."
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model = BertForMaskedLM.from_pretrained("bert-base-uncased")
+inputs = tokenizer(text, return_tensors="pt")
+with torch.no_grad():
+    logits = model(**inputs).logits
+mask_token_index = (inputs.input_ids == tokenizer.mask_token_id)[0].nonzero(as_tuple=True)[0]
+predicted_token_id = logits[0, mask_token_index].argmax(axis=-1)
+predicted_token = tokenizer.decode(predicted_token_id)
+print(f"Texte complété : {text.replace('[MASK]', predicted_token)}")
 ```
 
-### c) Question/Réponse
+## 5. Fine-tuning pratique de BERT
+Exemple : fine-tunez BERT pour la classification de sentiments sur des tweets. Étapes : chargement des données, tokenization, entraînement du modèle, évaluation. Vous pouvez ainsi créer un classificateur performant adapté à vos besoins.
+
 ```python
-qa = pipeline("question-answering")
-print(qa(question="Où est basé HuggingFace ?", context="HuggingFace est basé à New York."))
+from transformers import Trainer, TrainingArguments, BertForSequenceClassification
+# ... Préparation des données et tokenization ...
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
+training_args = TrainingArguments(output_dir="./results", num_train_epochs=1)
+trainer = Trainer(model=model, args=training_args, train_dataset=train_ds, eval_dataset=eval_ds)
+trainer.train()
 ```
 
-### d) Résumé automatique
+## 6. Distillation de connaissances pour BERT
+La distillation permet d’optimiser les modèles : on transfère les connaissances d’un grand modèle (BERT) vers un plus petit (DistilBERT, MobileBERT, TinyBERT). Cela réduit la taille et accélère l’inférence, tout en conservant de bonnes performances. Chaque variante a ses techniques et avantages.
+
 ```python
-summarizer = pipeline("summarization")
+from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
+# Chargement d'un modèle DistilBERT pour la classification
+model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased")
+tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
+```
+
+## 7. Utilisation de DistilBERT pour des cas concrets (ex : détection de fake news)
+Appliquez DistilBERT, MobileBERT ou TinyBERT à la détection de fake news. Comparez leurs performances à BERT-Base. Exemples pratiques de construction, entraînement et évaluation de modèles.
+
+```python
+from transformers import pipeline
+fake_news_clf = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-fake-news-detection")
+print(fake_news_clf("Ce site diffuse de fausses informations."))
+```
+
+## 8. Reconnaissance d’entités nommées (NER) avec DistilBERT
+Fine-tunez DistilBERT pour la NER, par exemple pour la recherche de restaurants. Préparez les données, tokenisez, entraînez et évaluez le modèle. Déployez ensuite votre modèle pour des applications concrètes.
+
+```python
+ner = pipeline("ner", grouped_entities=True, model="distilbert-base-cased")
+print(ner("Le restaurant Le Gourmet est à Paris."))
+```
+
+## 9. Résumé personnalisé avec T5 Transformer
+T5 permet de générer des résumés sur mesure. Analysez le dataset, tokenisez, fine-tunez le modèle, puis appliquez-le à vos propres textes pour obtenir des résumés pertinents.
+
+```python
+from transformers import pipeline
+summarizer = pipeline("summarization", model="t5-small")
 print(summarizer("HuggingFace propose de nombreux modèles pour le NLP et la vision."))
 ```
 
-### e) Génération de texte
+## 10. Vision Transformer pour la classification d’images
+Les Vision Transformers (ViT) appliquent l’architecture Transformer à l’image. Exemple : classification d’aliments indiens. Prétraitez les images, entraînez le modèle, évaluez les résultats.
+
 ```python
-# Voir plus haut
+from transformers import pipeline
+vit = pipeline("image-classification", model="google/vit-base-patch16-224")
+print(vit("chemin/vers/une/image.jpg"))
 ```
 
-### f) Traduction
+## 11. Fine-tuning de grands modèles de langage (LLMs) sur vos données
+Découvrez comment adapter des LLMs à vos jeux de données. Techniques : PEFT, LORA, QLORA. Mettez en pratique le fine-tuning pour obtenir des modèles personnalisés.
+
 ```python
-translator = pipeline("translation_en_to_fr")
-print(translator("HuggingFace makes AI easy!"))
+# Exemple d’utilisation de PEFT (conceptuel)
+from peft import get_peft_model, LoraConfig
+# ... préparation du modèle et des données ...
+peft_config = LoraConfig()
+model = get_peft_model(model, peft_config)
 ```
 
-### g) Classification d’images (émotions, âge)
+## 12. Sujets avancés de fine-tuning
+Explorez la quantification 8 bits, l’ajout d’adapters, et d’autres techniques de pointe pour optimiser vos Transformers. Exemple : générer des descriptions produits avec un modèle affiné.
+
 ```python
-img_classifier = pipeline("image-classification")
-print(img_classifier("chemin/vers/image.jpg"))
+# Quantification 8 bits avec bitsandbytes
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("gpt2", load_in_8bit=True)
 ```
 
-### h) Segmentation d’images
+## 13. Construire des modèles de chat et d’instruction avec LLAMA
+LLAMA permet de créer des modèles de chat performants. Découvrez la quantification 4 bits, l’ajout d’adapters, et le fine-tuning sur des datasets de chat. Apprenez à configurer et déployer ces modèles pour des applications conversationnelles.
+
 ```python
-img_segmenter = pipeline("image-segmentation")
-print(img_segmenter("chemin/vers/image.jpg"))
+# Exemple d’utilisation de LLAMA avec quantification 4 bits (conceptuel)
+from transformers import AutoModelForCausalLM
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", load_in_4bit=True)
 ```
 
-### i) Audio : Text-to-Speech
-```python
-tts = pipeline("text-to-speech")
-print(tts("Bonjour, je suis HuggingFace!"))
-```
+---
 
-### j) Audio : MusicGen
-```python
-musicgen = pipeline("text-to-music", model="facebook/musicgen-small")
-print(musicgen("une mélodie joyeuse et entraînante"))
-```
+> Ce guide vous donne les clés pour exploiter tout le potentiel des Transformers et des LLMs avec Hugging Face, que vous soyez débutant ou déjà initié à l’IA.
 
 ![Un robot qui danse avec un micro](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
 
