@@ -29,15 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Animation pour les cartes à leur apparition
+    // Animation pour les cartes à leur apparition - décalage progressif
     function animateCards() {
         cards.forEach((card, index) => {
             setTimeout(() => {
                 card.classList.add('card-visible');
-            }, 100 * index);
+            }, 50 * index); // Réduit le délai entre les cartes
         });
     }
     
     // Lancer l'animation après un court délai pour s'assurer que la page est chargée
-    setTimeout(animateCards, 200);
+    setTimeout(animateCards, 100);
 });

@@ -16,37 +16,12 @@ redirect_from:
 <!-- Intégration des scripts interactifs -->
 <script src="{{ base_path }}/assets/js/blog-cards.js" defer></script>
 <script src="{{ base_path }}/assets/js/back-to-top.js" defer></script>
-<script src="{{ base_path }}/assets/js/lazy-load.js" defer></script>
 
 <!-- Conteneur principal pour tous les articles -->
 <div class="blog-container">
 
-{% capture written_year %}'None'{% endcapture %}
-
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    {% if written_year != 'None' %}
-      </div> <!-- Ferme la div year-posts précédente -->
-    {% endif %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    <div class="year-posts">
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}  <div class="post-card">
-    {% if post.header.teaser %}
-      <div class="post-image">
-        <img src=
-        {% if post.header.teaser contains "://" %}
-          "{{ post.header.teaser }}"
-        {% else %}
-          "{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-          alt="{{ post.title }}">
-      </div>
-    {% else %}      <div class="post-image no-image">
-        <!-- L'icône sera affichée via CSS -->
-      </div>
-    {% endif %}
+<div class="year-posts">
+{% for post in site.posts %}  <div class="post-card">
     {% if post.categories.size > 0 %}
       <div class="post-category">
         {{ post.categories[0] }}
@@ -82,6 +57,6 @@ redirect_from:
     </div>
   </div>
 {% endfor %}
-</div> <!-- Ferme la dernière div year-posts -->
+</div> <!-- Ferme la div year-posts -->
 
 </div> <!-- Ferme la div blog-container -->
