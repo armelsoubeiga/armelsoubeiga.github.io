@@ -38,6 +38,10 @@ My research explores Machine Learning with a strong focus on unsupervised learni
 
 <br/>
 
+📄 For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"} 📄
+
+<br/>
+
 **Last news**
 ------
 - 📚 Paper : [Comparative analysis of multidimensional sequential trajectories clustering methods](), Preprint submitted to Pattern Recognition.

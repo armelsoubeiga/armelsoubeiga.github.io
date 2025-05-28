@@ -11,9 +11,8 @@ main:
 
   - title: "Certificates"
     url: /certificates/
-    
-  - title: "Open Contribution"
+      - title: "Open Contribution"
     url: /talks/
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/

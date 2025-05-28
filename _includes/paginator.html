@@ -26,16 +26,18 @@
       {% assign page_start = paginator.page | minus: 2 %}
       {% comment %} Ellipsis for truncated links {% endcomment %}
       <li><a href="#" class="disabled">&hellip;</a></li>
-    {% endif %}
-
-    {% assign page_end = paginator.total_pages | minus: 1 %}
+    {% endif %}    {% assign page_end = paginator.total_pages | minus: 1 %}
     {% assign pages_to_end = paginator.total_pages | minus: paginator.page %}
     {% if pages_to_end > 4 %}
       {% assign page_end = paginator.page | plus: 2 %}
-    {% endif %}
-
-    {% for index in (page_start..page_end) %}
-      {% if index == paginator.page %}        <li><a href="{{ base_path }}/blog/page{{ index }}/" class="disabled current">{{ index }}</a></li>
+      
+      {% comment %} Show only up to 5 numbers total for better navigation {% endcomment %}
+      {% if paginator.page > 3 %}
+        {% assign page_end = paginator.page | plus: 1 %}
+      {% endif %}
+    {% endif %}    {% for index in (page_start..page_end) %}
+      {% if index == paginator.page %}
+        <li><a href="#" class="disabled current">{{ index }}</a></li>
       {% else %}
         {% comment %} Distance from current page and this link {% endcomment %}
         {% assign dist = paginator.page | minus: index %}
@@ -46,6 +48,16 @@
         <li><a href="{{ base_path }}/blog/page{{ index }}/">{{ index }}</a></li>
       {% endif %}
     {% endfor %}
+    
+    {% comment %} Add ellipsis and last page if there are more pages after the end {% endcomment %}
+    {% if page_end < paginator.total_pages %}
+      {% if page_end < paginator.total_pages|minus:1 %}
+        <li><a href="#" class="disabled">&hellip;</a></li>
+      {% endif %}
+      {% if paginator.page != paginator.total_pages %}
+        <li><a href="{{ base_path }}/blog/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
+      {% endif %}
+    {% endif %}
 
     {% comment %} Ellipsis for truncated links {% endcomment %}
     {% if pages_to_end > 3 %}
