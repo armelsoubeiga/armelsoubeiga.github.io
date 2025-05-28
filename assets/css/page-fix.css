@@ -1,0 +1,108 @@
+/* 
+ * Optimisations supplémentaires pour la mise en page du blog
+ * Ce fichier contient des ajustements pour améliorer le spacing vertical 
+ * et la lisibilité générale de la page
+ */
+
+/* Réduction de l'espacement du conteneur principal */
+#main {
+  padding-top: 1em;
+  margin-top: -1em;
+}
+
+/* Optimisation des marges pour les titres de page */
+.page__title {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Style par défaut pour les articles sans image */
+.post-card .post-image.no-image {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card .post-image.no-image::before {
+  content: '📄';
+  font-size: 3em;
+  opacity: 0.5;
+}
+
+/* Indicateur de catégorie pour les articles */
+.post-category {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 3px 10px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Animation subtile pour les transitions */
+.year-posts {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Style pour les tags */
+.post-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.post-tag {
+  font-size: 0.7em;
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 2px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Animation pour les tags au survol */
+.post-tag:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+/* Bouton retour en haut */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: -50px;
+  width: 40px;
+  height: 40px;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: bottom 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.back-to-top.visible {
+  bottom: 20px;
+}
+
+.back-to-top:hover {
+  background-color: #3367d6;
+}

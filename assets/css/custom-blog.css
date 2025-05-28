@@ -16,6 +16,12 @@
 @media (max-width: 575px) {
   .year-posts {
     grid-template-columns: 1fr; /* Une seule colonne en mobile */
+    gap: 15px; /* Espace réduit entre les cartes en mobile */
+  }
+  
+  /* Ajustements pour le mobile */
+  .post-card {
+    margin-bottom: 5px;
   }
 }
 
@@ -68,11 +74,25 @@
   max-width: 100%; /* Empêche le débordement */
   width: 100%;
   break-inside: avoid; /* Évite qu'une carte soit coupée entre deux colonnes */
+  position: relative; /* Nécessaire pour positionner la catégorie en absolu */
 }
 
-.post-card:hover {
+.post-card:hover, .post-card.active-card {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+/* Animation d'apparition des cartes */
+.post-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.post-card.card-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .post-image {
@@ -147,8 +167,8 @@
 }
 
 .archive__subtitle {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   padding-bottom: 8px;
   border-bottom: 3px solid #4285f4;
 }
@@ -189,18 +209,6 @@
 /* S'assurer que chaque section d'année commence correctement */
 .blog-container {
   clear: both;
-  margin-top: -20px; /* Réduit l'espace entre le titre et le début du contenu */
-}
-
-/* Corrections pour l'espace vertical excessif */
-#main {
-  padding-top: 1em !important;
-}
-
-/* Réduire l'espace entre le titre et le premier contenu */
-.archive .page__title {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
 }
 
 /* Fix pour le cas où la sidebar serait fixe en défilement */

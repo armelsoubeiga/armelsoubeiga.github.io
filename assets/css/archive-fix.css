@@ -6,14 +6,12 @@
   width: auto;
   overflow: visible !important;
   margin-bottom: 0;
-  margin-top: 0; /* Réduit l'espace en haut */
-  padding-top: 0; /* Supprime le padding en haut */
 }
 
-/* Ajustement du titre de la page pour l'aligner au bon niveau */
+/* Style pour le titre de la page */
 .archive .page__title {
   margin-top: 0;
-  padding-top: 0;
+  margin-bottom: 0.8em;
 }
 
 /* Correction pour les petits écrans */
@@ -27,49 +25,32 @@
 /* Correction pour les écrans moyens et grands */
 @media (min-width: 768px) {
   .sidebar {
-    width: 22%;
+    /* Utilisons les styles par défaut du thème pour la sidebar */
     float: left;
-  }
-  
-  .archive {
-    width: 78%;
+    /* width est supprimé pour utiliser la valeur par défaut du thème */
+  }    .archive {
+    /* Permettre à l'archive de prendre l'espace disponible */
     float: right;
+    /* Utilisons plutôt max-width pour éviter les débordements */
+    max-width: calc(100% - 250px);
     padding-left: 20px;
-    margin-top: 0;
+    margin-top: -200px; /* Augmentation de la valeur négative pour réduire davantage l'espace vertical */
+    transition: margin 0.3s ease; /* Transition fluide pour les ajustements de margin */
   }
   
   .archive__subtitle {
     clear: both;
-    margin-top: 1em; /* Réduit l'espace avant les années */
   }
   
   .year-posts {
     clear: both;
   }
-  
-  /* Supprime l'espace excessif au début de la page */
-  #main {
-    padding-top: 0;
-  }
-  
-  /* Ajustement spécifique pour le titre Blog posts */
-  .page__title {
-    margin-top: 0.5em;
-  }
-  
-  /* Réduction de l'espace entre le titre et le premier contenu */
-  .blog-container {
-    margin-top: -20px;
-  }
 }
 
 /* Correction pour les très grands écrans */
 @media (min-width: 1200px) {
-  .sidebar {
-    width: 18%;
-  }
-  
   .archive {
-    width: 82%;
+    /* Ajustement pour les grands écrans */
+    max-width: calc(100% - 300px);
   }
 }
