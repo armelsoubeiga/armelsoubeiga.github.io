@@ -189,6 +189,18 @@
 /* S'assurer que chaque section d'année commence correctement */
 .blog-container {
   clear: both;
+  margin-top: -20px; /* Réduit l'espace entre le titre et le début du contenu */
+}
+
+/* Corrections pour l'espace vertical excessif */
+#main {
+  padding-top: 1em !important;
+}
+
+/* Réduire l'espace entre le titre et le premier contenu */
+.archive .page__title {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
 }
 
 /* Fix pour le cas où la sidebar serait fixe en défilement */

@@ -6,6 +6,14 @@
   width: auto;
   overflow: visible !important;
   margin-bottom: 0;
+  margin-top: 0; /* Réduit l'espace en haut */
+  padding-top: 0; /* Supprime le padding en haut */
+}
+
+/* Ajustement du titre de la page pour l'aligner au bon niveau */
+.archive .page__title {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* Correction pour les petits écrans */
@@ -27,14 +35,31 @@
     width: 78%;
     float: right;
     padding-left: 20px;
+    margin-top: 0;
   }
   
   .archive__subtitle {
     clear: both;
+    margin-top: 1em; /* Réduit l'espace avant les années */
   }
   
   .year-posts {
     clear: both;
+  }
+  
+  /* Supprime l'espace excessif au début de la page */
+  #main {
+    padding-top: 0;
+  }
+  
+  /* Ajustement spécifique pour le titre Blog posts */
+  .page__title {
+    margin-top: 0.5em;
+  }
+  
+  /* Réduction de l'espace entre le titre et le premier contenu */
+  .blog-container {
+    margin-top: -20px;
   }
 }
 

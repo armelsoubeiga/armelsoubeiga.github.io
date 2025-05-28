@@ -1,0 +1,52 @@
+.page__title,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  margin-top: 0.5em !important;
+}
+
+header.page__title-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.page__content p,
+.page__content li,
+.page__content dl {
+  margin-bottom: 0.75em !important;
+}
+
+.page__content .notice--info p:last-child,
+.page__content .notice--primary p:last-child,
+.page__content .notice--warning p:last-child,
+.page__content .notice--success p:last-child,
+.page__content .notice--danger p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.page__hero-container {
+  padding: 1em 0 !important;
+}
+
+#main > .page__hero {
+  margin-bottom: 1em !important;
+}
+
+.page__meta {
+  margin-bottom: 1em !important;
+}
+
+/* Fix spécifique pour la page blog */
+.archive.year-archive .page__title {
+  margin-top: 0.25em !important;
+  margin-bottom: 0.25em !important;
+}
+
+.year-archive .blog-container {
+  margin-top: -1em !important;
+}
+
+.year-archive .archive__subtitle {
+  margin-top: 0.75em !important;
+}
