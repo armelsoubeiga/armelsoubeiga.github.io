@@ -1,4 +1,4 @@
-/* ==========================================================================
+/* =======================================================$code-background-color-dark : #181a1b;==================
    Variables
    ========================================================================== */
 
@@ -56,7 +56,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
+$code-background-color-dark : #light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
@@ -172,3 +172,19 @@ $global-transition          : all 0.2s ease-in-out !default;
 
 $intro-transition           : intro 0.3s both !default;
 $navicon-link-color-hover   : mix(#fff, $primary-color, 75%) !default;
+
+/* ==========================================================================
+   Dark Theme Variables
+   ========================================================================== */
+
+$code-background-color: #23272e; // fond sombre
+$code-background-color-dark: #181a1b;
+$code-text-color: #f8f8f2;
+$code-border-color: #44475a;
+$code-accent: #bd93f9;
+$code-green: #50fa7b;
+$code-orange: #ffb86c;
+$code-red: #ff5555;
+$code-yellow: #f1fa8c;
+$code-blue: #8be9fd;
+$code-comment: #6272a4;
