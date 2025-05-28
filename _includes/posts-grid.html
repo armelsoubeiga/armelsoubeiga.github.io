@@ -1,0 +1,54 @@
+{% include base_path %}
+
+<!-- Afficher une grille personnalisée d'articles -->
+<div class="posts-grid">
+  {% for post in site.posts %}
+    {% if year == post.date | date: '%Y' or include_all %}
+    <div class="post-card">
+      {% if post.header.teaser %}
+        <div class="post-image">
+          <img src=
+          {% if post.header.teaser contains "://" %}
+            "{{ post.header.teaser }}"
+          {% else %}
+            "{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+            alt="{{ post.title }}">
+        </div>
+      {% elsif post.author_profile_img %}
+        <div class="post-image">
+          <img src="{{ post.author_profile_img | prepend: base_path }}" alt="{{ post.title }}">
+        </div>
+      {% else %}
+        <div class="post-image">
+          <img src="{{ 'bio-photo.jpg' | prepend: base_path }}" alt="{{ post.title }}">
+        </div>
+      {% endif %}
+      
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        
+        <div class="post-meta">
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
+          <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%d %B %Y" }}</time>
+          {% if post.read_time %}
+            &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.read_time }} min read
+          {% endif %}
+        </div>
+        
+        {% if post.excerpt %}
+        <div class="post-excerpt">
+          {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        </div>
+        {% endif %}
+        
+        <div class="read-more">
+          <a class="read-more-link" href="{{ base_path }}{{ post.url }}" rel="permalink">Lire la suite</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
