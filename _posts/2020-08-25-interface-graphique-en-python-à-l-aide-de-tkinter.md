@@ -2,6 +2,7 @@
 title: "Interface graphique en Python à l'aide de Tkinter"
 date: 2020-08-25
 permalink: /posts/2020/08/interface-graphique-en-python-a-l-aide-de-tkinter
+categories: [FR]
 tags:
   - interface graphique
   - Tkinter

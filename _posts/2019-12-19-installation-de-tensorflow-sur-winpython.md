@@ -2,13 +2,15 @@
 title: 'Installation de Tensorflow sur winpython'
 date: 2019-12-19
 permalink: /posts/2019/12/installation-de-tensorflow-sur-winpython
+categories: [FR]
 tags:
-  - installation
-  - tensorflow
-  - winpython
+  - Tensorflow
+  - Python
+  - Machine Learning
+  - Winpython
 author_profile: false
 toc: true
-excerpt: 'Dans ce poste je vais vous montrer comment installer Tensorflow  cpu sur windows.'
+excerpt: "Dans ce poste je vais vous montrer comment installer Tensorflow CPU sur Windows 10 sans carte graphique GPU, ni un processeur NVIDA et sans ANACONDA."
 ---
 
 {% include toc %}

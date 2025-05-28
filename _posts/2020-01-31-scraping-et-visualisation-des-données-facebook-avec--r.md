@@ -2,13 +2,14 @@
 title: 'Scraping et visualisation des données Facebook avec  R'
 date: 2020-01-31
 permalink: /posts/2020/01/scraping-et-visualisation-des-données-facebook-avec--r
+categories: [FR]
 tags:
-  - scraping
-  - visualisation
-  - des
+  - Rfacebook
+  - R
+  - Visualisation
 author_profile: false
 toc: true
-excerpt: "L'article présente l'utilisation du package Rfacebook pour gratter des données de Facebook, avec un exemple basé sur un groupe privé où des liens musicaux étaient partagés. Les visualisations sont réalisées avec ggplot2, et l'article souligne l'applicabilité de ces méthodes pour analyser des groupes Facebook ou maximiser les interactions sur des publications personnelles."
+excerpt: "Dans cet article, nous allons gratter les données de Facebook avec le package Rfacebook. Ensuite, nous utiliserons ggplot2 pour nos visualisations. Je vais utiliser les données d'un groupe privé que je partageais avec des amis pour publier des liens vers de la musique qui, selon nous, méritaient d'être écoutées."
 ---
 
 {% include toc %}

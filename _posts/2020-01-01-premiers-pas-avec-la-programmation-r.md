@@ -2,11 +2,14 @@
 title: 'Premiers pas avec la programmation R'
 date: 2020-01-01
 permalink: /posts/2020/01/premiers-pas-avec-la-programmation-r
+categories: [FR]
 tags:
   - Programmation R
+  - R
+  - Data Science
 author_profile: false
 toc: true
-excerpt: "R est un langage de programmation axé sur l'analyse statistique et graphique. Il est donc couramment utilisé dans l'inférence statistique, l'analyse des données et l'apprentissage automatique."
+excerpt: "Dans cet article, nous allons vous guider à travers les premiers pas avec le langage de programmation R. Nous verrons comment installer R et RStudio, comment importer des bibliothèques, et comment effectuer une analyse de données de base."
 ---
 
 {% include toc %}

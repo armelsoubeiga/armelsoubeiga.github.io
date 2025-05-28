@@ -1,11 +1,12 @@
 ---
-title: 'MACHINE LEARNING WITH SCIKIT-LEARN <> Partie IV : analyse exploratoire et mise en forme des descripteurs'
+title: 'SCIKIT-LEARN <> Partie IV : analyse exploratoire et mise en forme des descripteurs'
 date: 2020-06-04
 permalink: /posts/2020/06/machine-learning-with-scikit-learn----partie-iv---analyse-exploratoire-et-mise-en-forme-des-descripteurs
+categories: [FR]
 tags:
-  - machine
-  - learning
-  - with
+  - Machine Learning
+  - Scikit-learn
+  - Python
 author_profile: false
 toc: true
 excerpt: "Dans cet article qui fait suite de la partie III, nous allons (re)voir quelques outils classiques d'analyse exploratoire disponibles dans le package Pandas, que l'on met en général en oeuvre pour avoir une       

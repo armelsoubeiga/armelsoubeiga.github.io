@@ -2,13 +2,13 @@
 title: 'Support Vector Machines (SVM)'
 date: 2020-04-21
 permalink: /posts/2020/04/support-vector-machines--svm-
+categories: [FR]
 tags:
-  - support
-  - vector
-  - machines
+  - Support Vector Machines
+  - SVM
 author_profile: false
 toc: true
-excerpt: "Support Vector Machines (SVM) est un algorithme d'apprentissage machine qui peut être utilisé pour de nombreuses tâches différentes (figure 1). Dans cet article, je vais expliquer la base mathématique pour démontrer comment cet algorithme fonctionne à des fins de classification binaire."
+excerpt: "Une machine à vecteur de support (SVM) est un algorithme d'apprentissage automatique supervisé qui peut être utilisé à des fins de classification et de régression. Dans cet article, nous allons explorer les bases mathématiques des SVM, les noyaux et la sélection de fonctionnalités."
 ---
 
 {% include toc %}

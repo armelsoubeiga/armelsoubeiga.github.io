@@ -2,15 +2,13 @@
 title: 'Chatbots : vos clients sont de plus en plus exigeant, ils veulent la bonne réponse, tout de suite, tout le temps.'
 date: 2020-06-04
 permalink: /posts/2020/06/chatbots---vos-clients-sont-de-plus-en-plus-exigeant--ils-veulent-la-bonne-réponse--tout-de-suite--tout-le-temps-
+categories: [FR]
 tags:
-  - chatbots
-  - clients
-  - sont
+  - Chatbots
+  - NLP
 author_profile: false
 toc: true
-excerpt: "Les clients deviennent de plus en plus exigeants, et leurs attentes peuvent souvent être déçues par les réalités opérationnelles des entreprises, comme des temps d'attente longs et des horaires d'ouverture 
-          restreints. Cette situation peut nuire à l'expérience de marque et provoquer des résiliations. L'article propose le chatbot comme une solution adaptée pour aligner ces nouvelles attentes avec les objectifs de 
-          rentabilité des entreprises."
+excerpt: "Les chatbots sont des robots conversationnels qui dialoguent par écrit, les utilisateurs en langage naturel. Ils sont adaptés pour répondre aux nouvelles attentes des clients tout en optimisant les coûts de l'entreprise."
 ---
 
 {% include toc %}

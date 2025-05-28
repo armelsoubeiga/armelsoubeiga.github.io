@@ -1,9 +1,15 @@
 ---
 title: "Les Transformers & HuggingFace"
 date: 2025-05-27
-categories: [NLP, HuggingFace, IA]
-author: armelsoubeiga
-description: Tour d’horizon des fonctionnalités HuggingFace et exemples de pipelines.
+permalink: /posts/2025/05/Les-Transformers-et-HuggingFace
+categories: [FR]
+tags:
+  - HuggingFace
+  - NLP
+  - Transformers
+author_profile: false
+toc: true
+excerpt: "Découvrez comment HuggingFace révolutionne l'IA avec sa librairie Transformers. Apprenez à utiliser les modèles pré-entraînés pour le NLP, la vision et plus encore."
 ---
 
 HuggingFace rend l’IA accessible à tous grâce à sa librairie Transformers et à son écosystème riche. Découvrons ensemble ses concepts clés et ses usages pratiques.

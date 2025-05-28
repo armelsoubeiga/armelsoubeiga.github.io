@@ -2,12 +2,14 @@
 title: 'Analyse et prévision des ventes du Black Friday'
 date: 2022-11-16
 permalink: /posts/2022/11/analyse-prevision-des-ventes
+categories: [FR]
 tags:
   - EDA
   - Grid Search
   - Random Forest
 author_profile: false
 toc: true
+excerpt: "L'objectif de ce projet est de faire une EDA et une prévision d'achat pour les données de ventes du Black Friday avec le language Python. Dans cette analyse, nous allons faire deux choses. Tout d'abord, explorerer les données et trouver des corrélations entre différents éléments, afin de pouvoir obtenir des informations sur les futures stratégies marketing. En plus de cela, utiliser également la méthode de régression pour prédire les achats futurs."
 ---
 
 L'ojectif de ce projet est de faire une EDA et une prévision d'achat pour les données de ventes du Black Friday avec le language Python. 

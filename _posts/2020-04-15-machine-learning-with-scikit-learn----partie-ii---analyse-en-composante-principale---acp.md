@@ -1,11 +1,12 @@
 ---
-title: 'MACHINE LEARNING WITH SCIKIT-LEARN <> Partie II : analyse en composante principale - ACP'
+title: 'SCIKIT-LEARN <> Partie II : analyse en composante principale - ACP'
 date: 2020-04-15
 permalink: /posts/2020/04/machine-learning-with-scikit-learn----partie-ii---analyse-en-composante-principale---acp
+categories: [FR]
 tags:
-  - machine
-  - learning
-  - with
+  - Machine Learning
+  - Scikit-Learn
+  - PCA
 author_profile: false
 toc: true
 excerpt: "Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera simplement de réaliser une ACP d'un jeu de données et de le représenter selon ses premières composantes principales."

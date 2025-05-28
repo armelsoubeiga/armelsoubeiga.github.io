@@ -6,6 +6,7 @@ tags:
   - Time Series
   - Longitudinal data
   - Cross-sectiona data
+categories: [EN]
 author_profile: false
 toc: true
 excerpt: "Longitudinal and time series data are confusing when it comes to analysing historical data. There are no strict and formal definitions on which a wide range of data analysts agree.

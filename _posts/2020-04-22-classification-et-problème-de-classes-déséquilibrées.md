@@ -2,13 +2,14 @@
 title: 'Classification et problème de classes déséquilibrées'
 date: 2020-04-22
 permalink: /posts/2020/04/classification-et-problème-de-classes-déséquilibrées
+categories: [FR]
 tags:
-  - classification
-  - problème
-  - classes
+  - Machine Learning
+  - Classification
+  - Classesdéséquilibrées
 author_profile: false
 toc: true
-excerpt: "Dans les problèmes de classification en machine learning, les classes déséquilibrées posent des défis, car la plupart des algorithmes se basent sur l'exactitude, ce qui peut conduire à des modèles biaisés. Cet article examine l'importance d'aborder ce problème dans divers cas d'utilisation, tels que le dépistage de maladies et le filtrage de spams. Il propose plusieurs méthodes pour classifier des jeux de données déséquilibrés, en mettant l'accent sur les approches algorithmique et d'échantillonnage."
+excerpt: "Dans cet article, nous allons aborder le problème de classification avec des classes déséquilibrées. Nous verrons les différentes approches pour traiter ce problème, notamment les techniques d'échantillonnage et les algorithmes adaptés."
 ---
 
 {% include toc %}

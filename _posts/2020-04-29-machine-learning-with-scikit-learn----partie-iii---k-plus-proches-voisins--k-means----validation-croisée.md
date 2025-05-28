@@ -1,14 +1,15 @@
 ---
-title: 'MACHINE LEARNING WITH SCIKIT-LEARN <> Partie III : k plus proches voisins (k-means) & validation croisée'
+title: 'SCIKIT-LEARN <> Partie III : k plus proches voisins (k-means) & validation croisée'
 date: 2020-04-29
 permalink: /posts/2020/04/machine-learning-with-scikit-learn----partie-iii---k-plus-proches-voisins--k-means----validation-croisée
+categories: [FR]
 tags:
-  - machine
-  - learning
-  - with
+  - Scikit-learn
+  - Machine Learning
+  - Python
 author_profile: false
 toc: true
-excerpt: "Dans cette partie III nous allons apprendre à manipuler :  la classe KNeighborsClassifier, les fonction cross_val_score et cross_val_predict"
+excerpt: "Dans cette partie III nous allons apprendre à manipuler : la classe KNeighborsClassifier qui permet de réaliser de la classification par la méthode des k plus proches voisins ou k-means, les fonctions cross_val_score et cross_val_predict qui permettent de réaliser des expériences de validation croisée."
 ---
 
 {% include toc %}

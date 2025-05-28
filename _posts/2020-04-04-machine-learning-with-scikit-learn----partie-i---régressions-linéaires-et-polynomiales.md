@@ -1,11 +1,11 @@
 ---
-title: 'MACHINE LEARNING WITH SCIKIT-LEARN <> Partie I : régressions linéaires et polynomiales'
+title: 'SCIKIT-LEARN <> Partie I : régressions linéaires et polynomiales'
 date: 2020-04-04
 permalink: /posts/2020/04/machine-learning-with-scikit-learn----partie-i---régressions-linéaires-et-polynomiales
+categories: [FR]
 tags:
-  - machine
-  - learning
-  - with
+  - Scikit-Learn
+  - Régressions
 author_profile: false
 toc: true
 excerpt: "Dans cet article nous allons réaliser quelques opérations de base en Python et Scikit-Learn. L'objectif sera d'apprendre des modèles de régression linéaires et polynomiales, de les représenter et de calculer leurs performances en terme d'erreur quadratique moyenne."

@@ -1,7 +1,8 @@
 ---
-title: 'LE BIG DATA ET LES RESEAUX SOCIAUX'
+title: 'Le Big Data et les réseaux sociaux'
 date: 2020-01-28
 permalink: /posts/2020/01/le-big-data-et-les-reseaux-sociaux
+categories: [FR]
 tags:
   - Big data
   - Facebook
@@ -9,7 +10,7 @@ tags:
   - Twitter
 author_profile: false
 toc: true
-excerpt: "Cet article fait un tour d'horizon des outils et services qui permettent d'extraire des données et des mégadonnées des principaux réseaux sociaux (Twitter, Facebook)  , des sites web et des blogs."
+excerpt: "Cet article fait un tour d'horizon des outils et services qui permettent d'extraire des données et des mégadonnées des principaux réseaux sociaux (Twitter, Facebook), des sites web et des blogs."
 ---
 
 {% include toc %}

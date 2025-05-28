@@ -2,13 +2,14 @@
 title: 'Les plateformes de données open sources pour les projets de Data Science'
 date: 2020-03-05
 permalink: /posts/2020/03/les-plateformes-de-données-open-sources-pour-les-projets-de-data-science
+categories: [FR]
 tags:
-  - plateformes
-  - données
-  - open
+  - Data Science
+  - Data 
+  - Open Source
 author_profile: false
 toc: true
-excerpt: "Lors du lancement d'un projet en Data Science, la recherche de données pertinentes est cruciale. L'article met en avant que les data scientists investissent souvent beaucoup de temps à naviguer sur Internet pour dénicher des ensembles de données qui répondent à leurs problématiques spécifiques."
+excerpt: "Lorsque vous démarrez un projet en Data Science, la première des préoccupations est la recherche des données qui pourront répondre à votre problématique. Dans cet article, nous allons parcourir quelques plateformes de données open source."
 ---
 
 {% include toc %}

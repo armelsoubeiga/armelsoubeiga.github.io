@@ -2,12 +2,14 @@
 title: "L'algorithme Gradient Boosting Machines : XGBOOST"
 date: 2020-04-21
 permalink: /posts/2020/04/l-algorithme-gradient-boosting-machines---xgboost
+categories: [FR]
 tags:
-  - algorithme
-  - gradient
+  - XGBoost
+  - Gradient Boosting
+  - Machine Learning
 author_profile: false
 toc: true
-excerpt: "XGBoost est un algorithme de Gradient Boosting. Il est codé en C++ et disponible dans tous les langages de programmation utiles en Machine Learning, tels que Python, R ou encore Julia."
+excerpt: "XGBoost signifie eXtreme Gradient Boosting. Comme son nom l'indique, c'est un algorithme de Gradient Boosting. Il est codé en C++ et disponible dans à peu près tous les langages de programmations utiles en Machine Learning, tels que Python, R ou encore Julia."
 ---
 
 {% include toc %}

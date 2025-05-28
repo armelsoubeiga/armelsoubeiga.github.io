@@ -2,11 +2,13 @@
 title: 'Questions et réponses: Questions courantes en Data Science'
 date: 2019-12-30
 permalink: /posts/2019/12/questions-et-réponses--questions-courantes-en-data-science
+categories: [FR]
 tags:
   - Data Science
+  - Questions
 author_profile: false
 toc: true
-excerpt: "L'une des principales raisons pour lesquelles il y a tant d'intérêt pour la science des données est ses diverses applications. Les données ont toujours été un élément très important de l'histoire humaine et prendre des décisions intelligentes sur la base des expériences passées et des informations fournies peut jouer un rôle crucial pour les individus ou les organisations."
+excerpt: "Dans cet article, nous allons répondre à quelques questions courantes en Data Science. Nous aborderons des sujets tels que comment débuter en Data Science, comment écrire un excellent article sur la science des données, et plus encore."
 ---
 
 {% include toc %}
