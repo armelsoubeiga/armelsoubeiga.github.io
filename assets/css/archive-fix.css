@@ -1,0 +1,50 @@
+/* Styles supplémentaires pour corriger l'alignement des cartes */
+
+/* Force tous les contenus dans .archive à respecter la largeur correcte */
+.archive {
+  float: right;
+  width: auto;
+  overflow: visible !important;
+  margin-bottom: 0;
+}
+
+/* Correction pour les petits écrans */
+@media (max-width: 767px) {
+  .archive {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Correction pour les écrans moyens et grands */
+@media (min-width: 768px) {
+  .sidebar {
+    width: 22%;
+    float: left;
+  }
+  
+  .archive {
+    width: 78%;
+    float: right;
+    padding-left: 20px;
+  }
+  
+  .archive__subtitle {
+    clear: both;
+  }
+  
+  .year-posts {
+    clear: both;
+  }
+}
+
+/* Correction pour les très grands écrans */
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 18%;
+  }
+  
+  .archive {
+    width: 82%;
+  }
+}

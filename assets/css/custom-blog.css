@@ -1,5 +1,11 @@
 /* Style personnalisé pour les articles de blog */
-.posts-grid {
+/* Conteneur principal qui englobe tout */
+.blog-container {
+  width: 100%;
+}
+
+/* Style pour les groupes d'articles par année */
+.year-posts {
   display: grid;
   gap: 20px;
   margin-top: 20px;
@@ -8,41 +14,43 @@
 
 /* Grille responsive respectant la sidebar */
 @media (max-width: 575px) {
-  .posts-grid {
+  .year-posts {
     grid-template-columns: 1fr; /* Une seule colonne en mobile */
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .posts-grid {
+  .year-posts {
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes en petit tablette */
   }
 }
 
+/* Important: Ces règles forcent la grille à bien s'aligner à droite de la sidebar */
 @media (min-width: 768px) {
-  /* Important: Cette règle assure que la grille est bien à l'intérieur de la zone d'archive */
-  .archive .posts-grid {
+  .archive {
+    overflow: visible !important;
+  }
+  
+  .archive__subtitle {
+    clear: both;
     width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .posts-grid {
+  .year-posts {
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes en tablette */
   }
 }
 
 @media (min-width: 992px) {
-  .posts-grid {
+  .year-posts {
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes en desktop */
   }
 }
 
 @media (min-width: 1200px) {
-  .posts-grid {
+  .year-posts {
     grid-template-columns: repeat(3, 1fr); /* 3 colonnes en grand écran */
   }
 }
@@ -59,6 +67,7 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   max-width: 100%; /* Empêche le débordement */
   width: 100%;
+  break-inside: avoid; /* Évite qu'une carte soit coupée entre deux colonnes */
 }
 
 .post-card:hover {
@@ -166,7 +175,27 @@
   overflow-x: hidden;
 }
 
-/* Ajustements pour respecter la sidebar */
-.archive {
-  overflow-x: hidden;
+/* Force la sidebar à bien se comporter */
+.sidebar {
+  position: relative;
+  z-index: 10;
+}
+
+/* Ajustements spécifiques pour corriger l'alignement à côté de la sidebar */
+.archive__subtitle {
+  grid-column: 1 / -1;
+}
+
+/* S'assurer que chaque section d'année commence correctement */
+.blog-container {
+  clear: both;
+}
+
+/* Fix pour le cas où la sidebar serait fixe en défilement */
+@media (min-width: 768px) {
+  .sidebar.sticky {
+    position: sticky;
+    top: 2em;
+    float: left;
+  }
 }
