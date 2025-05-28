@@ -58,6 +58,7 @@
 @media (min-width: 1200px) {
   .year-posts {
     grid-template-columns: repeat(3, 1fr); /* 3 colonnes en grand écran */
+    gap: 25px; /* Augmentation de l'espace entre les cartes sur grand écran */
   }
 }
 
@@ -75,6 +76,7 @@
   width: 100%;
   break-inside: avoid; /* Évite qu'une carte soit coupée entre deux colonnes */
   position: relative; /* Nécessaire pour positionner la catégorie en absolu */
+  padding-top: 15px; /* Ajoute un peu d'espace en haut puisqu'il n'y a plus d'image */
 }
 
 .post-card:hover, .post-card.active-card {

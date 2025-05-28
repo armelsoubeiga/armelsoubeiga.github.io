@@ -40,4 +40,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Lancer l'animation après un court délai pour s'assurer que la page est chargée
     setTimeout(animateCards, 100);
+    
+    // Ajout d'animations pour les boutons de pagination
+    const paginationLinks = document.querySelectorAll('.pagination a');
+    paginationLinks.forEach(link => {
+        link.addEventListener('mouseenter', function() {
+            if (!this.classList.contains('disabled')) {
+                this.style.transform = 'translateY(-2px)';
+            }
+        });
+        
+        link.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
 });

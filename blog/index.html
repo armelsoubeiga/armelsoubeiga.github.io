@@ -1,0 +1,70 @@
+---
+layout: archive
+title: "Blog posts"
+author_profile: true
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom-blog.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/archive-fix.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/page-fix.css">
+
+{% include base_path %}
+
+<!-- Intégration des scripts interactifs -->
+<script src="{{ base_path }}/assets/js/blog-cards.js" defer></script>
+<script src="{{ base_path }}/assets/js/back-to-top.js" defer></script>
+<script src="{{ base_path }}/assets/js/pagination-transition.js" defer></script>
+
+<!-- Conteneur principal pour tous les articles -->
+<div class="blog-container">
+  <div class="year-posts">
+    {% for post in paginator.posts %}
+    <div class="post-card">
+      {% if post.categories.size > 0 %}
+      <div class="post-category">
+        {{ post.categories[0] }}
+      </div>
+      {% endif %}
+      
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        <div class="post-meta">
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
+          {% if post.read_time %}
+            &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.read_time }} min
+          {% endif %}
+          
+          {% if post.tags.size > 0 %}
+          <div class="post-tags">
+            {% for tag in post.tags limit:3 %}
+              <span class="post-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        
+        <div class="post-excerpt">
+          {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | truncatewords: 30 }}
+        </div>
+        
+        <div class="read-more">
+          <a class="read-more-link" href="{{ base_path }}{{ post.url }}" rel="permalink">Lire la suite</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- Pagination -->
+  <div class="pagination-container">
+    <div class="pagination-info">
+      Page {{ paginator.page }} sur {{ paginator.total_pages }} • Total : {{ paginator.total_posts }} articles
+    </div>
+    {% include paginator.html %}
+    
+    <!-- Boutons de navigation grand format -->
+    {% include big-page-navigation.html %}
+  </div>
+</div>
