@@ -189,6 +189,11 @@ main {
   height: 60px;
 }
 
+.page__date {
+  font-size: 0.9em;
+  color: $muted-text-color;
+}
+
 @import 'mobile';
 
 

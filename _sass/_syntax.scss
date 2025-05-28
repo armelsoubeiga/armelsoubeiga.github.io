@@ -29,7 +29,7 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-7;
+    font-size: 1em; // Augmente la taille de police des zones de code
     line-height: 1.8;
     background: none;
     color: inherit;
