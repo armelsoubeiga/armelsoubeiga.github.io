@@ -15,27 +15,25 @@
 }
 
 /* Correction pour les petits écrans */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .archive {
     float: none;
     width: 100%;
   }
-}
+} */
 
 /* Correction pour les écrans moyens et grands */
 @media (min-width: 768px) {
-  .sidebar {
-    /* Utilisons les styles par défaut du thème pour la sidebar */
+/*   .sidebar {
     float: left;
-    /* width est supprimé pour utiliser la valeur par défaut du thème */
-  }    .archive {
-    /* Permettre à l'archive de prendre l'espace disponible */
+  }    */ 
+
+  .archive {
     float: right;
-    /* Utilisons plutôt max-width pour éviter les débordements */
     max-width: calc(100% - 250px);
     padding-left: 20px;
-    margin-top: -200px; /* Augmentation de la valeur négative pour réduire davantage l'espace vertical */
-    transition: margin 0.3s ease; /* Transition fluide pour les ajustements de margin */
+    margin-top: 10px; 
+    transition: margin 0.3s ease; 
   }
   
   .archive__subtitle {
@@ -50,7 +48,6 @@
 /* Correction pour les très grands écrans */
 @media (min-width: 1200px) {
   .archive {
-    /* Ajustement pour les grands écrans */
     max-width: calc(100% - 300px);
   }
 }
