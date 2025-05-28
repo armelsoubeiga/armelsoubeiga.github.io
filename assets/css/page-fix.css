@@ -16,6 +16,7 @@
 /* Indicateur de catégorie pour les articles */
 .post-category {
   position: absolute;
+  top: 0px;
   right: 0.1px;
   padding: 3px 10px;
   background-color: rgba(0,0,0,0.6);
