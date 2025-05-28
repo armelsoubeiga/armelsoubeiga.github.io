@@ -196,10 +196,10 @@
 }
 
 /* Force la sidebar à bien se comporter */
-.sidebar {
+/* .sidebar {
   position: relative;
   z-index: 10;
-}
+} */
 
 /* Ajustements spécifiques pour corriger l'alignement à côté de la sidebar */
 .archive__subtitle {
@@ -212,10 +212,11 @@
 }
 
 /* Fix pour le cas où la sidebar serait fixe en défilement */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .sidebar.sticky {
     position: sticky;
     top: 2em;
     float: left;
   }
 }
+ */
