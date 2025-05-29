@@ -42,13 +42,12 @@
         <div class="post-excerpt">
           {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
         </div>
-        {% endif %}
-          <div class="read-more">
+        {% endif %}        <div class="read-more">
           <a class="read-more-link" href="{{ base_path }}{{ post.url }}" rel="permalink">
             {% if post.categories contains "FR" %}
               Lire la suite
             {% elsif post.categories contains "EN" %}
-              Read More
+              Read more
             {% else %}
               Lire la suite
             {% endif %}

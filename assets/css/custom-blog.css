@@ -154,10 +154,6 @@
   background-color: #52adc8;
 }
 
-.read-more-link:hover {
-  background-color: #3367d6;
-}
-
 /* Suppression du style pour les titres d'archive par année puisqu'ils ne sont plus utilisés */
 
 /* Responsive adjustments */
