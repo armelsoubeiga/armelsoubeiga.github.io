@@ -49,9 +49,16 @@ author_profile: true
         <div class="post-excerpt">
           {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | truncatewords: 30 }}
         </div>
-        
-        <div class="read-more">
-          <a class="read-more-link" href="{{ base_path }}{{ post.url }}" rel="permalink">Lire la suite</a>
+          <div class="read-more">
+          <a class="read-more-link" href="{{ base_path }}{{ post.url }}" rel="permalink">
+            {% if post.categories contains "FR" %}
+              Lire la suite
+            {% elsif post.categories contains "EN" %}
+              Read More
+            {% else %}
+              Lire la suite
+            {% endif %}
+          </a>
         </div>
       </div>
     </div>

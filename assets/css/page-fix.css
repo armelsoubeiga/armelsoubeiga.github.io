@@ -69,15 +69,14 @@
   right: 20px;
   bottom: -50px;
   width: 40px;
-  height: 40px;
-  background-color: #4285f4;
+  height: 40px;  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
   cursor: pointer;
-  transition: bottom 0.3s ease;
+  transition: all 0.3s ease;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   z-index: 1000;
 }
@@ -87,7 +86,7 @@
 }
 
 .back-to-top:hover {
-  background-color: #3367d6;
+  background-color: #52adc8;
 }
 
 /* Style pour la pagination */
@@ -113,7 +112,7 @@
 
 .big-nav-button {
   padding: 12px 20px;
-  background-color: #4285f4;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -121,6 +120,10 @@
   display: inline-flex;
   align-items: center;
   font-weight: 500;
+}
+
+.big-nav-button:hover {
+  background-color: #52adc8;
 }
 
 .big-nav-button:hover {
@@ -174,7 +177,7 @@
   padding: 8px 15px;
   text-decoration: none;
   background-color: #ffffff;
-  color: #4285f4;
+  color: rgba(0, 0, 0, 0.6);
   border: 1px solid #e0e0e0;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -182,14 +185,14 @@
 
 .pagination li a:hover {
   background-color: #f5f5f5;
-  color: #3367d6;
+  color: #52adc8;
 }
 
 .pagination li a.current,
 .pagination li a.disabled.current {
-  background-color: #4285f4;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  border-color: #4285f4;
+  border-color: rgba(0, 0, 0, 0.6);
 }
 
 .pagination li a.disabled {
