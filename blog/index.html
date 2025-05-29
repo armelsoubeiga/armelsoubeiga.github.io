@@ -56,12 +56,13 @@ author_profile: true
       </div>
     </div>
     {% endfor %}
-  </div>
-  <!-- Pagination -->
+  </div>  <!-- Pagination -->
   <div class="pagination-container">
+    <!-- Ligne commentée pour masquer l'info de pagination
     <div class="pagination-info">
       Page {{ paginator.page }} sur {{ paginator.total_pages }} • Total : {{ paginator.total_posts }} articles
     </div>
+    -->
     {% include paginator.html %}
     
     <!-- Boutons de navigation grand format -->

@@ -13,9 +13,8 @@
       <i class="fa fa-chevron-left" aria-hidden="true"></i> Page précédente
     </span>
   {% endif %}
-  
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: base_path | replace: '//', '/' }}" class="big-nav-button next-button">
+    {% if paginator.next_page %}
+    <a href="{{ base_path }}/blog/page{{ paginator.next_page }}/" class="big-nav-button next-button">
       Page suivante <i class="fa fa-chevron-right" aria-hidden="true"></i>
     </a>
   {% else %}

@@ -48,8 +48,7 @@
         <li><a href="{{ base_path }}/blog/page{{ index }}/">{{ index }}</a></li>
       {% endif %}
     {% endfor %}
-    
-    {% comment %} Add ellipsis and last page if there are more pages after the end {% endcomment %}
+      {% comment %} Add ellipsis and last page if there are more pages after the end {% endcomment %}
     {% if page_end < paginator.total_pages %}
       {% if page_end < paginator.total_pages|minus:1 %}
         <li><a href="#" class="disabled">&hellip;</a></li>
@@ -58,16 +57,6 @@
         <li><a href="{{ base_path }}/blog/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
       {% endif %}
     {% endif %}
-
-    {% comment %} Ellipsis for truncated links {% endcomment %}
-    {% if pages_to_end > 3 %}
-      <li><a href="#" class="disabled">&hellip;</a></li>
-    {% endif %}
-
-    {% if paginator.page == paginator.total_pages %}
-      <li><a href="#" class="disabled current">{{ paginator.page }}</a></li>
-    {% else %}
-      <li><a href="{{ base_path }}/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a></li>
     {% endif %}
 
     {% comment %} Link next page {% endcomment %}
