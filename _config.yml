@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Armel SOUBEIGA, PhD"
+title                    : "Armel SOUBEIGA"
 title_separator          : "-"
-name                     : &name "Armel SOUBEIGA, PhD"
+name                     : &name "Armel SOUBEIGA"
 description              : &description "Machine Learning, GenAI Engineer @ LIMOS"
 url                      : https://armelsoubeiga.github.io #  
 baseurl                  : ""
@@ -87,7 +87,7 @@ author:
   location         : "Clermont-Ferrand, France"
   employer         : "LIMOS"
   pubmed           :
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=sbJ57XQAAAAJ&hl"
   email            : "armel.soubeiga@yahoo.fr"
   researchgate     : "https://www.researchgate.net/profile/Armel-Soubeiga"
   uri              :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : "11368978/armel-soubeiga"
   steam            :
   tumblr           :
-  twitter          : "ArmelSoubeiga"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

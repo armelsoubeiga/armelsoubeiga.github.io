@@ -27,11 +27,10 @@
 /*   .sidebar {
     float: left;
   }    */ 
-
   .archive {
     float: right;
-    max-width: calc(100% - 250px);
-    padding-left: 20px;
+    max-width: calc(100% - 200px); /* Réduit l'espace entre sidebar et contenu principal */
+    padding-left: 10px; /* Réduit également le padding gauche */
     margin-top: 10px; 
     transition: margin 0.3s ease; 
   }
@@ -48,6 +47,6 @@
 /* Correction pour les très grands écrans */
 @media (min-width: 1200px) {
   .archive {
-    max-width: calc(100% - 300px);
+    max-width: calc(100% - 220px); /* Réduit l'espace pour les grands écrans */
   }
 }
