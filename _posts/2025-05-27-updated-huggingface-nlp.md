@@ -44,6 +44,10 @@ print(response)
 ## RAG (Retrieval-Augmented Generation) avec Hugging Face
 L'intégration de connaissances externes dans les réponses des LLMs représente une avancée majeure pour améliorer leur pertinence et leur exactitude. Hugging Face facilite la mise en œuvre de systèmes RAG complets :
 
+<div style="text-align:center">
+  <img src="/images/posts/2025_06/HuggingFace_RAG.png" alt="Architecture RAG" width="500">
+</div>
+
 ```python
 from transformers import pipeline
 from datasets import load_dataset
@@ -222,9 +226,7 @@ Hugging Face continue d'innover rapidement dans le domaine des LLMs et de l'IA g
 
 > Ce guide vous donne les clés pour exploiter tout le potentiel des Transformers et des LLMs avec Hugging Face, que vous soyez débutant ou déjà initié à l'IA.
 
-<div style="text-align:center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJ3YjN4aTZmYmU1NXRxbTByYTBvdjY0YjF3YXRvemE0ZmJmNnp4NiZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/gjgWQA5QBuBmUZahOP/giphy.gif">
-</div>
+![Un robot qui danse avec un micro](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
 
 ## Pour aller plus loin
 - [Evaluate RAG pipeline using HuggingFace](https://huggingface.co/blog/lucifertrj/evaluate-rag)

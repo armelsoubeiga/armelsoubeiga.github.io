@@ -109,7 +109,9 @@ print(f"Dimension de l'embedding: {sentence_embedding.shape}")
 > Ce code illustre comment Hugging Face permet de charger et d'utiliser des modèles de manière flexible, tout en offrant des fonctionnalités avancées pour les utilisateurs expérimentés.
 
 
-![Un robot qui danse avec un micro](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
+<div style="text-align:center">
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif">
+</div>
 
 ## Pour aller plus loin
 - [Comment utiliser Hugging Face Transformers (FR)](https://huggingface.co/blog)
