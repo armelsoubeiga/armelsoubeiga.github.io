@@ -26,4 +26,5 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate'
+  gem 'jekyll-reading-time'
 end
