@@ -29,10 +29,10 @@
         <h2 class="post-title">
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
         </h2>
-        
-        <div class="post-meta">
+          <div class="post-meta">
           <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
-          <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%d %B %Y" }}</time>          {% if post.read_time %}
+          <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%d %B %Y" }}</time>
+          {% if post.read_time %}
             &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
           {% endif %}
         </div>
