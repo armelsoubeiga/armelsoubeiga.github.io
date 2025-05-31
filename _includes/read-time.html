@@ -7,20 +7,16 @@
   {% assign content_to_process = page.content %}
 {% endif %}
 
-{% if content_to_process == "" %}
-  {{ site.data.ui-text[site.locale].undefined_content | default: "Content not available for reading time calculation." }}
-{% else %}
-  {% assign words = content_to_process | strip_html | number_of_words %}
+{% assign words = content_to_process | strip_html | number_of_words %}
 
-  {% if site.words_per_minute %}
-    {% if words < 180 %}
-      {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-    {% elsif words < 360 %}
-      1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-    {% else %}
-      {{ words | divided_by:site.words_per_minute | ceil }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-    {% endif %}
+{% if site.words_per_minute %}
+  {% if words < 180 %}
+    {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+  {% elsif words < 360 %}
+    1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
   {% else %}
-    {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
+    {{ words | divided_by:site.words_per_minute | ceil }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
   {% endif %}
+{% else %}
+  {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
 {% endif %}
