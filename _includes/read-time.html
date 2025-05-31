@@ -1,46 +1,18 @@
-{% comment %}
-  Détermine la source du temps de lecture : 
-  1. Utilise read_time_minutes s'il est précalculé
-  2. Sinon calcule le temps de lecture à partir du contenu
-{% endcomment %}
-
-{% assign has_minutes = false %}
-{% assign minutes = 0 %}
-
-{% if include.post.read_time_minutes %}
-  {% assign minutes = include.post.read_time_minutes %}
-  {% assign has_minutes = true %}
-{% elsif post.read_time_minutes %}
-  {% assign minutes = post.read_time_minutes %}
-  {% assign has_minutes = true %}
-{% elsif page.read_time_minutes %}
-  {% assign minutes = page.read_time_minutes %}
-  {% assign has_minutes = true %}
-{% else %}
-  {% assign content_to_process = "" %}
-  {% if include.post.content %}
-    {% assign content_to_process = include.post.content %}
-  {% elsif post.content %}
-    {% assign content_to_process = post.content %}
-  {% elsif page.content %}
-    {% assign content_to_process = page.content %}
-  {% endif %}
-  
-  {% if content_to_process != "" %}
-    {% assign words = content_to_process | strip_html | number_of_words %}
-  {% else %}
-    {% assign words = 0 %}
-  {% endif %}
+{% assign content_to_process = "" %}
+{% if include.post %}
+  {% assign content_to_process = include.post.content %}
+{% elsif post.content %}
+  {% assign content_to_process = post.content %}
+{% elsif page.content %}
+  {% assign content_to_process = page.content %}
 {% endif %}
 
-{% if site.words_per_minute %}
-  {% if has_minutes %}
-    {% if minutes == 1 %}
-      1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-    {% else %}
-      {{ minutes }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-    {% endif %}
-  {% else %}
+{% if content_to_process == "" %}
+  {{ site.data.ui-text[site.locale].undefined_content | default: "Content not available for reading time calculation." }}
+{% else %}
+  {% assign words = content_to_process | strip_html | number_of_words %}
+
+  {% if site.words_per_minute %}
     {% if words < 180 %}
       {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
     {% elsif words < 360 %}
@@ -48,7 +20,7 @@
     {% else %}
       {{ words | divided_by:site.words_per_minute | ceil }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
     {% endif %}
+  {% else %}
+    {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
   {% endif %}
-{% else %}
-  {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
 {% endif %}
