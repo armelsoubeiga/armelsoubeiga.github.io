@@ -1,8 +1,14 @@
-{% if post.read_time %}
-  {% assign words = post.content | strip_html | number_of_words %}
-{% elsif page.read_time %}
-  {% assign words = page.content | strip_html | number_of_words %}
+{% comment %} Déterminer le contenu sur lequel baser le calcul {% endcomment %}
+{% assign content_to_process = "" %}
+{% if include.post %}
+  {% assign content_to_process = include.post.content %}
+{% elsif post.content %}
+  {% assign content_to_process = post.content %}
+{% elsif page.content %}
+  {% assign content_to_process = page.content %}
 {% endif %}
+
+{% assign words = content_to_process | strip_html | number_of_words %}
 
 {% if site.words_per_minute %}
   {% if words < 180 %}

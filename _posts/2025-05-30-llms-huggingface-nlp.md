@@ -9,7 +9,6 @@ tags:
   - GenAI
 author_profile: false
 toc: true
-read_time: true
 excerpt: "Découvrez comment Hugging Face révolutionne l'IA avec les LLMs et GenAI. Apprenez à utiliser les modèles pré-entraînés pour le NLP, la vision et plus encore."
 ---
 
