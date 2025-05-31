@@ -31,19 +31,7 @@
         </h2>        <div class="post-meta">
           <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
           <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%d %B %Y" }}</time>
-          {% if post.excerpt %} {# Utiliser l'extrait pour le calcul du temps de lecture sur la carte #}
-            {% assign words = post.excerpt | strip_html | number_of_words %}
-            {% if site.words_per_minute %}
-              &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 
-              {% if words < 180 %}
-                {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-              {% elsif words < 360 %}
-                1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-              {% else %}
-                {{ words | divided_by: site.words_per_minute | ceil }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-              {% endif %}
-            {% endif %}
-          {% endif %}
+          <!-- &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html post=post %} -->
         </div>
         
         {% if post.excerpt %}
