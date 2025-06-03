@@ -33,11 +33,6 @@ author_profile: true
           <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
           &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html post=post %} 
-          <!-- 
-          {% if post.read_time %}
-            &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.read_time }} min
-          {% endif %}
-          -->
           
           {% if post.tags.size > 0 %}
           <div class="post-tags">

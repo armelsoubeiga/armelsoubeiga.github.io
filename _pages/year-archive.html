@@ -37,11 +37,6 @@ redirect_to:
       <div class="post-meta">
         <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
-        <!-- 
-        {% if post.read_time %}
-          &nbsp;·&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.read_time }} min
-        {% endif %}
-        -->
         
         {% if post.tags.size > 0 %}
         <div class="post-tags">
