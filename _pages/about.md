@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -21,6 +21,9 @@ I completed my PhD in Computer Science at the University of Clermont Auvergne, w
 Before starting my PhD, I worked for three years as a data science consultant at RCTs in Lyon, where I developed tools for analyzing care pathways using hard and fuzzy clustering techniques, dimensionality reduction, variable scoring, and interactive visualization (PowerBI, Flask, Shiny). I also worked with large-scale health data (national databases, Spark SDK), managing the full implementation of tools from modeling to interactive reports. In 2017, I was a data analyst consultant for the World Bank in Burkina Faso, developing scripts for data collection, quality control, and synchronization from over 200 Android tablets, designing statistical analyses in R, STATA, and SQL, and contributing to analysis plans with project experts, while creating interactive visualizations with RShiny.
 
 
+**For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}** <span style="font-size:1.5em;">⚡</span>
+
+
 **Here, take a look at my stuff**  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20px">
 
 - 👨‍💻 I am proficient in Python, R, and SQL
@@ -34,8 +37,6 @@ Before starting my PhD, I worked for three years as a data science consultant at
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
-
-**<img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="30px"> For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}**
 
 
 **Last news**
