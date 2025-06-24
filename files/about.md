@@ -8,21 +8,20 @@ redirect_from:
  - /about.html
 ---
 
-I am a R&D Machine Learning, GenAI Engineer at [Safran Aircraft Engines](https://www.safran-group.com/companies/safran-aircraft-engines), and a Postdoctoral Researcher fellow in [Etis Laboratory](https://www.etis-lab.fr/). My background combines both academic and industrial expertise, at the intersection of applied artificial intelligence and fundamental research. My current work is structured around three main areas:
+About
+------
+After more than three years in the industry as a data scientist and over a year as a data consultant at the World Bank, I am now completing my PhD in Machine Learning at the University of Clermont Auvergne doctoral school of Engineering Sciences, in collaboration with [LIMOS](https://limos.fr/) and [Simon Fraser University (SFU)](https://www.sfu.ca/). I am fortunate to be supervised by [Jonas KOKO](https://perso.isima.fr/~jokoko/), [Violaine ANTOINE](https://perso.isima.fr/~viantoin/), and [Sylvain MORENO](https://www.digitalhealthcircle.ca/).  
 
-- **GenAI and Multimodal LLM Agents** – Building AI agents based on multimodal LLMs, extracting information from heterogeneous sources (text, Excel, images), developing RAG pipelines for industrial data (contracts, internal documents), fine-tuning, entity extraction (PromptNER), dynamic visualization with graph databases (Neo4j), and deploying agents on robust architectures (Langchain, AWS).
+My research explores Machine Learning with a strong focus on unsupervised learning. I am particularly interested in developing new clustering approaches, including evidential clustering, relational clustering, and multi-view or collaborative relational clustering. My work addresses challenges in analyzing complex real-world data, as longitudinal data, time series and uncertain data, aiming to develop robust and interpretable models.  
 
-- **Uncertainty Quantification** – Developing unsupervised clustering approaches that integrate uncertainty, especially with evidential clustering models and multi-view evidential neural networks. A major focus is on quantifying uncertainty for medical image segmentation that combines multi-modal inputs (e.g. images and clinical reports) and multi-view representations.
+**Research interests:**
 
-- **Explainable AI** – Designing interpretable learning models and post-hoc analysis tools for algorithmic transparency, with a special focus on industrial time series data. Developing hybrid methods that combine statistical interpretability (inference, rules) and attribute-based explainability (SHAP, LIME). Exploring collaborative variable weighting mechanisms to improve model readability and support adoption in critical business environments.
-
-I completed my PhD in Computer Science at the University of Clermont Auvergne, within the Doctoral School of Engineering Sciences, in collaboration with [LIMOS](https://limos.fr/) and [Simon Fraser University (SFU)](https://www.sfu.ca/), under the supervision of [Jonas KOKO](https://perso.isima.fr/~jokoko/), [Violaine ANTOINE](https://perso.isima.fr/~viantoin/), and [Sylvain MORENO](https://www.sfu.ca/siat/people/research-faculty/sylvain-moreno.html). My thesis focused on the development of unsupervised and interpretable clustering methods, with a particular emphasis on relational and multi-view evidential (uncertainty-based) clustering. I designed robust and explainable models that integrated variable weighting, post-hoc methods (such as SHAP), and association rules, with a strong orientation toward real-world applications and complex trajectories (categorical, discrete longitudinal, and time series data).
-
-Before starting my PhD, I worked for three years as a data scientist at RCTs in Lyon, where I developed tools for analyzing care pathways using hard and fuzzy clustering techniques, dimensionality reduction, variable scoring, and interactive visualization. Before joining RCTs, I was a data analyst consultant for the World Bank in Burkina Faso.
-
-
-**For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}** <span style="font-size:1.5em;">⚡</span>
-
+- Machine Learning for time series, and Uncertain data for trajectories analysis
+- Explainable Machine Learning and applications in real-world data
+- Big data analysis
+- Web scraping/scrawling and NLP
+- MLOps, and Interactive data visualisation for software engineering
+- Statistical computing and Exploratory data analysis
 
 **Here, take a look at my stuff**  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20px">
 
@@ -37,7 +36,11 @@ Before starting my PhD, I worked for three years as a data scientist at RCTs in 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
+<br/>
 
+**For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}**
+
+<br/>
 
 **Last news**
 ------
