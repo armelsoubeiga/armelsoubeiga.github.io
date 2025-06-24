@@ -8,20 +8,18 @@ redirect_from:
  - /about.html
 ---
 
-About
-------
-After more than three years in the industry as a data scientist and over a year as a data consultant at the World Bank, I am now completing my PhD in Machine Learning at the University of Clermont Auvergne doctoral school of Engineering Sciences, in collaboration with [LIMOS](https://limos.fr/) and [Simon Fraser University (SFU)](https://www.sfu.ca/). I am fortunate to be supervised by [Jonas KOKO](https://perso.isima.fr/~jokoko/), [Violaine ANTOINE](https://perso.isima.fr/~viantoin/), and [Sylvain MORENO](https://www.digitalhealthcircle.ca/).  
+I am currently an R&D Machine Learning and GenAI Engineer at Safran Aircraft Engines, and a Postdoctoral Researcher at CY Cergy Paris University. My background combines both academic and industrial expertise, at the intersection of applied artificial intelligence and fundamental research. My current work is structured around three main areas:
 
-My research explores Machine Learning with a strong focus on unsupervised learning. I am particularly interested in developing new clustering approaches, including evidential clustering, relational clustering, and multi-view or collaborative relational clustering. My work addresses challenges in analyzing complex real-world data, as longitudinal data, time series and uncertain data, aiming to develop robust and interpretable models.  
+- **GenAI and Multimodal LLM Agents** – Building AI agents based on multimodal LLMs, extracting information from heterogeneous sources (text, Excel, images), developing RAG pipelines for industrial data (contracts, internal documents), fine-tuning, entity extraction (PromptNER), dynamic visualization with graph databases (Neo4j), and deploying agents on robust architectures (Langchain, AWS).
 
-**Research interests:**
+- **Uncertainty Quantification** – Developing unsupervised clustering approaches that integrate uncertainty, especially with evidential clustering models and multi-view evidential neural networks. Applying these methods to complex and partially reliable data, such as noisy or incomplete time series, with relational modeling between views. Designing algorithmic frameworks for collaborative aggregation of uncertain knowledge across heterogeneous sources or dimensions.
 
-- Machine Learning for time series, and Uncertain data for trajectories analysis
-- Explainable Machine Learning and applications in real-world data
-- Big data analysis
-- Web scraping/scrawling and NLP
-- MLOps, and Interactive data visualisation for software engineering
-- Statistical computing and Exploratory data analysis
+- **Explainable AI** – Designing interpretable learning models and post-hoc analysis tools for algorithmic transparency, with a special focus on industrial time series data. Developing hybrid methods that combine statistical interpretability (inference, rules) and attribute-based explainability (SHAP, LIME). Exploring collaborative variable weighting mechanisms to improve model readability and support adoption in critical business environments.
+
+I completed my PhD in Computer Science at the University of Clermont Auvergne, within the Doctoral School of Engineering Sciences, in collaboration with LIMOS and Simon Fraser University (Canada), under the supervision of Jonas Koko, Violaine Antoine, and Sylvain Moreno. My thesis focused on developing unsupervised and interpretable clustering methods, with a particular emphasis on relational and multi-view clustering, evidential clustering, and the integration of uncertainty, temporality, and heterogeneous data (longitudinal, noisy, incomplete). I designed robust and explainable models, integrating variable weighting, post-hoc methods (like SHAP), and association rules, with a strong orientation towards real-world applications and complex trajectories.
+
+Before starting my PhD, I worked for three years as a data science consultant at RCTs in Lyon, where I developed tools for analyzing care pathways using hard and fuzzy clustering techniques, dimensionality reduction, variable scoring, and interactive visualization (PowerBI, Flask, Shiny). I also worked with large-scale health data (national databases, Spark SDK), managing the full implementation of tools from modeling to interactive reports. In 2017, I was a data analyst consultant for the World Bank in Burkina Faso, developing scripts for data collection, quality control, and synchronization from over 200 Android tablets, designing statistical analyses in R, STATA, and SQL, and contributing to analysis plans with project experts, while creating interactive visualizations with RShiny.
+
 
 **Here, take a look at my stuff**  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="20px">
 
@@ -36,11 +34,9 @@ My research explores Machine Learning with a strong focus on unsupervised learni
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 
-<br/>
 
-**For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}**
+**<img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="30px"> For more about me, please see my [Resume]({{ site.baseurl }}/files/cv_armelsoubeiga_last.pdf){:target="_blank"}**
 
-<br/>
 
 **Last news**
 ------
