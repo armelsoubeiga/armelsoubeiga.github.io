@@ -8,7 +8,7 @@ redirect_from:
  - /about.html
 ---
 
-I am R&D Machine Learning, GenAI Engineer at [Safran Aircraft Engines](https://www.safran-group.com/companies/safran-aircraft-engines), and a Postdoctoral Researcher fellow in [Etis Laboratory](https://www.etis-lab.fr/). My background combines both academic and enterprise kills, at the intersection of applied artificial intelligence and fundamental research. I also have high programming skills. My current work is structured around three main areas:
+I am R&D Machine Learning, GenAI Engineer at [Safran Aircraft Engines](https://www.safran-group.com/companies/safran-aircraft-engines), and a Postdoctoral Researcher at [Etis Laboratory](https://www.etis-lab.fr/). My background combines both academic and enterprise kills, at the intersection of applied artificial intelligence and fundamental research. I also have high programming skills. My work areas include:
 
 - **GenAI and Multimodal LLM Agents** – Building AI agents based on multimodal LLMs, extracting information from multiple sources (.pdf, .xlsx, .docx, .pptx, .msg, image), developing RAG pipelines, fine-tuning, entity extraction (PromptNER), dynamic visualization with graph databases (Neo4j), and deploying agents on robust architectures (Langchain, AWS).
 
